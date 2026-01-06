@@ -1,0 +1,1616 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:42+0100\n"
+"Last-Translator: Carlos Ono <carlos.ono@onocomp.com.br>\n"
+"Language-Team: LCweb\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+#, fuzzy
+#| msgid "Select"
+msgid "Core fields"
+msgstr "selecionar"
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr "Primeiro nome"
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "Nome"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr "Usar primeiro nome"
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr "Usuário"
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr "Sobrenome"
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "Sobrenome"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr "Usar último nome"
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr "Nome de Utilizador usado para autenticação"
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "Senha"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr "Senha usada para o login"
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr "Categoria"
+
+#: classes/pc_form_framework.php:132
+msgid "Categories"
+msgstr "Categorias"
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr "E-mail do Usuário"
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "Telefone"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr "Telefone do Usuário"
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr "Aviso Legal"
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr "Aviso Legal de Registro"
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+#, fuzzy
+#| msgid "Disable private page"
+msgid "go to page"
+msgstr "Desabilitar página privada do usuário"
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr ""
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr "Repita a senha"
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr "Opções de força da senha"
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "Já existe um usuário com este nome"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr "Uma ou mais categorias escolhidas estão erradas"
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr "caracteres e dígitos"
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr "um carácter maiúsculo"
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr "um símbolo"
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+#, fuzzy
+#| msgid "must contain at least "
+msgid "must contain at least"
+msgstr "deve conter pelo menos"
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr ""
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "valor mínimo é"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "valor máximo é"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr "deve conter pelo menos"
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr "caracteres"
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr "máximo"
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr "Caracteres permitidos"
+
+#: classes/simple_form_validator.php:478
+#, fuzzy
+msgid "must be long"
+msgstr "tem de ser maior"
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr "selecionar"
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr "opções"
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr "Máximo"
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr "opções permitidas"
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr "são necessários"
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr "é necessário"
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr "não são inteiros válidos"
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr "não é um número inteiro válido"
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr "não são válidos números flutuantes"
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr "não é um número válido flutuante"
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr "não são endereços de e-mail válidos"
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr "não é um endereço de e-mail válido"
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr "não são datas válidas"
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr "não é uma data válida"
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr "horas não válidas"
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr "não é uma hora válida"
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr "não são urls válido"
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr "não é uma URL válida"
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr "não são válidos cores hexadecimais"
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr "não é uma cor hexadecimal válida"
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr "não são endereços IP válidos"
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr "não é um endereço IP válido"
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr "não são CEPs válidos"
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr "não é um CEP válido"
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr "não são números de telefone válidos"
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr "não é um número de telefone válido"
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr "dados inválidos inseridos"
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr "valores não são entre o permitido"
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr "valor não é entre o permitido"
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr "valores estão entre o proibido"
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr "valores é entre o proibido"
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr "o valor não corresponde"
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr "tamanho do arquivo está errado"
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr "nenhum acesso"
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr "atrás"
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+#, fuzzy
+#| msgid "User first name"
+msgid "disabled"
+msgstr "Usar primeiro nome"
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr "Desabilitar página privada do usuário"
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr ""
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr "Erro durante a criação da página de usuário"
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr "Erro ao inserir os dados do usuário no banco de dados"
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr "Erro ao atualizar os dados do usuário no banco de dados"
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr "Valor de status errado"
+
+#: classes/users_manag.php:1122
+msgid "Another user has the same e-mail"
+msgstr "Já existe um usuário com este email"
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr "WP sync - outro usuário tem o mesmo e-mail"
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+msgid "All users already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:47
+#, fuzzy
+#| msgid "Another user has the same username or e-mail"
+msgid "can't be synced because of their username or e-mail"
+msgstr "Outro usuário tem o mesmo nome de usuário ou e-mail"
+
+#: classes/wp_user_sync.php:48
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users synced successfully!"
+msgstr "Dados salvos com sucesso"
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr ""
+
+#: classes/wp_user_sync.php:278
+#, fuzzy
+#| msgid "Form not found"
+msgid "User not found"
+msgstr "Formulário não encontrado"
+
+#: classes/wp_user_sync.php:281
+#, fuzzy
+#| msgid "Administrator"
+msgid "Administrators can't be synced"
+msgstr "Administrador"
+
+#: classes/wp_user_sync.php:284
+#, fuzzy
+#| msgid "Administrator"
+msgid "PvtContent admins can't be synced"
+msgstr "Administrador"
+
+#: classes/wp_user_sync.php:289
+#, fuzzy
+#| msgid "User name"
+msgid "User is already synced"
+msgstr "Usuário"
+
+#: classes/wp_user_sync.php:306
+#, fuzzy
+#| msgid "Another user has the same e-mail"
+msgid "Another user has this username or e-mail"
+msgstr "Já existe um usuário com este email"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr ""
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr ""
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr ""
+
+#: classes/wp_user_sync.php:378
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users detached successfully!"
+msgstr "Dados salvos com sucesso"
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr "Formulário não encontrado"
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr ""
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr ""
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr "deve ser aceito as Condições de Uso para de proceder com o registro"
+
+#: main_includes/front_ajax.php:258
+#, fuzzy
+#| msgid "Incorrect username or password"
+msgid "Invalid username or password"
+msgstr "Nome de usuário ou senha incorretos"
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr "Nome de usuário ou senha incorretos"
+
+#: main_includes/front_ajax.php:365
+#, fuzzy
+#| msgid "No categories found .. "
+msgid "No user logged"
+msgstr "Nenhuma categoria encontrada .."
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "Repeat password"
+msgid "Please insert your password"
+msgstr "Repita a senha"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+msgid "Wrong password"
+msgstr "Esqueceu a senha?"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Account succesfully verified via e-mail"
+msgid "Account successfully deleted!"
+msgstr "Conta verificada com sucesso via e-mail"
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr ""
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr ""
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr ""
+
+#: main_includes/public_api.php:277
+#, fuzzy
+#| msgid "User E-mail"
+msgid "Username or e-mail"
+msgstr "E-mail do Usuário"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr "lembre-me"
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "Login"
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "Sair"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr ""
+"Você tem que configurar os usuários registrados para categoria padrão nas "
+"configurações"
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr "Não há formulários de inscrição encontrados"
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr "Nome de usuário e senha são campos de preenchimento obrigatório"
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr ""
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr ""
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr "Enviar"
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr "Você deve estar logado para ver este conteúdo"
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr ""
+"Desculpe, você não tem as permissões corretas para visualizar este conteúdo"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr "Você precisa estar logado para enviar comentários"
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr "Desculpe, você não tem as permissões corretas para postar comentários"
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr "Você não tem uma área reservada"
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr "Logado com sucesso, bem-vindo!"
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr "Desculpe, sua conta ainda não foi ativada"
+
+#: main_includes/public_api.php:903
+#, fuzzy
+msgid "Sorry, your account has been disabled"
+msgstr "Desculpe, sua conta ainda não foi ativada"
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr "Seu Registro foi bem Sucedido. Bem Vindo!"
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr ""
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr ""
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr ""
+
+#: main_includes/shortcodes.php:76
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "Senha"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr ""
+
+#: main_includes/shortcodes.php:185
+#, fuzzy
+#| msgid "Registration disclaimer"
+msgid "Register"
+msgstr "Aviso Legal de Registro"
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:28
+#, fuzzy
+#| msgid "Categories"
+msgid "select a category"
+msgstr "Categorias"
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Disable private page"
+#~ msgid "User Reserved Pages Container"
+#~ msgstr "Desabilitar página privada do usuário"
+
+#, fuzzy
+#~| msgid "Registration disclaimer"
+#~ msgid "Registered on"
+#~ msgstr "Aviso Legal de Registro"
+
+#, fuzzy
+#~| msgid "no access"
+#~ msgid "Last access"
+#~ msgstr "nenhum acesso"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "search options"
+#~ msgstr "opções"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "add options"
+#~ msgstr "opções"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Select options"
+#~ msgstr "opções"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "no matching options"
+#~ msgstr "opções"
+
+#, fuzzy
+#~| msgid "Error processing the action"
+#~ msgid "Error performing the operation"
+#~ msgstr "Erro ao processar ação"
+
+#~ msgid "wasn't entered correctly"
+#~ msgstr "não foi digitado corretamente"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "E-mail sent successfully"
+#~ msgstr "Dados salvos com sucesso"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "An error occurred sending the e-mail"
+#~ msgstr "Erro ao enviar o e-mail"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing custom fields"
+#~ msgstr "Erro ao enviar o e-mail"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing users"
+#~ msgstr "Erro ao enviar o e-mail"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Envato username"
+#~ msgstr "Nome de Usuário"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Username missing"
+#~ msgstr "Nome de Usuário"
+
+#, fuzzy
+#~| msgid "Username or password incorrect"
+#~ msgid "Purchase code missing or incorrect"
+#~ msgstr "Nome de usuário ou senha incorreta"
+
+#, fuzzy
+#~| msgid "Incorrect username or password"
+#~ msgid "Empty username or purchase code"
+#~ msgstr "Nome de usuário ou senha incorretos"
+
+#, fuzzy
+#~| msgid "Form not found"
+#~ msgid "Item not found"
+#~ msgstr "Formulário não encontrado"
+
+#, fuzzy
+#~| msgid "Incorrect username or password"
+#~ msgid "Wrong username or purchase code"
+#~ msgstr "Nome de usuário ou senha incorretos"
+
+#~ msgid "%SITE-TITLE% - Welcome!"
+#~ msgstr "%SITE-TITLE% - Bem Vindo!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "thanks for registering on %SITE-TITLE%. \n"
+#~ "\n"
+#~ "To activate your account, click the following link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Olá %USERNAME%,\n"
+#~ "obrigado por se registrar no %SITE-TITLE%. \n"
+#~ "\n"
+#~ "Para ativar sua conta, clique no link a seguir:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Att.,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - New registered user"
+#~ msgstr "%SITE-TITLE% - Novo usuário registrado"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "A new user has registered.\n"
+#~ "\n"
+#~ "Fullname: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telephone: %TEL%"
+#~ msgstr ""
+#~ "Olá,\n"
+#~ "Novo usuário registrado.\n"
+#~ "\n"
+#~ "Nome: %NAME% %SURNAME%\n"
+#~ "Usuário: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telefone: %TEL%"
+
+#~ msgid "%SITE-TITLE% - Account activated!"
+#~ msgstr "%SITE-TITLE% - Conta ativada!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "your account has been activated, now you can login into our website!\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Olá %USERNAME%,\n"
+#~ "Sua conta foi ativada, agora você pode fazer o login em nosso site!\n"
+#~ "\n"
+#~ "Anteciosamente,\n"
+#~ "%SITE-TITLE% Staff"
+
+#, fuzzy
+#~| msgid ""
+#~| "Hello %USERNAME%,\n"
+#~| "thanks for registering on %SITE-TITLE%. \n"
+#~| "\n"
+#~| "To activate your account, click the following link:\n"
+#~| "%VER-URL%\n"
+#~| "\n"
+#~| "Best Regards,\n"
+#~| "%SITE-TITLE% Staff"
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "Congratulations! You have successfully signed up on %SITE-TITLE% and are "
+#~ "ready to start browsing our private areas.\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Olá %USERNAME%,\n"
+#~ "obrigado por se registrar no %SITE-TITLE%. \n"
+#~ "\n"
+#~ "Para ativar sua conta, clique no link a seguir:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Att.,\n"
+#~ "%SITE-TITLE% Staff"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - Account activated!"
+#~ msgid "%SITE-TITLE% - Account created!"
+#~ msgstr "%SITE-TITLE% - Conta ativada!"
+
+#, fuzzy
+#~| msgid ""
+#~| "Hello %USERNAME%,\n"
+#~| "your account has been activated, now you can login into our website!\n"
+#~| "\n"
+#~| "Best Regards,\n"
+#~| "%SITE-TITLE% Staff"
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "now you can login at %SITE-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Olá %USERNAME%,\n"
+#~ "Sua conta foi ativada, agora você pode fazer o login em nosso site!\n"
+#~ "\n"
+#~ "Anteciosamente,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - Password recovery"
+#~ msgstr "%SITE-TITLE% - Recuperar senha"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "a password recovery has been requested for your account.\n"
+#~ "\n"
+#~ "This is your password: %PSW%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Olá %USERNAME%,\n"
+#~ "Recebemos uma solicitação de redefinição de senha de sua conta.\n"
+#~ "\n"
+#~ "Sua senha é: %PSW%\n"
+#~ "\n"
+#~ "Att.,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "Username not found or disabled"
+#~ msgstr "Nome de usuário não encontrado ou desativado"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "Sua conta não tem um e-mail"
+
+#, fuzzy
+#~| msgid "Error updating user data into database"
+#~ msgid "Error updating password in database"
+#~ msgstr "Erro ao atualizar os dados do usuário no banco de dados"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "Erro ao enviar o e-mail"
+
+#, fuzzy
+#~| msgid "The password has been sent to your e-mail"
+#~ msgid "Password has been sent to your e-mail address"
+#~ msgstr "A senha foi enviada para o seu e-mail"
+
+#, fuzzy
+#~| msgid "Another user has the same username or e-mail"
+#~ msgid "Insert your username or e-mail"
+#~ msgstr "Outro usuário tem o mesmo nome de usuário ou e-mail"
+
+#~ msgid "Back to login form"
+#~ msgstr "Voltar para a tela de login"
+
+#~ msgid "Recover"
+#~ msgstr "Recuperar"
+
+#, fuzzy
+#~ msgid "e-mail verified"
+#~ msgstr "cancelar verificação"
+
+#~ msgid "cancel verification"
+#~ msgstr "cancelar verificação"
+
+#~ msgid "Verification Impossible - User has no e-mail"
+#~ msgstr "Verificação Impossível - O usuário não tem e-mail"
+
+#~ msgid "Account not verified yet"
+#~ msgstr "A conta ainda não foi verificada"
+
+#~ msgid "verify manually"
+#~ msgstr "verificar manualmente"
+
+#, fuzzy
+#~| msgid "Registration disclaimer"
+#~ msgid "Mailchimp disclaimer"
+#~ msgstr "Aviso Legal de Registro"
+
+#, fuzzy
+#~| msgid "Registration was successful. Welcome!"
+#~ msgid "Operation successfully performed!"
+#~ msgstr "Seu Registro foi bem Sucedido. Bem Vindo!"
+
+#, fuzzy
+#~| msgid "must be at least of"
+#~ msgid "requires at least"
+#~ msgstr "deve conter pelo menos"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "Add-on must be configured to use this module"
+#~ msgstr "Você deve estar logado para ver este conteúdo"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail title"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail text"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "Back to login form"
+#~ msgid "Only login form"
+#~ msgstr "Voltar para a tela de login"
+
+#~ msgid "Subscriber"
+#~ msgstr "Assinante"
+
+#~ msgid "Contributor"
+#~ msgstr "Contribuinte"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Editor"
+#~ msgstr "Editor"
+
+#, fuzzy
+#~| msgid "characters and digits"
+#~ msgid "use characters and digits"
+#~ msgstr "caracteres e dígitos"
+
+#, fuzzy
+#~| msgid "an uppercase character"
+#~ msgid "use uppercase characters"
+#~ msgstr "um carácter maiúsculo"
+
+#, fuzzy
+#~| msgid "a symbol"
+#~ msgid "use symbols"
+#~ msgstr "um símbolo"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Main Options"
+#~ msgstr "opções"
+
+#, fuzzy
+#~ msgid "Users Verification"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - Password recovery"
+#~ msgid "Password Recovery"
+#~ msgstr "%SITE-TITLE% - Recuperar senha"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "E-mail username"
+#~ msgstr "Nome de Usuário"
+
+#, fuzzy
+#~| msgid "Repeat password"
+#~ msgid "E-mail password"
+#~ msgstr "Repita a senha"
+
+#, fuzzy
+#~| msgid "User E-mail"
+#~ msgid "Send E-mail"
+#~ msgstr "E-mail do Usuário"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Enable users verification?"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been successfully activated!\""
+#~ msgstr "Sua conta já foi ativada!"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been already activated!\""
+#~ msgstr "Sua conta já foi ativada!"
+
+#, fuzzy
+#~| msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgid ""
+#~ "By default is: \"Sorry, your request is invalid or your account has been "
+#~ "deleted\""
+#~ msgstr "Desculpe, seu pedido é inválido ou a sua conta foi excluída"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail builder"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User's name"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User's surame"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User's userame"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "Repeat password"
+#~ msgid "User's password"
+#~ msgstr "Repita a senha"
+
+#, fuzzy
+#~| msgid "User Telephone"
+#~ msgid "User's telephone"
+#~ msgstr "Telefone do Usuário"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "User categories"
+#~ msgstr "Categorias"
+
+#, fuzzy
+#~ msgid "Verification URL"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~ msgid "Manual E-mail Verification"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "New Users Notification"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "Admin Notifier - e-mail address"
+#~ msgstr "não é um endereço de e-mail válido"
+
+#, fuzzy
+#~| msgid "User E-mail"
+#~ msgid "User's e-mail"
+#~ msgstr "E-mail do Usuário"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Activated Users Notification"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - New registered user"
+#~ msgid "E-mail registered users?"
+#~ msgstr "%SITE-TITLE% - Novo usuário registrado"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "Any user"
+#~ msgstr "Todos os usuários"
+
+#, fuzzy
+#~ msgid "Send original password"
+#~ msgstr "Esqueceu a senha?"
+
+#, fuzzy
+#~| msgid "Repeat password"
+#~ msgid "Recovered Password"
+#~ msgstr "Repita a senha"
+
+#, fuzzy
+#~ msgid "E-mail verification"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User notifier"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - Password recovery"
+#~ msgid "Password recovery"
+#~ msgstr "%SITE-TITLE% - Recuperar senha"
+
+#, fuzzy
+#~| msgid "Password used for the login"
+#~ msgid "Password Recovery with e-mail"
+#~ msgstr "Senha usada para o login"
+
+#, fuzzy
+#~| msgid "Your account doesn't have an e-mail"
+#~ msgid "One or more users don't have an e-mail"
+#~ msgstr "Sua conta não tem um e-mail"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "One or more users have the same e-mail"
+#~ msgstr "Já existe um usuário com este email"
+
+#, fuzzy
+#~| msgid "options allowed"
+#~ msgid "Options saved"
+#~ msgstr "opções permitidas"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "Desculpe, seu pedido é inválido ou a sua conta foi excluída"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "Sua conta já foi ativada!"
+
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "Sua conta foi ativada com sucesso!"
+
+#, fuzzy
+#~| msgid "User last name"
+#~ msgid "User Data"
+#~ msgstr "Usar último nome"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field ID"
+#~ msgstr "Campos Salvos"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Index"
+#~ msgstr "Campos Salvos"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Label"
+#~ msgstr "Campos Salvos"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Type"
+#~ msgstr "Campos Salvos"
+
+#~ msgid "Fields saved"
+#~ msgstr "Campos Salvos"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Custom Forms Builder"
+#~ msgstr "PrivateContent - Construtor de formulário personalizado"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Form saved"
+#~ msgstr "Campos Salvos"
+
+#, fuzzy
+#~| msgid "No registration forms found"
+#~ msgid "No existing forms"
+#~ msgstr "Não há formulários de inscrição encontrados"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select a form"
+#~ msgstr "selecionar"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "You must be logged to use this form"
+#~ msgstr "Você deve estar logado para ver este conteúdo"
+
+#, fuzzy
+#~| msgid ""
+#~| "Form submitted successfully. You are not logged as an user so nothing "
+#~| "has been saved"
+#~ msgid ""
+#~ "Form submitted successfully.<br/> Not logged as PrivateContent user, "
+#~ "nothing has been saved"
+#~ msgstr ""
+#~ "Form enviado com sucesso. Você não está logado como um usuário para que "
+#~ "nada tenha sido salvo"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Data saved successfully"
+#~ msgstr "Dados salvos com sucesso"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "US Telephone"
+#~ msgstr "Telefone"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Fields Builder"
+#~ msgid "Custom Fields Builder"
+#~ msgstr "PrivateContent - Construtor de Campos Personalizados"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select values"
+#~ msgstr "selecionar"
+
+#, fuzzy
+#~| msgid "User last name"
+#~ msgid "User's data updated"
+#~ msgstr "Usar último nome"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "User Data add-on - receiver's e-mail address"
+#~ msgstr "não é um endereço de e-mail válido"
+
+#, fuzzy
+#~| msgid "User last name"
+#~ msgid "User's Data"
+#~ msgstr "Usar último nome"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select form"
+#~ msgstr "selecionar"
+
+#, fuzzy
+#~| msgid "is not a valid floating number"
+#~ msgid "Please insert a valid form name"
+#~ msgstr "não é um número válido flutuante"
+
+#, fuzzy
+#~| msgid "First name"
+#~ msgid "Form name"
+#~ msgstr "Primeiro nome"
+
+#, fuzzy
+#~| msgid "User first name"
+#~ msgid "New form's name"
+#~ msgstr "Usar primeiro nome"
+
+#, fuzzy
+#~| msgid "is required"
+#~ msgid "Required?"
+#~ msgstr "é necessário"
+
+#, fuzzy
+#~| msgid "User first name"
+#~ msgid "Users List"
+#~ msgstr "Usar primeiro nome"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "User Categories"
+#~ msgstr "Categorias"
+
+#, fuzzy
+#~| msgid "Login"
+#~ msgid "Login Form"
+#~ msgstr "Login"
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Logout Box"
+#~ msgstr "Sair"
+
+#, fuzzy
+#~| msgid "No registration forms found"
+#~ msgid "Registration form"
+#~ msgstr "Não há formulários de inscrição encontrados"
+
+#, fuzzy
+#~| msgid "Registration disclaimer"
+#~ msgid "Registration button's lightbox"
+#~ msgstr "Aviso Legal de Registro"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "self restriction"
+#~ msgstr "cancelar verificação"
+
+#, fuzzy
+#~| msgid "No categories found .. "
+#~ msgid "No matches found"
+#~ msgstr "Nenhuma categoria encontrada .."
+
+#, fuzzy
+#~| msgid "No registration forms found"
+#~ msgid "Registration form - button's icon"
+#~ msgstr "Não há formulários de inscrição encontrados"
+
+#, fuzzy
+#~| msgid "Password strength"
+#~ msgid "Password security settings"
+#~ msgstr "Opções de força da senha"
+
+#, fuzzy
+#~| msgid "No registration forms found"
+#~ msgid "Registration forms builder"
+#~ msgstr "Não há formulários de inscrição encontrados"
+
+#, fuzzy
+#~| msgid "Registration disclaimer"
+#~ msgid "Registration Form Message"
+#~ msgstr "Aviso Legal de Registro"
+
+#, fuzzy
+#~| msgid "No registration forms found"
+#~ msgid "No registration button"
+#~ msgstr "Não há formulários de inscrição encontrados"
+
+#, fuzzy
+#~| msgid "User first name"
+#~ msgid "Use first/last name in forms?"
+#~ msgstr "Usar primeiro nome"
+
+#, fuzzy
+#~ msgid "Default category for registered users"
+#~ msgstr "Você tem que definir a categoria padrão para usuários registrados."
+
+#, fuzzy
+#~| msgid "reCAPTCHA"
+#~ msgid "reCAPTCHA validation"
+#~ msgstr "reCAPTCHA"
+
+#, fuzzy
+#~| msgid "Disclaimer"
+#~ msgid "Enable disclaimer?"
+#~ msgstr "Aviso Legal"
+
+#, fuzzy
+#~| msgid "Disclaimer"
+#~ msgid "Disclaimer text"
+#~ msgstr "Aviso Legal"
+
+#, fuzzy
+#~| msgid "Password strength"
+#~ msgid "Password Security Settings"
+#~ msgstr "Opções de força da senha"
+
+#, fuzzy
+#~| msgid "Password strength"
+#~ msgid "Minimum password length"
+#~ msgstr "Opções de força da senha"
+
+#, fuzzy
+#~| msgid "Password strength"
+#~ msgid "Password strength options"
+#~ msgstr "Opções de força da senha"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Default message for successful login"
+#~ msgstr "Dados salvos com sucesso"
+
+#, fuzzy
+#~| msgid "Maximum"
+#~ msgid "Maximum width"
+#~ msgstr "Máximo"
+
+#, fuzzy
+#~| msgid "No registration forms found"
+#~ msgid "Registration form labels - font size"
+#~ msgstr "Não há formulários de inscrição encontrados"
+
+#, fuzzy
+#~| msgid "reCAPTCHA"
+#~ msgid "reCAPTCHA icons color"
+#~ msgstr "reCAPTCHA"
+
+#, fuzzy
+#~| msgid "is not a valid url"
+#~ msgid "Insert a valid URL"
+#~ msgstr "não é uma URL válida"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "User Category"
+#~ msgstr "Categoria"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "Search User Categories"
+#~ msgstr "Categorias"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "Popular User Categories"
+#~ msgstr "Categorias"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "All User Categories"
+#~ msgstr "Categorias"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Edit User Category"
+#~ msgstr "Categoria"
+
+#, fuzzy
+#~| msgid "User last name"
+#~ msgid "New User Category Name"
+#~ msgstr "Usar último nome"
+
+#, fuzzy
+#~| msgid "One or more chosen categories are wrong"
+#~ msgid "Add or remove user categories"
+#~ msgstr "Uma ou mais categorias escolhidas estão erradas"
+
+#, fuzzy
+#~| msgid "No registration forms found"
+#~ msgid "No Registration"
+#~ msgstr "Não há formulários de inscrição encontrados"
+
+#, fuzzy
+#~| msgid "User Telephone"
+#~ msgid "User deleted"
+#~ msgstr "Telefone do Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User enabled"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User saved"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User updated"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "Editor"
+#~ msgid "Edit"
+#~ msgstr "Editor"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Add PrivateContent User"
+#~ msgstr "PrivateContent - Construtor de formulário personalizado"
+
+#, fuzzy
+#~| msgid "Repeat password"
+#~ msgid "Update password"
+#~ msgstr "Repita a senha"
+
+#, fuzzy
+#~| msgid "User last name"
+#~ msgid "User not synced"
+#~ msgstr "Usar último nome"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "Users type"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "Categories"
+#~ msgid "Exported categories"
+#~ msgstr "Categorias"
+
+#, fuzzy
+#~| msgid "User E-mail"
+#~ msgid "or e-mail"
+#~ msgstr "E-mail do Usuário"
+
+#, fuzzy
+#~| msgid "Error during user page creation"
+#~ msgid "Error importing user \""
+#~ msgstr "Erro durante a criação da página de usuário"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Import completed succesfully"
+#~ msgstr "Dados salvos com sucesso"
+
+#, fuzzy
+#~| msgid "minimum value is"
+#~ msgid "Missing values"
+#~ msgstr "valor mínimo é"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "PrivateContent Users"
+#~ msgstr "PrivateContent - Construtor de formulário personalizado"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Users"
+#~ msgstr "Nome de Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User Pages"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "User Page"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "Edit User Page"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "New User Page"
+#~ msgstr "Usuário"
+
+#, fuzzy
+#~| msgid "User name"
+#~ msgid "View User Page"
+#~ msgstr "Usuário"
+
+#~ msgid "login"
+#~ msgstr "login"
+
+#~ msgid "Repeat"
+#~ msgstr "Repetir"
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr "logado com sucesso, bem-vindo!"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "Erro durante o registro do usuário, contate o administrador do site"
+
+#~ msgid "Registration was succesful. Welcome!"
+#~ msgstr "Registo foi bem sucedido. Bem-vindo!"
+
+#~ msgid "minimum"
+#~ msgstr "mínimo"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Formulário enviado com sucesso. Nesta demonstração os dados não podem ser "
+#~ "salvos."

@@ -1,0 +1,5351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent admin 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:43+0100\n"
+"PO-Revision-Date: 2025-03-07 20:44+0100\n"
+"Last-Translator: zaghak team <zaghakschool@gmail.com>\n"
+"Language-Team: LCweb\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: classes/meta_manag.php\n"
+"X-Poedit-SearchPathExcluded-1: classes/pc_form_framework.php\n"
+"X-Poedit-SearchPathExcluded-2: classes/simple_form_validator.php\n"
+"X-Poedit-SearchPathExcluded-3: classes/users_manag.php\n"
+"X-Poedit-SearchPathExcluded-4: public_api.php\n"
+"X-Poedit-SearchPathExcluded-5: user_auth.php\n"
+"X-Poedit-SearchPathExcluded-6: user_registration.php\n"
+"X-Poedit-SearchPathExcluded-7: restrictions/comment_hack.php\n"
+"X-Poedit-SearchPathExcluded-8: restrictions/comments_restriction.php\n"
+"X-Poedit-SearchPathExcluded-9: restrictions/contents_hiding.php\n"
+"X-Poedit-SearchPathExcluded-10: restrictions/lightbox_on_opening.php\n"
+"X-Poedit-SearchPathExcluded-11: restrictions/menu_restriction.php\n"
+"X-Poedit-SearchPathExcluded-12: restrictions/redirect_engine.php\n"
+"X-Poedit-SearchPathExcluded-13: restrictions/widgets_restriction.php\n"
+"X-Poedit-SearchPathExcluded-14: classes/wp_user_sync.php\n"
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:235
+msgid "month"
+msgstr "ماه"
+
+#: DIKE/core/licenses.php:1
+msgid "week"
+msgstr ""
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:236
+msgid "day"
+msgstr "روز"
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:237
+msgid "hour"
+msgstr "ساعت"
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:238
+msgid "minute"
+msgstr "دقیقه"
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:235
+msgid "months"
+msgstr "ماه ها"
+
+#: DIKE/core/licenses.php:1
+msgid "weeks"
+msgstr ""
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:236
+msgid "days"
+msgstr "روز"
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:237
+msgid "hours"
+msgstr "ساعت ها"
+
+#: DIKE/core/licenses.php:1 classes/pc_static.php:238
+msgid "minutes"
+msgstr "دقایق"
+
+#: DIKE/core/licenses.php:1
+msgid "and"
+msgstr ""
+
+#: DIKE/core/updater.php:45
+msgid "New version available."
+msgstr "نسخه جدید در دسترس است."
+
+#: builders_integration/cs_elements/login/controls.php:15
+#: builders_integration/cs_elements/logout/controls.php:16
+#: builders_integration/divi_modules/login/includes/module.php:45
+#: builders_integration/divi_modules/logout/includes/module.php:45
+#: builders_integration/divi_modules/reg_form/includes/module.php:94
+#: builders_integration/divi_modules/user_del/includes/module.php:45
+#: builders_integration/elementor_elements/login.php:41
+#: builders_integration/elementor_elements/logout.php:41
+#: builders_integration/elementor_elements/user_deletion.php:41
+#: builders_integration/visual_composer.php:56
+#: builders_integration/visual_composer.php:98
+#: builders_integration/visual_composer.php:135
+msgid "Custom Redirect"
+msgstr "تغییر مسیر سفارشی"
+
+#: builders_integration/cs_elements/login/controls.php:16
+msgid "Set a custom redirect after login - use a full page URL"
+msgstr ""
+"بعد از ورود به سایت تغییر مسیر سفارشی ایجاد کنید - از URL یک صفحه کامل "
+"استفاده کنید"
+
+#: builders_integration/cs_elements/login/controls.php:22
+#: builders_integration/cs_elements/reg_form/controls.php:80
+#: builders_integration/divi_modules/login/includes/module.php:53
+#: builders_integration/divi_modules/reg_form/includes/module.php:102
+#: builders_integration/divi_modules/user_del/includes/module.php:53
+#: builders_integration/elementor_elements/login.php:50
+#: builders_integration/elementor_elements/reg_form.php:112
+#: builders_integration/elementor_elements/user_deletion.php:50
+#: builders_integration/visual_composer.php:63
+#: builders_integration/visual_composer.php:142
+#: builders_integration/visual_composer.php:303
+msgid "Alignment"
+msgstr "هم ترازی"
+
+#: builders_integration/cs_elements/login/controls.php:27
+#: builders_integration/cs_elements/reg_form/controls.php:85
+#: builders_integration/divi.php:76
+#: builders_integration/elementor_elements/login.php:54
+#: builders_integration/elementor_elements/reg_form.php:116
+#: builders_integration/elementor_elements/user_deletion.php:54
+#: builders_integration/guten_elements/login/login.php:19
+#: builders_integration/guten_elements/registr/registr.php:95
+#: builders_integration/guten_elements/user_del/user_del.php:19
+#: builders_integration/visual_composer.php:67
+#: builders_integration/visual_composer.php:146
+#: builders_integration/visual_composer.php:307
+#: main_includes/tinymce_implementation.php:183
+#: main_includes/tinymce_implementation.php:204
+#: main_includes/tinymce_implementation.php:238
+msgid "Center"
+msgstr "مرکز"
+
+#: builders_integration/cs_elements/login/controls.php:28
+#: builders_integration/cs_elements/reg_form/controls.php:86
+#: builders_integration/divi.php:77
+#: builders_integration/elementor_elements/login.php:55
+#: builders_integration/elementor_elements/reg_form.php:117
+#: builders_integration/elementor_elements/user_deletion.php:55
+#: builders_integration/guten_elements/login/login.php:20
+#: builders_integration/guten_elements/registr/registr.php:96
+#: builders_integration/guten_elements/user_del/user_del.php:20
+#: builders_integration/visual_composer.php:68
+#: builders_integration/visual_composer.php:147
+#: builders_integration/visual_composer.php:308
+#: main_includes/tinymce_implementation.php:184
+#: main_includes/tinymce_implementation.php:205
+#: main_includes/tinymce_implementation.php:239
+msgid "Left"
+msgstr "چپ"
+
+#: builders_integration/cs_elements/login/controls.php:29
+#: builders_integration/cs_elements/reg_form/controls.php:87
+#: builders_integration/divi.php:78
+#: builders_integration/elementor_elements/login.php:56
+#: builders_integration/elementor_elements/reg_form.php:118
+#: builders_integration/elementor_elements/user_deletion.php:56
+#: builders_integration/guten_elements/login/login.php:21
+#: builders_integration/guten_elements/registr/registr.php:97
+#: builders_integration/guten_elements/user_del/user_del.php:21
+#: builders_integration/visual_composer.php:69
+#: builders_integration/visual_composer.php:148
+#: builders_integration/visual_composer.php:309
+#: main_includes/tinymce_implementation.php:185
+#: main_includes/tinymce_implementation.php:206
+#: main_includes/tinymce_implementation.php:240
+msgid "Right"
+msgstr "راست"
+
+#: builders_integration/cs_elements/login/definition.php:13
+#: builders_integration/divi_modules/login/includes/module.php:26
+#: builders_integration/elementor_elements/login.php:24
+#: builders_integration/guten_elements/login/login.js:41
+#: builders_integration/visual_composer.php:77
+#: main_includes/tinymce_implementation.php:60 settings/structure.php:1020
+msgid "Login Form"
+msgstr "فرم ورود"
+
+#: builders_integration/cs_elements/logout/controls.php:17
+msgid "Set a custom redirect after logout - use a full page URL"
+msgstr "تغییر مسیر را بعد از خروج سفارشی کنید - از یک صفحه کامل استفاده کنید"
+
+#: builders_integration/cs_elements/logout/definition.php:13
+#: builders_integration/guten_elements/logout/logout.js:39
+#: builders_integration/visual_composer.php:114
+msgid "Logout Box"
+msgstr "جعبه خروج"
+
+#: builders_integration/cs_elements/pvt_content/controls.php:15
+#: builders_integration/divi_modules/pvt_block/includes/module.php:76
+#: builders_integration/elementor_elements/pvt_content.php:59
+#: builders_integration/visual_composer.php:177
+#: classes/restrictions_wizard.php:714
+msgid "Who can see contents?"
+msgstr "چه کسی میتواند محتوای را ببیند؟"
+
+#: builders_integration/cs_elements/pvt_content/controls.php:26
+#: builders_integration/visual_composer.php:185
+msgid "Who to block? (optional)"
+msgstr "چه کسی مسدود شده؟ (اختیاری)"
+
+#: builders_integration/cs_elements/pvt_content/controls.php:37
+#: builders_integration/divi_modules/pvt_block/includes/module.php:100
+#: builders_integration/elementor_elements/pvt_content.php:83
+msgid "Show warning box?"
+msgstr "جعبه هشدار نشان داده شود؟"
+
+#: builders_integration/cs_elements/pvt_content/controls.php:38
+msgid "Check to display a yellow warning box"
+msgstr "برای نمایش جعبه هشدار زرد رنگ را برسی کنید"
+
+#: builders_integration/cs_elements/pvt_content/controls.php:45
+#: builders_integration/divi_modules/pvt_block/includes/module.php:111
+#: builders_integration/elementor_elements/pvt_content.php:96
+#: builders_integration/visual_composer.php:201
+#: main_includes/tinymce_implementation.php:97
+msgid "Custom message for not allowed users"
+msgstr "پیام سفارشی برای کاربران مجاز نیست"
+
+#: builders_integration/cs_elements/pvt_content/controls.php:52
+#: builders_integration/visual_composer.php:224
+msgid "Contents"
+msgstr "محتویات"
+
+#: builders_integration/cs_elements/pvt_content/definition.php:13
+#: settings/structure.php:961
+msgid "Restricted Content"
+msgstr "محتوای محدود"
+
+#: builders_integration/cs_elements/reg_form/controls.php:35
+#: builders_integration/divi_modules/reg_form/includes/module.php:62
+#: builders_integration/elementor_elements/reg_form.php:63
+#: builders_integration/visual_composer.php:270
+msgid "Which form to use?"
+msgstr "کدام فرم برای استفاده؟"
+
+#: builders_integration/cs_elements/reg_form/controls.php:46
+#: builders_integration/divi_modules/reg_form/includes/module.php:70
+#: builders_integration/elementor_elements/reg_form.php:74
+#: builders_integration/guten_elements/registr/registr.php:67
+#: builders_integration/visual_composer.php:277
+#: main_includes/tinymce_implementation.php:153
+msgid "Layout"
+msgstr "طرح"
+
+#: builders_integration/cs_elements/reg_form/controls.php:51
+#: builders_integration/divi_modules/reg_form/includes/module.php:75
+#: builders_integration/elementor_elements/reg_form.php:78
+#: builders_integration/guten_elements/registr/registr.php:70
+#: builders_integration/visual_composer.php:281
+#: main_includes/tinymce_implementation.php:155
+msgid "Default one"
+msgstr "یک پیش فرض"
+
+#: builders_integration/cs_elements/reg_form/controls.php:52
+#: builders_integration/divi_modules/reg_form/includes/module.php:76
+#: builders_integration/elementor_elements/reg_form.php:79
+#: builders_integration/guten_elements/registr/registr.php:71
+#: builders_integration/visual_composer.php:282
+#: main_includes/tinymce_implementation.php:156 settings/structure.php:1304
+msgid "Single column"
+msgstr "ستون تک"
+
+#: builders_integration/cs_elements/reg_form/controls.php:53
+#: builders_integration/divi_modules/reg_form/includes/module.php:77
+#: builders_integration/elementor_elements/reg_form.php:80
+#: builders_integration/guten_elements/registr/registr.php:72
+#: builders_integration/visual_composer.php:283
+#: main_includes/tinymce_implementation.php:157 settings/structure.php:1305
+msgid "Fluid (multi column)"
+msgstr "شناور (چند ستونه)"
+
+#: builders_integration/cs_elements/reg_form/controls.php:61
+#: builders_integration/guten_elements/registr/registr.php:78
+#: builders_integration/visual_composer.php:288
+#: main_includes/tinymce_implementation.php:161
+msgid "Custom categories assignment (ignored if field is in form)"
+msgstr "تخصیص دسته بندی های سفارشی (اگر فیلد در فرم نادیده گرفته شود)"
+
+#: builders_integration/cs_elements/reg_form/controls.php:72
+#: builders_integration/visual_composer.php:296
+#: main_includes/tinymce_implementation.php:219
+#: main_includes/tinymce_implementation.php:244
+msgid "Custom redirect (use a valid URL)"
+msgstr "تغییر مسیر سفارشی (از یک URL معتبر استفاده کنید)"
+
+#: builders_integration/cs_elements/reg_form/definition.php:14
+#: builders_integration/elementor_elements/reg_form.php:55
+#: builders_integration/visual_composer.php:318
+msgid "Registration form"
+msgstr "فرم ثبت نام"
+
+#: builders_integration/divi.php:148
+#: builders_integration/divi_modules/pvt_block/includes/module.php:106
+#: builders_integration/elementor_elements/pvt_content.php:86
+#: classes/restrictions_wizard.php:930
+msgid "Yes"
+msgstr "بله"
+
+#: builders_integration/divi.php:151
+#: builders_integration/divi_modules/pvt_block/includes/module.php:105
+#: builders_integration/elementor_elements/pvt_content.php:87
+#: classes/restrictions_wizard.php:759 classes/restrictions_wizard.php:930
+#: settings/structure.php:1420
+msgid "No"
+msgstr "خیر"
+
+#: builders_integration/divi_modules/login/includes/module.php:33
+#: builders_integration/divi_modules/logout/includes/module.php:33
+#: builders_integration/divi_modules/pvt_block/includes/module.php:33
+#: builders_integration/divi_modules/reg_form/includes/module.php:33
+#: builders_integration/divi_modules/user_del/includes/module.php:33
+#: settings/structure.php:55
+msgid "Main Options"
+msgstr "گزینه های اصلی"
+
+#: builders_integration/divi_modules/login/includes/module.php:34
+#: builders_integration/divi_modules/logout/includes/module.php:34
+#: builders_integration/divi_modules/pvt_block/includes/module.php:34
+#: builders_integration/divi_modules/reg_form/includes/module.php:34
+#: builders_integration/divi_modules/user_del/includes/module.php:34
+#: settings/structure.php:60
+msgid "Styling"
+msgstr "طراحی ظاهری"
+
+#: builders_integration/divi_modules/login/includes/module.php:49
+#: builders_integration/divi_modules/logout/includes/module.php:49
+#: builders_integration/divi_modules/reg_form/includes/module.php:98
+#: builders_integration/divi_modules/user_del/includes/module.php:49
+msgid ""
+"Custom redirect (optional - use a valid URL or \"<em>refresh</em>\" keyword)"
+msgstr ""
+"تغییر مسیر سفارشی (اختیاری - از یک URL معتبر یا کلمه کلیدی \"<em>رفرش</em>\" "
+"استفاده کنید)"
+
+#: builders_integration/divi_modules/logout/includes/module.php:26
+#: builders_integration/elementor_elements/logout.php:24
+#: main_includes/tinymce_implementation.php:61
+msgid "Logout Button"
+msgstr "دکمه خروج"
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:26
+#: builders_integration/elementor_elements/pvt_content.php:24
+#: builders_integration/elementor_elements/pvt_content.php:42
+#: builders_integration/visual_composer.php:234
+#: main_includes/tinymce_implementation.php:56
+msgid "Private Block"
+msgstr "بلوک خصوصی"
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:68
+#: builders_integration/elementor_elements/pvt_content.php:32
+#: builders_integration/visual_composer.php:45
+#: main_includes/tinymce_implementation.php:103
+#: main_includes/tinymce_implementation.php:115
+msgid "As default"
+msgstr "به عنوان پیشفرض"
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:69
+#: builders_integration/elementor_elements/pvt_content.php:33
+#: builders_integration/visual_composer.php:45
+#: main_includes/tinymce_implementation.php:104 settings/structure.php:320
+msgid "No login button"
+msgstr "دکمه ورود وجود ندارد"
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:88
+#: builders_integration/elementor_elements/pvt_content.php:71
+#: restrictions/elementor_widgets_restriction.php:58
+msgid "Among allowed, want to block specific categories?"
+msgstr "در میان آنها - آیا می خواهید دسته های خاصی را مسدود کنید؟"
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:115
+msgid "Message shown if \"warning\" option is enabled"
+msgstr ""
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:119
+#: builders_integration/elementor_elements/pvt_content.php:109
+#: builders_integration/visual_composer.php:207
+#: main_includes/tinymce_implementation.php:101
+msgid "Login button's lightbox"
+msgstr "دکمه ورود جعبه نوری"
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:128
+#: builders_integration/elementor_elements/pvt_content.php:125
+#: builders_integration/visual_composer.php:214
+#: main_includes/tinymce_implementation.php:113
+msgid "Registration button's lightbox"
+msgstr "دکمه ثبت نام جعبه نوری"
+
+#: builders_integration/divi_modules/pvt_block/includes/module.php:137
+#: builders_integration/elementor_elements/pvt_content.php:192
+msgid "Content"
+msgstr "محتوا"
+
+#: builders_integration/divi_modules/reg_form/includes/module.php:26
+#: builders_integration/elementor_elements/reg_form.php:24
+#: builders_integration/guten_elements/registr/registr.js:48
+#: main_includes/tinymce_implementation.php:59 settings/structure.php:1049
+msgid "Registration Form"
+msgstr "فرم ثبت نام"
+
+#: builders_integration/divi_modules/reg_form/includes/module.php:82
+#: builders_integration/elementor_elements/reg_form.php:89
+msgid "Custom categories assignment"
+msgstr "واکنش محدود شده در پست ها (در لیست ها)"
+
+#: builders_integration/divi_modules/user_del/includes/module.php:26
+#, fuzzy
+#| msgid "User Deletion Box"
+msgid "User Deletion Form"
+msgstr "جعبه حذف کاربر"
+
+#: builders_integration/elementor_elements/login.php:34
+#: main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "ورود"
+
+#: builders_integration/elementor_elements/login.php:43
+#, fuzzy
+#| msgid ""
+#| "Custom redirect (optional - use a valid URL or \"<em>refresh</em>\" "
+#| "keyword)"
+msgid "Custom redirect (optional - use a valid URL or \"refresh\" keyword)"
+msgstr ""
+"تغییر مسیر سفارشی (اختیاری - از یک URL معتبر یا کلمه کلیدی \"<em>رفرش</em>\" "
+"استفاده کنید)"
+
+#: builders_integration/elementor_elements/login.php:86
+#, fuzzy
+#| msgid "Login form - button's icon"
+msgid "login form - logout to see it"
+msgstr "فرم ورود - آیکون دکمه"
+
+#: builders_integration/elementor_elements/logout.php:34
+msgid "Logout"
+msgstr "خروج"
+
+#: builders_integration/elementor_elements/logout.php:43
+#: main_includes/tinymce_implementation.php:177
+#: main_includes/tinymce_implementation.php:198
+msgid "Custom redirect (use a valid URL or \"<em>refresh</em>\" keyword)"
+msgstr ""
+"تغییر مسیر سفارشی (از یک URL معتبر استفاده کنید یا \"<em>رفرش کنید</em>\" "
+"کلمه کلیدی را)"
+
+#: builders_integration/elementor_elements/logout.php:73
+#, fuzzy
+#| msgid "Form buttons - font size"
+msgid "logout button - login to see it"
+msgstr "دکمه های فرم - اندازه فونت"
+
+#: builders_integration/elementor_elements/pvt_content.php:51
+msgid ""
+"Please note this widget is now deprecated, every elementor widget/column can "
+"have its visibility settings"
+msgstr ""
+
+#: builders_integration/elementor_elements/pvt_content.php:149
+#, fuzzy
+#| msgid "Content"
+msgid "Content Type"
+msgstr "محتوا"
+
+#: builders_integration/elementor_elements/pvt_content.php:153
+#: settings/field_options.php:55
+msgid "Editor"
+msgstr "ویرایشگر"
+
+#: builders_integration/elementor_elements/pvt_content.php:154
+msgid "Template"
+msgstr ""
+
+#: builders_integration/elementor_elements/pvt_content.php:162
+#, fuzzy
+#| msgid "Select field"
+msgid "Select Template"
+msgstr "فیلد را انتخاب کنید"
+
+#: builders_integration/elementor_elements/pvt_content.php:171
+msgid "You haven't saved any templates yet."
+msgstr ""
+
+#: builders_integration/elementor_elements/pvt_content.php:177
+msgid "Choose Template"
+msgstr ""
+
+#: builders_integration/elementor_elements/pvt_content.php:194
+msgid "Content goes here."
+msgstr "محتوا اینجا می رود."
+
+#: builders_integration/elementor_elements/pvt_content.php:246
+#: builders_integration/elementor_elements/pvt_content.php:249
+msgid ""
+"The widget is working. Please, note, that you have to add a template to the "
+"library in order to be able to display it inside the widget."
+msgstr ""
+
+#: builders_integration/elementor_elements/reg_form.php:47
+msgid "none"
+msgstr "هیچ یک"
+
+#: builders_integration/elementor_elements/reg_form.php:90
+msgid "Ignored if field is in form"
+msgstr "اگر فیلد در فرم نادیده گرفته شود"
+
+#: builders_integration/elementor_elements/reg_form.php:101
+#: builders_integration/guten_elements/login/login.php:9
+#: builders_integration/guten_elements/logout/logout.php:9
+#: builders_integration/guten_elements/registr/registr.php:85
+#: builders_integration/guten_elements/user_del/user_del.php:9
+#: settings/custom_fields.php:45
+msgid "Custom redirect"
+msgstr "تغییر مسیر سفارشی"
+
+#: builders_integration/elementor_elements/reg_form.php:102
+#: main_includes/user_categories.php:99 main_includes/user_categories.php:104
+#: main_includes/user_categories.php:158 main_includes/user_categories.php:165
+msgid "Use a valid URL"
+msgstr "از یک URL معتبر استفاده کنید"
+
+#: builders_integration/elementor_elements/user_deletion.php:24
+#: builders_integration/elementor_elements/user_deletion.php:34
+#: builders_integration/visual_composer.php:156
+msgid "User Deletion"
+msgstr "حذف کاربر"
+
+#: builders_integration/elementor_elements/user_deletion.php:43
+#: builders_integration/visual_composer.php:59
+#: builders_integration/visual_composer.php:138
+#, fuzzy
+#| msgid "Custom redirect (use a valid URL or \"<em>refresh</em>\" keyword)"
+msgid "Custom redirect (use a valid URL or \"refresh\" keyword)"
+msgstr ""
+"تغییر مسیر سفارشی (از یک URL معتبر استفاده کنید یا \"<em>رفرش کنید</em>\" "
+"کلمه کلیدی را)"
+
+#: builders_integration/elementor_elements/user_deletion.php:85
+msgid "user deletion box - logout to see it"
+msgstr ""
+
+#: builders_integration/guten_elements/common.js:51
+msgid "by LCweb"
+msgstr "توسط LCweb"
+
+#: builders_integration/guten_elements/common.js:52
+msgid "common"
+msgstr "مشترک"
+
+#: builders_integration/guten_elements/login/login.php:10
+#: builders_integration/guten_elements/logout/logout.php:10
+#: builders_integration/guten_elements/registr/registr.php:86
+#: builders_integration/guten_elements/user_del/user_del.php:10
+msgid "Use a valid URL or \"refresh\" keyword"
+msgstr "از یک URL معتبر یا کلید واژه \"refresh\" استفاده کنید"
+
+#: builders_integration/guten_elements/login/login.php:16
+#: builders_integration/guten_elements/registr/registr.php:92
+#: builders_integration/guten_elements/user_del/user_del.php:16
+#: main_includes/tinymce_implementation.php:181
+#: main_includes/tinymce_implementation.php:202
+#: main_includes/tinymce_implementation.php:236
+msgid "Form alignment"
+msgstr "هماهنگی فرم"
+
+#: builders_integration/guten_elements/registr/registr.php:60
+#: main_includes/tinymce_implementation.php:136
+msgid "Which form?"
+msgstr "کدام فرم؟"
+
+#: builders_integration/guten_elements/user_del/user_del.js:39
+#: main_includes/tinymce_implementation.php:62
+msgid "User Deletion Box"
+msgstr "جعبه حذف کاربر"
+
+#: builders_integration/gutenberg.php:86
+msgid "Main parameters"
+msgstr "پارامترهای اصلی"
+
+#: builders_integration/visual_composer.php:78
+msgid "Displays PrivateContent login form to unlogged users"
+msgstr "نمایش فرم ورود PrivateContent به کاربرانی که لاگین نکرده اند"
+
+#: builders_integration/visual_composer.php:103
+#: main_includes/tinymce_implementation.php:223
+#, fuzzy, php-format
+#| msgid ""
+#| "<strong>NOTE:</strong> is possible to directly logout users adding <em>?"
+#| "pc_logout</em> to any site's URL.<br/>Example: <em>http://www.mysite.com/?"
+#| "pc_logout</em>"
+msgid ""
+"%1$sNOTE:%2$s is possible to directly logout users adding %3$s?pc_logout%4$s "
+"to any site URL"
+msgstr ""
+"<strong>توجه کنید:</strong>امکان خروج مستقیم کاربران از سیستم وجود دارد<em>?"
+"pc_logout</em>یا هر لینک سفارشی دیگر.<br/>مثال: <em>http://www.mysite.com/?"
+"pc_logout</em>"
+
+#: builders_integration/visual_composer.php:103
+#: main_includes/tinymce_implementation.php:223
+msgid "Example"
+msgstr ""
+
+#: builders_integration/visual_composer.php:115
+msgid "Displays PrivateContent logout box"
+msgstr "جعبه خروج صفحه خصوصی را نمایش می دهد"
+
+#: builders_integration/visual_composer.php:157
+msgid "Displays PrivateContent box allowing user's deletion"
+msgstr "جعبه PrivateContent را برای حذف کاربر نمایش می دهد"
+
+#: builders_integration/visual_composer.php:195
+#: main_includes/tinymce_implementation.php:92
+msgid "Hide warning box?"
+msgstr "مخفی کردن جعبه هشدار؟"
+
+#: builders_integration/visual_composer.php:197
+msgid "By default a yellow warning box is displayed"
+msgstr "به طور پیش فرض، یک جعبه هشدار زرد نمایش داده می شود"
+
+#: builders_integration/visual_composer.php:227
+msgid "Protected content"
+msgstr "محتوای محافظت شده"
+
+#: builders_integration/visual_composer.php:235
+msgid "Hide contents"
+msgstr "مخفی کردن مطالب"
+
+#: builders_integration/visual_composer.php:319
+msgid "Displays PrivateContent registration form"
+msgstr "فرم ثبت نام خصوصی را نشان می دهد"
+
+#: classes/engine_import_export.php:16 main_includes/admin_menu.php:28
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: classes/engine_import_export.php:17
+#, fuzzy
+#| msgid "Registration form"
+msgid "Registration forms"
+msgstr "فرم ثبت نام"
+
+#: classes/engine_import_export.php:151 classes/users_import_export.php:351
+#: classes/users_import_export.php:670
+msgid "Wrong file type"
+msgstr ""
+
+#: classes/engine_import_export.php:157 classes/users_import_export.php:357
+msgid "Wrong or corrupted JSON data"
+msgstr ""
+
+#: classes/engine_import_export.php:160 classes/engine_import_export.php:172
+#, fuzzy
+#| msgid "No matches found"
+msgid "No import subjects found"
+msgstr "جستجو حاصلی دربرنداشت"
+
+#: classes/engine_import_export.php:210
+msgid "To complete the import, click on"
+msgstr ""
+
+#: classes/engine_import_export.php:210
+msgid "this link"
+msgstr ""
+
+#: classes/engine_import_export.php:254
+#, fuzzy
+#| msgid "Error performing the action for users"
+msgid "Error importing the registration form"
+msgstr "خطا در پردازش عملیات کاربران"
+
+#: classes/engine_import_export.php:280
+#, fuzzy
+#| msgid "Registration forms builder"
+msgid "Registration forms added"
+msgstr "سازنده فرم ثبت نام"
+
+#: classes/engine_import_export.php:281
+#, fuzzy
+#| msgid "Registration forms builder"
+msgid "Registration forms updated"
+msgstr "سازنده فرم ثبت نام"
+
+#: classes/engine_import_export.php:282
+#, fuzzy
+#| msgid "Displays PrivateContent registration form"
+msgid "Duplicate registration forms ignored"
+msgstr "فرم ثبت نام خصوصی را نشان می دهد"
+
+#: classes/engine_import_export.php:283
+msgid "Errors"
+msgstr ""
+
+#: classes/pc_static.php:209 classes/pc_static.php:239
+msgid "second"
+msgstr "دومین"
+
+#: classes/pc_static.php:234
+msgid "years"
+msgstr "سال ها"
+
+#: classes/pc_static.php:234
+msgid "year"
+msgstr "سال"
+
+#: classes/pc_static.php:239
+msgid "seconds"
+msgstr "ثانیه"
+
+#: classes/pc_static.php:623 main_includes/admin_menu.php:26
+#: main_includes/user_categories.php:10 main_includes/user_categories.php:24
+msgid "User Categories"
+msgstr "دسته بندی های کاربر"
+
+#: classes/pc_static.php:629
+msgid "Any logged user"
+msgstr "هر کاربر وارد شده"
+
+#: classes/pc_static.php:630
+msgid "Unlogged Users"
+msgstr "کاربران غیر مجاز"
+
+#: classes/pc_static.php:791 classes/pc_static.php:796 classes/pc_static.php:797
+msgid "First page"
+msgstr "صفحه اول"
+
+#: classes/pc_static.php:792 classes/pc_static.php:800 classes/pc_static.php:801
+msgid "Previous page"
+msgstr "صفحه قبلی"
+
+#: classes/pc_static.php:808
+msgid "Current Page"
+msgstr "صفحه فعلی"
+
+#: classes/pc_static.php:810
+msgid "of"
+msgstr "از"
+
+#: classes/pc_static.php:815 classes/pc_static.php:820 classes/pc_static.php:821
+msgid "Next page"
+msgstr "صفحه بعدی"
+
+#: classes/pc_static.php:816 classes/pc_static.php:824 classes/pc_static.php:825
+msgid "Last page"
+msgstr "آخرین صفحه"
+
+#: classes/pc_static.php:843 main_includes/admin_menu.php:202
+#: user_dashboard/structure.php:144
+msgid "First name"
+msgstr "نام کوچک"
+
+#: classes/pc_static.php:843 main_includes/admin_menu.php:202
+#: user_dashboard/structure.php:144
+msgid "Name"
+msgstr "نام"
+
+#: classes/pc_static.php:848 main_includes/admin_menu.php:203
+#: user_dashboard/structure.php:155
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: classes/pc_static.php:848 main_includes/admin_menu.php:203
+#: user_dashboard/structure.php:155
+msgid "Surname"
+msgstr "نام خانوادگی"
+
+#: classes/pc_static.php:853 user_dashboard/structure.php:136
+msgid "E-mail"
+msgstr "ایمیل"
+
+#: classes/pc_static.php:858 main_includes/admin_menu.php:206
+#: user_dashboard/structure.php:149
+msgid "Telephone"
+msgstr "تلفن"
+
+#: classes/pc_static.php:865 main_includes/admin_menu.php:204
+#: user_dashboard/structure.php:180
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: classes/pc_static.php:870
+msgid "Registered"
+msgstr "ثبت شده در"
+
+#: classes/pc_static.php:876 classes/users_import_export.php:219
+#: main_includes/admin_menu.php:209 user_dashboard/view.php:73
+msgid "Last access"
+msgstr "آخرین دسترسی"
+
+#: classes/pc_static.php:1291
+#, fuzzy
+#| msgid "Search options"
+msgid "Search icons .."
+msgstr "گزینه های جستجو"
+
+#: classes/pc_static.php:1292 users_import_export/csv_export.php:16
+#: users_import_export/pvtc_export.php:16 users_import_export/wp_import.php:13
+#, fuzzy
+#| msgid "All Categories"
+msgid "All categories"
+msgstr "همه دسته بندی ها"
+
+#: classes/pc_static.php:1293
+msgid "Solid"
+msgstr ""
+
+#: classes/pc_static.php:1294
+msgid "Regular"
+msgstr ""
+
+#: classes/pc_static.php:1295
+msgid "Brands"
+msgstr ""
+
+#: classes/pc_static.php:1296 settings/view.php:225
+msgid "no icon"
+msgstr "بدون آیکون"
+
+#: classes/pc_static.php:1297
+msgid ".. no icons found .."
+msgstr ""
+
+#: classes/pc_static.php:1328
+msgid "Icons picker"
+msgstr ""
+
+#: classes/pc_wp_user_caps_static.php:435
+#, fuzzy
+#| msgid "username, name, surname, e-mail"
+msgid " search users (username, names, e-mail)"
+msgstr "نام کاربری، نام، نام خانوادگی، ایمیل"
+
+#: classes/pc_wp_user_caps_static.php:459 classes/pc_wp_user_caps_static.php:538
+#, fuzzy
+#| msgid "remove restriction"
+msgid "remove user from selection"
+msgstr "حذف محدودیت"
+
+#: classes/pc_wp_user_caps_static.php:513 classes/pc_wp_user_caps_static.php:523
+#, fuzzy
+#| msgid "Error importing user \""
+msgid "Error retrieving users"
+msgstr "خطا در وارد کردن کاربر \""
+
+#: classes/pc_wp_user_caps_static.php:532
+#, fuzzy
+#| msgid "User deleted"
+msgid "User already selected"
+msgstr "کاربر حذف شد"
+
+#: classes/pc_wp_user_caps_static.php:561
+#, fuzzy
+#| msgid "delete user"
+msgid "Remove selected user?"
+msgstr "حذف کاربر"
+
+#: classes/restrictions_wizard.php:581 classes/restrictions_wizard.php:595
+msgid "Restrictions Wizard"
+msgstr "جادوگر محدودیت"
+
+#: classes/restrictions_wizard.php:629
+msgid " Restrictions Wizard"
+msgstr " محدودیت جادوگر"
+
+#: classes/restrictions_wizard.php:684
+msgid "Redirect"
+msgstr "تغییر مسیر"
+
+#: classes/restrictions_wizard.php:688
+#, fuzzy
+#| msgid "Who can access URLs?"
+msgid "Who can access this page?"
+msgstr "چه کسی می تواند به URL ها دسترسی پیدا کند؟"
+
+#: classes/restrictions_wizard.php:689 classes/restrictions_wizard.php:697
+#: classes/restrictions_wizard.php:715 classes/restrictions_wizard.php:722
+#: classes/restrictions_wizard.php:740 classes/restrictions_wizard.php:747
+msgid "Leave empty to ignore"
+msgstr "برای نادیده گرفتن خالی بگذار"
+
+#: classes/restrictions_wizard.php:696 classes/restrictions_wizard.php:721
+#: classes/restrictions_wizard.php:746
+#: main_includes/tinymce_implementation.php:84
+#: restrictions/guten_blocks_restriction.php:16 settings/custom_fields.php:410
+msgid "Among them - want to block someone?"
+msgstr "در میان آنها - آیا می خواهید کسی را مسدود کنید؟"
+
+#: classes/restrictions_wizard.php:710
+msgid "Contents Hiding"
+msgstr "پنهان کردن مطالب"
+
+#: classes/restrictions_wizard.php:735
+msgid "Comments"
+msgstr "نظرات"
+
+#: classes/restrictions_wizard.php:739
+msgid "Who can see comments?"
+msgstr "چه کسی می تواند نظرات را ببیند؟"
+
+#: classes/restrictions_wizard.php:758
+msgid "inherit"
+msgstr "به ارث می برند"
+
+#: classes/restrictions_wizard.php:766 classes/restrictions_wizard.php:1119
+msgid "Lightbox on page's opening"
+msgstr "باز شدن جعبه نوری در صفحه"
+
+#: classes/restrictions_wizard.php:769
+msgid "Displayed for unlogged users"
+msgstr "نمایش داده شده برای کاربران وارد نشده"
+
+#: classes/restrictions_wizard.php:900 settings/structure.php:389
+msgid "No lightbox"
+msgstr "بدون جعبه نور"
+
+#: classes/restrictions_wizard.php:915 classes/restrictions_wizard.php:934
+msgid "uses"
+msgstr "استفاده می کند"
+
+#: classes/restrictions_wizard.php:946
+msgid "and blocks"
+msgstr "و بلوک"
+
+#: classes/restrictions_wizard.php:950
+msgid "allows"
+msgstr "اجازه می دهد"
+
+#: classes/restrictions_wizard.php:973
+msgid "self restriction"
+msgstr "محدودیت خود"
+
+#: classes/restrictions_wizard.php:984 classes/restrictions_wizard.php:990
+msgid "inherited restriction"
+msgstr "محدودیت به ارث برده"
+
+#: classes/restrictions_wizard.php:1037
+msgid "restrictions summary"
+msgstr "خلاصه محدودیت ها"
+
+#: classes/restrictions_wizard.php:1076
+msgid "no contents restriction"
+msgstr "بدون محدودیت محتوا"
+
+#: classes/restrictions_wizard.php:1080
+msgid "no comments hiding restriction"
+msgstr "بدون محدودیت مخفی کردن نظر"
+
+#: classes/restrictions_wizard.php:1084
+#, fuzzy
+#| msgid "Redirect restrictions"
+msgid "no redirect restrictions"
+msgstr "محدودیت های تغییر مسیر"
+
+#: classes/restrictions_wizard.php:1088
+msgid "follows global lightbox-on-open setup"
+msgstr ""
+
+#: classes/restrictions_wizard.php:1092
+msgid "follows global purchase lock setup"
+msgstr ""
+
+#: classes/restrictions_wizard.php:1103
+msgid "show applied contents hiding restrictions"
+msgstr "محتویات محدودیت های مخفی را نمایش می دهد"
+
+#: classes/restrictions_wizard.php:1104
+msgid "Contents hiding restrictions"
+msgstr "پنهان کردن محتوای محدود شده"
+
+#: classes/restrictions_wizard.php:1108
+msgid "show applied comments hiding restrictions"
+msgstr "نظرات محدود شده مخفی را نمایش می دهد"
+
+#: classes/restrictions_wizard.php:1109
+msgid "Comments hiding restrictions"
+msgstr "محدودیت های مخفی کردن نظرات"
+
+#: classes/restrictions_wizard.php:1113
+msgid "show applied redirect restrictions"
+msgstr "اعمال محدودیت های تغییر مسیر را نشان می دهد"
+
+#: classes/restrictions_wizard.php:1114
+msgid "Redirect restrictions"
+msgstr "محدودیت های تغییر مسیر"
+
+#: classes/restrictions_wizard.php:1118
+msgid "show used lightbox on page's opening"
+msgstr "نشان می دهد جعبه نوری در باز کردن صفحهات  مورد استفاده قرار می گیرد"
+
+#: classes/restrictions_wizard.php:1123
+#, fuzzy
+#| msgid "show applied redirect restrictions"
+msgid "show applied product purchase lock"
+msgstr "اعمال محدودیت های تغییر مسیر را نشان می دهد"
+
+#: classes/restrictions_wizard.php:1124
+msgid "Product purchase lock"
+msgstr ""
+
+#: classes/restrictions_wizard.php:1170
+#, fuzzy
+#| msgid "show applied redirect restrictions"
+msgid "double click to edit restrictions"
+msgstr "اعمال محدودیت های تغییر مسیر را نشان می دهد"
+
+#: classes/restrictions_wizard.php:1286
+#, fuzzy
+#| msgid "self restriction"
+msgid "Change restrictions"
+msgstr "محدودیت خود"
+
+#: classes/restrictions_wizard.php:1397
+msgid "This will update every restriction for the chosen elements. Continue?"
+msgstr ""
+
+#: classes/restrictions_wizard.php:1415
+#, fuzzy
+#| msgid "Account successfully deleted!"
+msgid "Restrictions successfully updated!"
+msgstr "حساب با موفقیت حذف شد!"
+
+#: classes/users_import_export.php:76 classes/users_import_export.php:259
+#, fuzzy
+#| msgid "No matches found"
+msgid "No matching users found"
+msgstr "جستجو حاصلی دربرنداشت"
+
+#: classes/users_import_export.php:218 main_includes/admin_menu.php:208
+msgid "Registered on"
+msgstr "ثبت شده در"
+
+#: classes/users_import_export.php:360
+#, fuzzy
+#| msgid "No users found"
+msgid "No users data found"
+msgstr "کاربری پیدا نشد"
+
+#: classes/users_import_export.php:435
+#, fuzzy
+#| msgid "Create at least one user category"
+msgid "Error creating a new user category"
+msgstr "حداقل یک دسته کاربری ایجاد کنید"
+
+#: classes/users_import_export.php:443
+#, fuzzy
+#| msgid "go to last page"
+msgid "go to category page"
+msgstr "به آخرین صفحه برو"
+
+#: classes/users_import_export.php:477
+#, fuzzy
+#| msgid "Add or remove user categories"
+msgid "does not have assigned categories"
+msgstr "دسته های کاربر را اضافه یا حذف کنید"
+
+#: classes/users_import_export.php:496 classes/users_import_export.php:528
+#: classes/users_import_export.php:868
+#, fuzzy
+#| msgid "go to the last page"
+msgid "go to the user dashboard"
+msgstr "به آخرین صفحه برو"
+
+#: classes/users_import_export.php:505
+#, fuzzy
+#| msgid "Bulk Actions"
+msgid "unknown action"
+msgstr "گزارش عملکرد"
+
+#: classes/users_import_export.php:523 classes/users_import_export.php:864
+#, fuzzy
+#| msgid "Error importing user \""
+msgid "Error creating new user"
+msgstr "خطا در وارد کردن کاربر \""
+
+#: classes/users_import_export.php:578
+#, fuzzy
+#| msgid "Error importing user \""
+msgid "Error updating main user data"
+msgstr "خطا در وارد کردن کاربر \""
+
+#: classes/users_import_export.php:640
+#, fuzzy
+#| msgid "existing WP mirror users"
+msgid "Error creating the WP mirror user"
+msgstr "کاربران آینه WP موجود است"
+
+#: classes/users_import_export.php:675
+msgid "Cannot detect the CSV data delimiter"
+msgstr ""
+
+#: classes/users_import_export.php:717
+#, php-format
+msgid "CSV row %s does not have the minimum values amount"
+msgstr ""
+
+#: classes/users_import_export.php:721
+#, php-format
+msgid "CSV row %s is missing the e-mail value"
+msgstr ""
+
+#: classes/users_import_export.php:730
+#, php-format
+msgid "CSV row %s has a different values number compared to the first one"
+msgstr ""
+
+#: classes/users_import_export.php:827 classes/users_import_export.php:914
+#, fuzzy
+#| msgid "at rows"
+msgid "row"
+msgstr "در ردیف"
+
+#: classes/users_import_export.php:838
+#, fuzzy, php-format
+#| msgid "is missing"
+msgid "Column %s is missing"
+msgstr "گم شده است"
+
+#: classes/users_import_export.php:891
+#, fuzzy
+#| msgid "Categories"
+msgid "categories created"
+msgstr "دسته بندی ها"
+
+#: classes/users_import_export.php:892
+#, fuzzy
+#| msgid "synced users"
+msgid "new users"
+msgstr "کاربران همگام سازی شده"
+
+#: classes/users_import_export.php:893
+#, fuzzy
+#| msgid "existing users"
+msgid "overridden users"
+msgstr "کاربران موجود"
+
+#: classes/users_import_export.php:894
+#, fuzzy
+#| msgid "synced users"
+msgid "discarded users"
+msgstr "کاربران همگام سازی شده"
+
+#: classes/users_import_export.php:895
+msgid "rows have the same username or e-mail of existing users"
+msgstr ""
+
+#: classes/users_import_export.php:896
+msgid "errors"
+msgstr ""
+
+#: classes/users_import_export.php:900
+#, fuzzy
+#| msgid "Import Users"
+msgid "Import report"
+msgstr "وارد کردن کاربران"
+
+#: classes/users_import_export.php:914
+#, fuzzy
+#| msgid "Users"
+msgid "User"
+msgstr "کاربران"
+
+#: main_includes/admin_ajax.php:110
+#, fuzzy
+#| msgid "You are not allowed to edit users"
+msgid "You are not allowed to manage one or more of these users"
+msgstr "شما مجاز به ویرایش کاربران نیستید"
+
+#: main_includes/admin_ajax.php:119
+#, fuzzy
+#| msgid "You are not allowed to access this page"
+msgid "You are not allowed to manage one or more of these categories"
+msgstr "شما اجازه دسترسی به این صفحه را ندارید"
+
+#: main_includes/admin_ajax.php:137
+#, fuzzy
+#| msgid "Error performing the action for users"
+msgid "Error updating one or more users"
+msgstr "خطا در پردازش عملیات کاربران"
+
+#: main_includes/admin_ajax.php:236
+msgid "Error performing the action for users"
+msgstr "خطا در پردازش عملیات کاربران"
+
+#: main_includes/admin_ajax.php:375
+msgid "No users found"
+msgstr "کاربری پیدا نشد"
+
+#: main_includes/admin_ajax.php:404
+msgid "synced users"
+msgstr "کاربران همگام سازی شده"
+
+#: main_includes/admin_ajax.php:409
+msgid "failed syncs"
+msgstr "همگامسازی انجام نشد"
+
+#: main_includes/admin_ajax.php:596
+msgid "Please insert a valid form name"
+msgstr "لطفا یک نام فرم معتبر وارد کنید"
+
+#: main_includes/admin_ajax.php:640 main_includes/pcua_integration.php:40
+msgid "Form name"
+msgstr "نام فرم"
+
+#: main_includes/admin_ajax.php:642 settings/custom_fields.php:183
+msgid "New form's name"
+msgstr "نام فرم جدید"
+
+#: main_includes/admin_ajax.php:646
+msgid "Add field"
+msgstr "اضافه کردن فیلد"
+
+#: main_includes/admin_ajax.php:648
+msgid "Add fields"
+msgstr "اضافه کردن فیلدها"
+
+#: main_includes/admin_ajax.php:649
+msgid "TEXT BLOCK"
+msgstr "بلوک متن"
+
+#: main_includes/admin_ajax.php:650 main_includes/admin_ajax.php:720
+#: settings/view.php:565
+msgid "PAGINATOR"
+msgstr "نشانه گذار"
+
+#: main_includes/admin_ajax.php:651 main_includes/admin_ajax.php:709
+#: settings/view.php:558
+msgid "SEPARATOR BAR"
+msgstr "نوار جدا کننده"
+
+#: main_includes/admin_ajax.php:673
+msgid "Field"
+msgstr "فیلد"
+
+#: main_includes/admin_ajax.php:674
+msgid "Required?"
+msgstr "ضروری؟"
+
+#: main_includes/admin_ajax.php:689 settings/view.php:581
+msgid "remove field"
+msgstr "حذف فیلد"
+
+#: main_includes/admin_ajax.php:698 settings/view.php:548
+msgid "Supports HTML and shortcodes"
+msgstr "پشتیبانی از HTML و کد کوتاه"
+
+#: main_includes/admin_ajax.php:739 settings/view.php:582
+msgid "sort field"
+msgstr "مرتب سازی فیلد"
+
+#: main_includes/admin_ajax.php:747
+msgid "Save Form"
+msgstr "ذخیره فرم"
+
+#: main_includes/admin_ajax.php:784
+msgid "Form structure"
+msgstr "ساختار فرم"
+
+#: main_includes/admin_ajax.php:784
+msgid "Username and password fields are mandatory"
+msgstr "فیلدهای نام کاربری و رمز عبور اجباری هستند"
+
+#: main_includes/admin_ajax.php:899 settings/custom_fields.php:338
+#: settings/custom_fields.php:390
+msgid "remove restriction"
+msgstr "حذف محدودیت"
+
+#: main_includes/admin_ajax.php:905 settings/custom_fields.php:345
+msgid "Lightbox note (mandatory)"
+msgstr "یادداشت جعبه نوری(اجباری)"
+
+#: main_includes/admin_ajax.php:908 settings/custom_fields.php:348
+msgid "Trigger class"
+msgstr "کلاس Trigger"
+
+#: main_includes/admin_ajax.php:910 settings/custom_fields.php:350
+msgid "Lightbox class"
+msgstr "کلاس Lightbox"
+
+#: main_includes/admin_ajax.php:916
+msgid "Save settings to use full-featured editor"
+msgstr "ذخیره تنظیمات برای استفاده از ویژگی های کامل ویرایشگر"
+
+#: main_includes/admin_ajax.php:1112
+#, fuzzy
+#| msgid "restrictions summary"
+msgid "Bulk restrictions management"
+msgstr "خلاصه محدودیت ها"
+
+#: main_includes/admin_ajax.php:1121
+#, fuzzy, php-format
+#| msgid "restrictions summary"
+msgid "%s restrictions management"
+msgstr "خلاصه محدودیت ها"
+
+#: main_includes/admin_ajax.php:1134
+#, fuzzy
+#| msgid "Update User"
+msgid "Update"
+msgstr "بهروزرسانی کاربر"
+
+#: main_includes/admin_ajax.php:1135
+msgid "Cancel"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1248
+#, fuzzy
+#| msgid "Select at least one category"
+msgid "create new category"
+msgstr "حداقل یک رده را انتخاب کنید"
+
+#: main_includes/admin_ajax.php:1270
+msgid "Originary category name/slug"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1272
+#, fuzzy
+#| msgid "Select a category"
+msgid "Destination category"
+msgstr "یک دسته را انتخاب کنید"
+
+#: main_includes/admin_ajax.php:1298
+#, fuzzy
+#| msgid "go to the last page"
+msgid "go to user category page"
+msgstr "به آخرین صفحه برو"
+
+#: main_includes/admin_ajax.php:1355 main_includes/admin_ajax.php:1365
+#, fuzzy, php-format
+#| msgid "You are not allowed to edit users"
+msgid "You are about to import %s users"
+msgstr "شما مجاز به ویرایش کاربران نیستید"
+
+#: main_includes/admin_ajax.php:1365
+#, php-format
+msgid "Among them %s have correspondences in this website. How to proceed?"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1369
+#, fuzzy
+#| msgid "Which roles to import?"
+msgid "User to import"
+msgstr "کدام نقش کاربری را می خواهید وارد کنید؟"
+
+#: main_includes/admin_ajax.php:1370
+#, fuzzy
+#| msgid "existing users"
+msgid "Existing user"
+msgstr "کاربران موجود"
+
+#: main_includes/admin_ajax.php:1372
+#, fuzzy
+#| msgid "Bulk Actions"
+msgid "Action"
+msgstr "گزارش عملکرد"
+
+#: main_includes/admin_ajax.php:1374
+msgid "discard all"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1377
+msgid "overwrite all"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1388
+msgid "go to user dashboard"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1407
+msgid "Do not import"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1408
+msgid "Overwrite data"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1590 users_import_export/csv_import.php:135
+#, fuzzy
+#| msgid "Create at least one user category"
+msgid "Please select at least one user category to assign"
+msgstr "حداقل یک دسته کاربری ایجاد کنید"
+
+#: main_includes/admin_ajax.php:1622
+msgid "CSV column number/value"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1625
+#, fuzzy
+#| msgid "Registration fields gap"
+msgid "Destination user field"
+msgstr "شکاف فیلدهای ثبت نام"
+
+#: main_includes/admin_ajax.php:1627
+msgid ""
+"Retrieved data must match with related field parameters. Mandatory "
+"assignments:"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1646 main_includes/admin_ajax.php:1876
+msgid "do not import"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1776
+msgid "Unknown or forbidden field"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1783 users_import_export/csv_import.php:210
+msgid "another column has been already associated with this field"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1794 users_import_export/csv_import.php:224
+#, fuzzy
+#| msgid "Username and password fields are mandatory"
+msgid "Username field assignment is mandatory"
+msgstr "فیلدهای نام کاربری و رمز عبور اجباری هستند"
+
+#: main_includes/admin_ajax.php:1801 users_import_export/csv_import.php:230
+msgid "E-mail field assignment is mandatory"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1808 users_import_export/csv_import.php:236
+#, fuzzy
+#| msgid "Username and password fields are mandatory"
+msgid "Password field assignment is mandatory"
+msgstr "فیلدهای نام کاربری و رمز عبور اجباری هستند"
+
+#: main_includes/admin_ajax.php:1880
+msgid "import - skip elements matching existing ones"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1881
+msgid "import - override elements matching existing ones"
+msgstr ""
+
+#: main_includes/admin_ajax.php:1885 users_import_export/csv_import.php:104
+#: users_import_export/engine_import.php:41
+#: users_import_export/pvtc_import.php:55 users_import_export/wp_import.php:74
+msgid "Import"
+msgstr "وارد كردن"
+
+#: main_includes/admin_ajax.php:2002 users_import_export/engine_import.php:133
+#, fuzzy
+#| msgid "Please save plugin settings first"
+msgid "Please select something to import"
+msgstr "لطفا ابتدا تنظیمات افزونه را ذخیره کنید"
+
+#: main_includes/admin_menu.php:24
+msgid "Users List"
+msgstr "لیست کاربران"
+
+#: main_includes/admin_menu.php:25 user_dashboard/dashboard_engine.php:96
+#: user_dashboard/view.php:122
+msgid "Add User"
+msgstr "افزودن کاربر"
+
+#: main_includes/admin_menu.php:27 users_import_export/imp_exp_hub.php:11
+#, fuzzy
+#| msgid "Import & Export Users"
+msgid "Import / Export Hub"
+msgstr "ایمپورت و اکسپورت"
+
+#: main_includes/admin_menu.php:41
+msgid "Add-ons explorer"
+msgstr ""
+
+#: main_includes/admin_menu.php:48 private_content.php:234
+msgid "Switch to premium"
+msgstr ""
+
+#: main_includes/admin_menu.php:189
+msgid "Users per page"
+msgstr "کاربران در هر صفحه"
+
+#: main_includes/admin_menu.php:205
+msgid "E-Mail"
+msgstr "ایمیل"
+
+#: main_includes/admin_menu.php:280
+msgid "Pending Users"
+msgstr "کاربران در حال انتظار"
+
+#: main_includes/cpt_and_ct.php:100 main_includes/cpt_and_ct.php:111
+#, fuzzy
+#| msgid "Users Private Page"
+msgid "User Reserved Pages"
+msgstr "صفحه شخصی کاربران"
+
+#: main_includes/cpt_and_ct.php:101
+#, fuzzy
+#| msgid "Users per page"
+msgid "User reserved page"
+msgstr "کاربران در هر صفحه"
+
+#: main_includes/cpt_and_ct.php:104 main_includes/users_list.php:597
+#, fuzzy
+#| msgid "Edit user page"
+msgid "Edit user reserved page"
+msgstr "ویرایش صفحه کاربر"
+
+#: main_includes/cpt_and_ct.php:106
+#, fuzzy
+#| msgid "View User Page"
+msgid "View user reserved page"
+msgstr "مشاهده صفحه کاربر"
+
+#: main_includes/cpt_and_ct.php:110
+msgid "Parent User Page:"
+msgstr "صفحه اصلی (والدین) کاربر:"
+
+#: main_includes/cpt_and_ct.php:355
+#, fuzzy
+#| msgid "Preview"
+msgid "Live preview"
+msgstr "پیش نمایش"
+
+#: main_includes/db_manag.php:153
+msgid "Warning box login"
+msgstr "جعبه هشدار ورود"
+
+#: main_includes/live_restr_preview.php:30
+#, fuzzy
+#| msgid "Preview"
+msgid "preview ON"
+msgstr "پیش نمایش"
+
+#: main_includes/live_restr_preview.php:34
+#, fuzzy
+#| msgid "Preview"
+msgid "preview OFF"
+msgstr "پیش نمایش"
+
+#: main_includes/live_restr_preview.php:40
+#, fuzzy
+#| msgid "PrivateContent Settings"
+msgid "PrivateContent restrictions preview"
+msgstr "تنظیمات PrivateContent"
+
+#: main_includes/live_restr_preview.php:50
+#: main_includes/live_restr_preview.php:54
+#, fuzzy
+#| msgid "Unlogged Users"
+msgid "Unlogged user"
+msgstr "کاربران غیر مجاز"
+
+#: main_includes/live_restr_preview.php:53 settings/structure.php:562
+msgid "Extra"
+msgstr ""
+
+#: main_includes/live_restr_preview.php:60
+msgid "View website pages like a user owning these categories"
+msgstr ""
+
+#: main_includes/live_restr_preview.php:62
+#, fuzzy
+#| msgid "Minimum role bypassing front restrictions"
+msgid "leave empty to bypass any restriction"
+msgstr "حداقل نقش دور زدن محدودیت های جلو"
+
+#: main_includes/login_widget.php:9
+#, fuzzy
+#| msgid "Displays PrivateContent login form to unlogged users"
+msgid "Displays a login form for PrivateContent users"
+msgstr "نمایش فرم ورود PrivateContent به کاربرانی که لاگین نکرده اند"
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr "ورود محتوای خصوصی"
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr "عنوان"
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr "خوش آمدی"
+
+#: main_includes/nav_menu_option.php:46
+#: main_includes/tinymce_implementation.php:77
+#: main_includes/tinymce_implementation.php:85
+#: main_includes/tinymce_implementation.php:162 main_includes/users_list.php:852
+#: user_dashboard/structure.php:211 users_import_export/csv_export.php:158
+#: users_import_export/csv_import.php:46 users_import_export/pvtc_export.php:152
+msgid "Select categories"
+msgstr "دسته بندی ها را انتخاب کنید"
+
+#: main_includes/nav_menu_option.php:67
+msgid "Which PrivateContent user categories can see this menu item?"
+msgstr "کدام دسته خصوصی PrivateContent می تواند این آیتم منو را ببیند؟"
+
+#: main_includes/pcua_integration.php:11
+#, fuzzy
+#| msgid "User Deletion"
+msgid "User login"
+msgstr "حذف کاربر"
+
+#: main_includes/pcua_integration.php:12
+#, fuzzy
+#| msgid "Redirect page after user login"
+msgid "Reporting whenever a user logs in"
+msgstr "تغییر مسیر صفحه پس از ورود کاربر به سیستم"
+
+#: main_includes/pcua_integration.php:20
+#, fuzzy
+#| msgid "User not found"
+msgid "User logout"
+msgstr "کاربر یافت نشد"
+
+#: main_includes/pcua_integration.php:21
+#, fuzzy
+#| msgid "Redirect page after user logout"
+msgid "Reporting whenever a user logs out"
+msgstr "تغییر مسیر صفحه پس از خروج کاربر"
+
+#: main_includes/pcua_integration.php:29
+#, fuzzy
+#| msgid "Registration"
+msgid "User registration"
+msgstr "ثبت نام"
+
+#: main_includes/pcua_integration.php:30
+msgid "Reporting whenever a user registers through a PrivateContent form"
+msgstr ""
+
+#: main_includes/pcua_integration.php:34
+#, fuzzy
+#| msgid "Form name"
+msgid "Form ID"
+msgstr "نام فرم"
+
+#: main_includes/pcua_integration.php:51
+#, fuzzy
+#| msgid "User deletion's icon"
+msgid "User deleted its account"
+msgstr "آیکون حذف کاربر"
+
+#: main_includes/pcua_integration.php:52
+msgid "Reporting whenever a user self-deletes its account"
+msgstr ""
+
+#: main_includes/pcua_integration.php:61
+#, fuzzy
+#| msgid "Redirect page after registration"
+msgid "User created from WP registration"
+msgstr "صفحه تغییر مسیر پس از ثبت نام"
+
+#: main_includes/pcua_integration.php:62
+msgid "Reporting PrivateContent users generated from a WordPress registration"
+msgstr ""
+
+#: main_includes/pcua_integration.php:113
+#, fuzzy
+#| msgid "PrivateContent Settings"
+msgid "Official PrivateContent way to track logins"
+msgstr "تنظیمات PrivateContent"
+
+#: main_includes/pcua_integration.php:127
+#, fuzzy
+#| msgid "Displays PrivateContent logout box"
+msgid "Official PrivateContent way to track logouts"
+msgstr "جعبه خروج صفحه خصوصی را نمایش می دهد"
+
+#: main_includes/pcua_integration.php:141
+#, fuzzy
+#| msgid "Displays PrivateContent registration form"
+msgid "Official PrivateContent way to track user registrations"
+msgstr "فرم ثبت نام خصوصی را نشان می دهد"
+
+#: main_includes/pcua_integration.php:160
+#, fuzzy
+#| msgid "Displays PrivateContent box allowing user's deletion"
+msgid "Official PrivateContent way to track users deleting their accounts"
+msgstr "جعبه PrivateContent را برای حذف کاربر نمایش می دهد"
+
+#: main_includes/pcua_integration.php:177
+msgid ""
+"Official PrivateContent way to track users registered through a third-part "
+"registration form"
+msgstr ""
+
+#: main_includes/scripts_n_styles_include.php:40
+msgid "This feature is included in the premium version of PrivateContent"
+msgstr ""
+
+#: main_includes/scripts_n_styles_include.php:40
+msgid "Click to read more!"
+msgstr ""
+
+#: main_includes/scripts_n_styles_include.php:47
+msgid "Premium version only"
+msgstr ""
+
+#: main_includes/scripts_n_styles_include.php:114
+#, fuzzy
+#| msgid "Search options"
+msgid "search options"
+msgstr "گزینه های جستجو"
+
+#: main_includes/scripts_n_styles_include.php:115
+#, fuzzy
+#| msgid "Search options"
+msgid "add options"
+msgstr "گزینه های جستجو"
+
+#: main_includes/scripts_n_styles_include.php:116
+#, fuzzy
+#| msgid "Select an option"
+msgid "Select options"
+msgstr "یک گزینه را انتخاب کنید"
+
+#: main_includes/scripts_n_styles_include.php:117
+#, fuzzy
+#| msgid "Search options"
+msgid "no matching options"
+msgstr "گزینه های جستجو"
+
+#: main_includes/scripts_n_styles_include.php:122 settings/view.php:302
+#: settings/view.php:340 settings/view.php:467 settings/view.php:514
+#: settings/view.php:652 settings/view.php:703 settings/view.php:737
+#: settings/view.php:764 settings/view.php:791
+#, fuzzy
+#| msgid "Error performing the action for users"
+msgid "Error performing the operation"
+msgstr "خطا در پردازش عملیات کاربران"
+
+#: main_includes/shortcodes.php:50 user_dashboard/structure.php:172
+msgid "Password"
+msgstr "رمز عبور"
+
+#: main_includes/shortcodes.php:54 user_dashboard/structure.php:176
+msgid "toggle password visibility"
+msgstr ""
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr "شما در حال درخواست حذف کامل از"
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr "این عمل قابل برگشت نیست"
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr "برای ادامه، لطفا رمز عبور خود را وارد کنید و ارسال را کلیک کنید"
+
+#: main_includes/shortcodes.php:76
+msgid "password"
+msgstr "کلمه عبور"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr "حساب من را حذف کنید"
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr "ثبت نام"
+
+#: main_includes/tinymce_implementation.php:76
+msgid "Who can can see contents?"
+msgstr "چه کسی می تواند محتوا را ببیند؟"
+
+#: main_includes/tinymce_implementation.php:102
+#: main_includes/tinymce_implementation.php:114
+#: main_includes/tinymce_implementation.php:137
+#: main_includes/tinymce_implementation.php:154
+#: main_includes/tinymce_implementation.php:182
+#: main_includes/tinymce_implementation.php:203
+#: main_includes/tinymce_implementation.php:237 settings/settings_engine.php:366
+#: users_import_export/csv_export.php:145 users_import_export/csv_export.php:181
+#: users_import_export/pvtc_export.php:139
+msgid "Select an option"
+msgstr "یک گزینه را انتخاب کنید"
+
+#: main_includes/tinymce_implementation.php:116 settings/structure.php:326
+msgid "No registration button"
+msgstr "عدم نمایش دکمه ثبت نام"
+
+#: main_includes/tinymce_implementation.php:126
+msgid "Insert"
+msgstr "قرار دادن"
+
+#: main_includes/tinymce_implementation.php:189
+#: main_includes/tinymce_implementation.php:210
+msgid "Insert Form"
+msgstr "قرار دادن فرم"
+
+#: main_includes/tinymce_implementation.php:227
+msgid "Insert Button"
+msgstr "دکمه درج"
+
+#: main_includes/tinymce_implementation.php:248
+msgid "Insert Box"
+msgstr "درج جعبه"
+
+#: main_includes/user_categories.php:11
+msgid "User Category"
+msgstr "دسته بندی کاربر"
+
+#: main_includes/user_categories.php:12
+msgid "Search User Categories"
+msgstr "جستجوی دسته بندی کاربران"
+
+#: main_includes/user_categories.php:13
+msgid "Popular User Categories"
+msgstr "دسته بندی کاربران محبوب"
+
+#: main_includes/user_categories.php:14
+msgid "All User Categories"
+msgstr "همه دسته های کاربر"
+
+#: main_includes/user_categories.php:15
+msgid "Parent User Category"
+msgstr "دسته کاربر (والدین)"
+
+#: main_includes/user_categories.php:16
+msgid "Parent User Category:"
+msgstr "دسته کاربر (والدین):"
+
+#: main_includes/user_categories.php:17
+msgid "Edit User Category"
+msgstr "ویرایش دسته بندی کاربر"
+
+#: main_includes/user_categories.php:18
+msgid "Update User Category"
+msgstr "به روزرسانی دسته کاربری"
+
+#: main_includes/user_categories.php:19
+msgid "Add New User Category"
+msgstr "افزودن دسته کاربری جدید"
+
+#: main_includes/user_categories.php:20
+msgid "New User Category Name"
+msgstr "نام دسته کاربر جدید"
+
+#: main_includes/user_categories.php:21
+msgid "Separate user categories with commas"
+msgstr "دسته بندی های کاربر را با کاما جدا کنید"
+
+#: main_includes/user_categories.php:22
+msgid "Add or remove user categories"
+msgstr "دسته های کاربر را اضافه یا حذف کنید"
+
+#: main_includes/user_categories.php:23
+msgid "Choose from the most used user categories"
+msgstr "از دسته بندی هایی که بیشترین کاربرد را دارند استفاده کنید"
+
+#: main_includes/user_categories.php:25
+msgid "Back to user Categories"
+msgstr "بازگشت به دسته بندی کاربران"
+
+#: main_includes/user_categories.php:98 main_includes/user_categories.php:156
+msgid "Custom redirect after login"
+msgstr "تغییر مسیر سفارشی پس از ورود"
+
+#: main_includes/user_categories.php:100 main_includes/user_categories.php:159
+msgid "Set a custom login redirect for users belonging to this category"
+msgstr "یک مسیر ورود سفارشی را برای کاربران این دسته ایجاد می کند"
+
+#: main_includes/user_categories.php:103 main_includes/user_categories.php:163
+msgid "Custom redirect after registration"
+msgstr "تغییر مسیر سفارشی پس از ثبت نام"
+
+#: main_includes/user_categories.php:105 main_includes/user_categories.php:166
+msgid "Set a custom registration redirect for users belonging to this category"
+msgstr "یک مسیر ورود سفارشی را برای کاربران این دسته ایجاد می کند"
+
+#: main_includes/user_categories.php:111 main_includes/user_categories.php:175
+msgid "Hidden in registration forms?"
+msgstr "مخفی کردن در فرم ثبت نام؟"
+
+#: main_includes/user_categories.php:113 main_includes/user_categories.php:178
+msgid ""
+"If checked, hides category from registration's form auto-selection dropdown"
+msgstr ""
+"در صورت انتخاب، دسته را بصورت اتوماتیک از فرم ثبت نام مخفی می کند - انتخاب "
+"دکمه"
+
+#: main_includes/user_categories.php:119 main_includes/user_categories.php:187
+msgid "Targeted users allowed to manage PrivateContent users in this category"
+msgstr "کاربران هدف مجاز به مدیریت کاربران PrivateContent در این دسته هستند"
+
+#: main_includes/user_categories.php:202 settings/mandatory_js.php:392
+#: user_dashboard/view.php:500 users_import_export/imp_exp_hub.php:140
+#, fuzzy
+#| msgid "years"
+msgid "yes"
+msgstr "سال ها"
+
+#: main_includes/user_categories.php:203 settings/mandatory_js.php:393
+#: user_dashboard/view.php:501 users_import_export/imp_exp_hub.php:141
+#, fuzzy
+#| msgid "none"
+msgid "no"
+msgstr "هیچ یک"
+
+#: main_includes/user_categories.php:285
+msgid "Login Redirect"
+msgstr "تغییر مسیر ورود"
+
+#: main_includes/user_categories.php:286
+msgid "Registration Redirect"
+msgstr "تغییر مسیر ثبت نام"
+
+#: main_includes/user_categories.php:287
+msgid "No Registration"
+msgstr "بدون ثبت نام"
+
+#: main_includes/user_categories.php:292
+#, php-format
+msgid "Globally, any %s can manage every PrivateContent user"
+msgstr "در سطح جهانی، هر %s می تواند هر کاربر PrivateContent را مدیریت کند"
+
+#: main_includes/user_categories.php:293
+msgid "Manageable by"
+msgstr "قابل مدیریت توسط"
+
+#: main_includes/user_categories.php:295
+#, fuzzy
+#| msgid "No users found"
+msgid "users count"
+msgstr "کاربری پیدا نشد"
+
+#: main_includes/users_list.php:69
+msgid "Bulk Actions"
+msgstr "گزارش عملکرد"
+
+#: main_includes/users_list.php:73
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: main_includes/users_list.php:73 main_includes/users_list.php:77
+#: main_includes/users_list.php:81
+msgid "Users"
+msgstr "کاربران"
+
+#: main_includes/users_list.php:77
+#, fuzzy
+#| msgid "Disabled"
+msgid "Disable"
+msgstr "غیر فعال"
+
+#: main_includes/users_list.php:81 settings/custom_fields.php:210
+msgid "Delete"
+msgstr "حذف"
+
+#: main_includes/users_list.php:85
+#, fuzzy
+#| msgid "Manage post categories"
+msgid "Change categories"
+msgstr "مدیریت دسته بندی پست ها"
+
+#: main_includes/users_list.php:90
+msgid "Apply"
+msgstr "اعمال کردن"
+
+#: main_includes/users_list.php:141 user_dashboard/structure.php:122
+msgid "Username"
+msgstr "نام کاربری"
+
+#: main_includes/users_list.php:347
+msgid "PrivateContent Users"
+msgstr "کاربران محتوای خصوصی"
+
+#: main_includes/users_list.php:350
+msgid "Add New"
+msgstr "جدید اضافه کن"
+
+#: main_includes/users_list.php:367
+msgid "Actives"
+msgstr "فعال"
+
+#: main_includes/users_list.php:372
+msgid "Disabled"
+msgstr "غیر فعال"
+
+#: main_includes/users_list.php:377
+msgid "Pending"
+msgstr "در انتظار"
+
+#: main_includes/users_list.php:422
+msgid "Searching users matching every condition"
+msgstr ""
+
+#: main_includes/users_list.php:422
+#, fuzzy
+#| msgid "Choose at least one option"
+msgid "Searching users matching at least one condition"
+msgstr "حداقل یک گزینه را انتخاب کنید"
+
+#: main_includes/users_list.php:436 main_includes/users_list.php:453
+#: main_includes/users_list.php:730 main_includes/users_list.php:745
+#: main_includes/users_list.php:1252 main_includes/users_list.php:1267
+msgid "contains"
+msgstr "شامل"
+
+#: main_includes/users_list.php:437 main_includes/users_list.php:450
+#: main_includes/users_list.php:731 main_includes/users_list.php:742
+#: main_includes/users_list.php:1253 main_includes/users_list.php:1264
+msgid "is different from"
+msgstr "متفاوت از"
+
+#: main_includes/users_list.php:442 main_includes/users_list.php:735
+#: main_includes/users_list.php:1257
+msgid "during"
+msgstr "در حین"
+
+#: main_includes/users_list.php:443 main_includes/users_list.php:736
+#: main_includes/users_list.php:1258
+msgid "is sooner than"
+msgstr "زودتر از"
+
+#: main_includes/users_list.php:444 main_includes/users_list.php:737
+#: main_includes/users_list.php:1259
+msgid "is older than"
+msgstr "بزرگتر از"
+
+#: main_includes/users_list.php:449 main_includes/users_list.php:741
+#: main_includes/users_list.php:1263
+msgid "is equal to"
+msgstr "برابر است با"
+
+#: main_includes/users_list.php:451 main_includes/users_list.php:743
+#: main_includes/users_list.php:1265
+msgid "is greater than"
+msgstr "بزرگتر است از"
+
+#: main_includes/users_list.php:452 main_includes/users_list.php:744
+#: main_includes/users_list.php:1266
+msgid "is lower than"
+msgstr "پایین تر است از"
+
+#: main_includes/users_list.php:454 main_includes/users_list.php:746
+#: main_includes/users_list.php:1268
+#, fuzzy
+#| msgid "Preset content"
+msgid "does not contain"
+msgstr "متن از پیش تعیین شده"
+
+#: main_includes/users_list.php:500
+msgid "username, name, surname, e-mail"
+msgstr "نام کاربری، نام، نام خانوادگی، ایمیل"
+
+#: main_includes/users_list.php:503
+msgid "All Categories"
+msgstr "همه دسته بندی ها"
+
+#: main_includes/users_list.php:523
+msgid "CSV/Excel export"
+msgstr ""
+
+#: main_includes/users_list.php:524
+#, fuzzy
+#| msgid "PrivateContent Users"
+msgid "PrivateContent export"
+msgstr "کاربران محتوای خصوصی"
+
+#: main_includes/users_list.php:526
+#, fuzzy
+#| msgid "go to the last page"
+msgid "go to the export page"
+msgstr "به آخرین صفحه برو"
+
+#: main_includes/users_list.php:530 main_includes/users_list.php:543
+msgid "Advanced search"
+msgstr "جستجوی پیشرفته"
+
+#: main_includes/users_list.php:531
+#, fuzzy
+#| msgid "Clear sync"
+msgid "Clean"
+msgstr "پاک کردن همگام سازی"
+
+#: main_includes/users_list.php:535 main_includes/users_list.php:837
+msgid "Search"
+msgstr "جستجو"
+
+#: main_includes/users_list.php:538
+#, fuzzy
+#| msgid "Clean advanced search"
+msgid "Clean search"
+msgstr "پاکسازی جستجوی پیشرفته"
+
+#: main_includes/users_list.php:543 user_dashboard/view.php:48
+msgid "Edit"
+msgstr "ویرایش"
+
+#: main_includes/users_list.php:579
+#, fuzzy
+#| msgid "delete user"
+msgid "Delete user"
+msgstr "حذف کاربر"
+
+#: main_includes/users_list.php:583
+#, fuzzy
+#| msgid "enable user"
+msgid "Enable user"
+msgstr "فعال کردن کاربر"
+
+#: main_includes/users_list.php:587
+#, fuzzy
+#| msgid "Activate"
+msgid "Activate user"
+msgstr "فعالسازی"
+
+#: main_includes/users_list.php:590
+#, fuzzy
+#| msgid "disable user"
+msgid "Disable user"
+msgstr "غیرفعال کردن کاربر"
+
+#: main_includes/users_list.php:611 user_dashboard/structure.php:277
+msgid "Synced with WP user"
+msgstr "همگام با کاربر WP"
+
+#: main_includes/users_list.php:621
+msgid "edit user"
+msgstr "ویرایش کاربر"
+
+#: main_includes/users_list.php:636
+msgid "ago"
+msgstr "قبل"
+
+#: main_includes/users_list.php:655 main_includes/users_list.php:1166
+msgid "no users found"
+msgstr "کاربری پیدا نشد"
+
+#: main_includes/users_list.php:680
+msgid "Close (Esc)"
+msgstr ""
+
+#: main_includes/users_list.php:683
+msgid "Conditions matching"
+msgstr "شرایط تطبیق"
+
+#: main_includes/users_list.php:686
+msgid "at least one must match"
+msgstr "حداقل یکی باید مطابقت داشته باشد"
+
+#: main_includes/users_list.php:687
+msgid "every condition must match"
+msgstr "هر شرایطی باید مطابقت داشته باشد"
+
+#: main_includes/users_list.php:711
+msgid "Add condition"
+msgstr "شرایط را اضافه کنید"
+
+#: main_includes/users_list.php:751 main_includes/users_list.php:1273
+msgid "remove condition"
+msgstr "پاک کردن شرایط"
+
+#: main_includes/users_list.php:811
+msgid "Target user attributes"
+msgstr "ویژگی های کاربر هدف"
+
+#: main_includes/users_list.php:861 settings/custom_fields.php:441
+msgid "Set"
+msgstr "تنظیم"
+
+#: main_includes/users_list.php:973 main_includes/users_list.php:979
+msgid "Error updating shown columns"
+msgstr ""
+
+#: main_includes/users_list.php:1060
+msgid "Existing user categories will be overwritten. Continue?"
+msgstr "دسته بندی های موجود کاربران دوباره رونویسی خواهند شد. ادامه می دهید؟"
+
+#: main_includes/users_list.php:1078
+msgid "Done"
+msgstr "انجام شده"
+
+#: main_includes/users_list.php:1084
+#, fuzzy
+#| msgid "Search User Categories"
+msgid "Error changing users categories"
+msgstr "جستجوی دسته بندی کاربران"
+
+#: main_includes/users_list.php:1118
+msgid "Do you really want to delete these users?"
+msgstr "آیا واقعا می خواهید این کاربران را حذف کنید؟"
+
+#: main_includes/users_list.php:1123
+#, fuzzy
+#| msgid "Do you really want to delete these users?"
+msgid "Do you really want to delete the user?"
+msgstr "آیا واقعا می خواهید این کاربران را حذف کنید؟"
+
+#: main_includes/users_list.php:1174 main_includes/users_list.php:1182
+#: user_dashboard/view.php:189 user_dashboard/view.php:193
+#, fuzzy
+#| msgid "Error performing the action for users"
+msgid "Error performing the action"
+msgstr "خطا در پردازش عملیات کاربران"
+
+#: main_includes/wp_user_tricks.php:403
+msgid "User Sync"
+msgstr "همگام سازی کاربر"
+
+#: main_includes/wp_user_tricks.php:409 users_import_export/csv_export.php:46
+#: users_import_export/csv_export.php:156 users_import_export/pvtc_export.php:53
+#: users_import_export/pvtc_export.php:150
+msgid "User categories"
+msgstr "دسته بندی های کاربر"
+
+#: main_includes/wp_user_tricks.php:423
+msgid "Sync user"
+msgstr "همگام سازی کاربر"
+
+#: main_includes/wp_user_tricks.php:443
+msgid ""
+"Do you really want to turn this user into a PrivateContent user? Won't be "
+"possible to have it back in future"
+msgstr ""
+"آیا واقعا می خواهید این کاربر را به یک کاربر PrivateContent تبدیل کنید؟ در "
+"آینده امکان پذیر نخواهد بود"
+
+#: main_includes/wp_user_tricks.php:456 user_dashboard/view.php:294
+msgid "User synced successfully!"
+msgstr "کاربر با موفقیت همگام سازی شده!"
+
+#: main_includes/wp_user_tricks.php:510
+msgid "Another user has this username or e-mail"
+msgstr "کاربر دیگری این نام کاربری یا ایمیل را دارد"
+
+#: private_content.php:206
+msgid "User Reserved Pages Container"
+msgstr ""
+
+#: private_content.php:211
+#, fuzzy
+#| msgid "Redirect restrictions"
+msgid "Redirect Restriction Target"
+msgstr "محدودیت های تغییر مسیر"
+
+#: private_content.php:232
+msgid "Documentation"
+msgstr "مستندات"
+
+#: private_content.php:318
+msgid "Return to plugins page"
+msgstr ""
+
+#: private_content.php:322
+msgid ""
+"The PrivateContent bundle pack is already activated, PrivateContent cannot be "
+"activated"
+msgstr ""
+
+#: private_content.php:326
+msgid ""
+"The premium version of PrivateContent is already activated, PrivateContent "
+"Free cannot be activated"
+msgstr ""
+
+#: restrictions/elementor_widgets_restriction.php:39
+#, fuzzy
+#| msgid "PrivateContent Settings"
+msgid "PrivateContent - Element Visibility"
+msgstr "تنظیمات PrivateContent"
+
+#: restrictions/elementor_widgets_restriction.php:46
+#, fuzzy
+#| msgid "Who can see comments?"
+msgid "Who can see this element?"
+msgstr "چه کسی می تواند نظرات را ببیند؟"
+
+#: restrictions/guten_blocks_restriction.php:14
+msgid "Block Visibility"
+msgstr ""
+
+#: restrictions/guten_blocks_restriction.php:15
+#, fuzzy
+#| msgid "Who can see contents?"
+msgid "Who can see it?"
+msgstr "چه کسی میتواند محتوای را ببیند؟"
+
+#: settings/custom_fields.php:14
+msgid "Main redirect target for restricted pages"
+msgstr "هدف اصلی تغییر مسیر صفحات محدود شده"
+
+#: settings/custom_fields.php:15
+msgid "Unlogged users trying to reach restricted page will be moved there"
+msgstr ""
+"کاربرانی که وارد نشده اند و سعی دارند به صفحات محدود شده دسترسی پیدا کنند به "
+"این صفحه منتقل می شوند"
+
+#: settings/custom_fields.php:19 settings/structure.php:100
+#: settings/structure.php:101
+msgid "Redirect target for blocked users"
+msgstr "تغییر مسیر هدف برای کاربران مسدود شده"
+
+#: settings/custom_fields.php:20
+#, fuzzy
+#| msgid ""
+#| "Logged users not matching specific restrictions will be moved there (eg. "
+#| "page visible only by unlogged)"
+msgid ""
+"Logged users not matching specific restrictions will be moved there (eg. "
+"logged user does not own the right category to acces a page)"
+msgstr ""
+"کاربران ثبت نامی با محدودیت های خاص مطابقت ندارند (به عنوان مثال، صفحه تنها "
+"توسط دیگران قابل مشاهده است)"
+
+#: settings/custom_fields.php:24
+msgid "Redirect page after user's login"
+msgstr "تغییر مسیر صفحه پس از ورود کاربر به سیستم"
+
+#: settings/custom_fields.php:25 settings/structure.php:108
+msgid "This value can be overwritten in user categories or through shortcode"
+msgstr "این مقدار را می توان در دسته های کاربر یا از طریق کد کوتاه رونویسی کرد"
+
+#: settings/custom_fields.php:29
+msgid "Redirect page after user's logout"
+msgstr "تغییر مسیر صفحه پس از خروج کاربر"
+
+#: settings/custom_fields.php:30
+msgid "By default users will be moved there after the logout"
+msgstr ""
+
+#: settings/custom_fields.php:43
+#, fuzzy
+#| msgid "Users per page"
+msgid "Refresh the page"
+msgstr "کاربران در هر صفحه"
+
+#: settings/custom_fields.php:43 settings/structure.php:107
+msgid "Do not redirect users"
+msgstr "کاربران را تغییر مسیر ندهید"
+
+#: settings/custom_fields.php:44
+msgid "Use main redirect target"
+msgstr "استفاده از هدف اصلی تغییر مسیر"
+
+#: settings/custom_fields.php:76
+#, fuzzy
+#| msgid "Custom redirect"
+msgid "Custom redirect URL"
+msgstr "تغییر مسیر سفارشی"
+
+#: settings/custom_fields.php:110
+msgid "Targeted users able to use the plugin"
+msgstr "کاربران هدف قادر به استفاده از افزونه"
+
+#: settings/custom_fields.php:110
+msgid "NB: administrators are always included"
+msgstr "توجه: مدیران همیشه شامل می شوند"
+
+#: settings/custom_fields.php:137
+msgid "Sync users"
+msgstr "همگام سازی کاربران"
+
+#: settings/custom_fields.php:140
+msgid "Only users with unique username and e-mail will be synced"
+msgstr "فقط کاربران با نام کاربری و ایمیل منحصر به فرد همگام سازی خواهند شد"
+
+#: settings/custom_fields.php:151
+msgid "Search existing matches and sync"
+msgstr "جستجوی موجود و همگام سازی"
+
+#: settings/custom_fields.php:154
+msgid ""
+"Search matches between existing PrivateContent and WP users, and sync them"
+msgstr "بین افراد موجود PrivateContent و WP جستجو کرده و همگام سازی کنید"
+
+#: settings/custom_fields.php:165
+msgid "Clear sync"
+msgstr "پاک کردن همگام سازی"
+
+#: settings/custom_fields.php:168
+msgid "Detach previous sync and delete related WP users"
+msgstr "جدا کردن همگام سازی قبلی و حذف کاربران مربوط به WP"
+
+#: settings/custom_fields.php:186
+msgid "Add"
+msgstr "اضافه کردن"
+
+#: settings/custom_fields.php:189
+msgid "Select a form to edit"
+msgstr "یک فرم را برای ویرایش انتخاب کنید"
+
+#: settings/custom_fields.php:209
+msgid "Save"
+msgstr "ذخیره"
+
+#: settings/custom_fields.php:234
+msgid "Name's icon and placeholder text"
+msgstr "آیکون نام و متن نگهدارنده"
+
+#: settings/custom_fields.php:235
+msgid "Surname's icon and placeholder text"
+msgstr "آیکون نام خانوادگی و متن نگهدارنده"
+
+#: settings/custom_fields.php:236
+msgid "Username's icon and placeholder text"
+msgstr "آیکون نام کاربری و متن نگهدارنده"
+
+#: settings/custom_fields.php:237
+msgid "Password's icon and placeholder text"
+msgstr "آیکون رمز عبور و متن نگهدارنده"
+
+#: settings/custom_fields.php:238
+msgid "Repeat password's icon and placeholder text"
+msgstr "تکرار آیکون رمز عبور و متن نگهدارنده"
+
+#: settings/custom_fields.php:239
+msgid "Category's icon and placeholder text"
+msgstr "آیکون دسته بندی و متن نگهدارنده"
+
+#: settings/custom_fields.php:240
+msgid "E-mail's icon and placeholder text"
+msgstr "آیکون ایمیل و متن نگهدارنده"
+
+#: settings/custom_fields.php:241
+msgid "Telephone's icon and placeholder text"
+msgstr "آیکون تلفن و متن نگهدارنده"
+
+#: settings/custom_fields.php:265 settings/custom_fields.php:298
+#, fuzzy
+#| msgid "no icon"
+msgid "set icon"
+msgstr "بدون آیکون"
+
+#: settings/custom_fields.php:283
+msgid "Registration form - button's icon"
+msgstr "فرم ثبت نام - آیکون دکمه"
+
+#: settings/custom_fields.php:284
+msgid "Login form - button's icon"
+msgstr "فرم ورود - آیکون دکمه"
+
+#: settings/custom_fields.php:285
+msgid "Logout button's icon"
+msgstr "آیکون دکمه خروج"
+
+#: settings/custom_fields.php:286
+msgid "User deletion's icon"
+msgstr "آیکون حذف کاربر"
+
+#: settings/custom_fields.php:320
+msgid "no existing instances"
+msgstr "هیچ نمونه ای وجود ندارد"
+
+#: settings/custom_fields.php:391
+msgid "sort restriction"
+msgstr "مرتب سازی محدودیت ها"
+
+#: settings/custom_fields.php:396
+msgid "URL to restrict. Supports also regular expressions"
+msgstr "URL برای محدود کردن پشتیبانی از عبارات منظم است"
+
+#: settings/custom_fields.php:401
+msgid "Which user categories can access?"
+msgstr "کدام دسته از کاربران می توانند دسترسی پیدا کنند؟"
+
+#: settings/custom_fields.php:429
+msgid "Setup a preset style?"
+msgstr "یک سبک از پیش تعیین شده تنظیم می کنید؟"
+
+#: settings/custom_fields.php:432
+#, fuzzy
+#| msgid "Choose the anti-spam solution you prefer"
+msgid "choose an option to preview"
+msgstr "راه حل ضد هرزنامه ای را که ترجیح می دهید، انتخاب کنید"
+
+#: settings/custom_fields.php:443
+msgid "Overrides styling options and applies preset styles"
+msgstr ""
+"گزینه های یک ظاهر طراحی را لغو می کند و سبک های از پیش تعیین شده را اعمال می "
+"کند"
+
+#: settings/custom_fields.php:443
+#, fuzzy, php-format
+#| msgid ""
+#| "Once applied, <strong>page will be reloaded</strong> showing updated "
+#| "options"
+msgid "Once applied, %1$spage will be reloaded%2$s showing updated options"
+msgstr ""
+"پس از اعمال، <strong>صفحه مجدداً بارگیری می شود</strong> که گزینه های به روز "
+"شده را نشان می دهد"
+
+#: settings/custom_fields.php:446
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#: settings/custom_fields.php:481
+msgid "This will overwrite your current settings reloading the page, continue?"
+msgstr ""
+
+#: settings/custom_fields.php:493
+#, fuzzy
+#| msgid "Account successfully deleted!"
+msgid "Style successfully applied!"
+msgstr "حساب با موفقیت حذف شد!"
+
+#: settings/custom_fields.php:521
+msgid "no custom restrictions added"
+msgstr "هیچ محدودیت سفارشی اضافه نشده است"
+
+#: settings/field_options.php:8
+msgid "Original content"
+msgstr "محتوای اصلی"
+
+#: settings/field_options.php:9
+msgid "Original content + login form"
+msgstr "محتوای اصلی + فرم ورود"
+
+#: settings/field_options.php:10
+msgid "Login form + original content"
+msgstr "فرم ورود + محتوای اصلی"
+
+#: settings/field_options.php:11
+msgid "Only login form"
+msgstr "فقط فرم ورود"
+
+#: settings/field_options.php:52
+msgid "Subscriber"
+msgstr "مشترک"
+
+#: settings/field_options.php:53
+msgid "Contributor"
+msgstr "مشارکت کننده"
+
+#: settings/field_options.php:54
+msgid "Author"
+msgstr "نویسنده"
+
+#: settings/field_options.php:56
+msgid "Administrator"
+msgstr "مدیر"
+
+#: settings/field_options.php:67
+msgid "Manage media files"
+msgstr "مدیریت فایل های رسانه ای"
+
+#: settings/field_options.php:68
+msgid "Moderate comments"
+msgstr "محدود کردن نظرات"
+
+#: settings/field_options.php:69
+msgid "Manage post categories"
+msgstr "مدیریت دسته بندی پست ها"
+
+#: settings/field_options.php:71
+msgid "Manage Posts"
+msgstr "مدیریت پست ها"
+
+#: settings/field_options.php:72
+msgid "Manage Pages"
+msgstr "مدیریت صفحات"
+
+#: settings/field_options.php:85
+msgid "Manage"
+msgstr "مدیریت کنید"
+
+#: settings/field_options.php:98
+msgid "use characters and digits"
+msgstr "از کاراکترها و ارقام استفاده کنید"
+
+#: settings/field_options.php:99
+msgid "use uppercase characters"
+msgstr "از کاراکترهای بزرگ استفاده کنید"
+
+#: settings/field_options.php:100
+msgid "use symbols"
+msgstr "استفاده از نمادها"
+
+#: settings/field_options.php:111
+msgid "Outlined with icon"
+msgstr ""
+
+#: settings/field_options.php:112
+#, fuzzy
+#| msgid "Text color"
+msgid "Soft colors"
+msgstr "رنگ متن"
+
+#: settings/field_options.php:113
+msgid "Soft colors with icon"
+msgstr ""
+
+#: settings/field_options.php:114
+#, fuzzy
+#| msgid "Border color"
+msgid "Bold colors"
+msgstr "رنگ لبه"
+
+#: settings/field_options.php:115
+msgid "Bold colors with icon"
+msgstr ""
+
+#: settings/field_options.php:116 settings/preset_styles.php:9
+msgid "Minimal"
+msgstr "حداقل"
+
+#: settings/mandatory_js.php:83
+#, fuzzy
+#| msgid "Search options"
+msgid "No matching options"
+msgstr "گزینه های جستجو"
+
+#: settings/mandatory_js.php:471
+#, fuzzy
+#| msgid "One or more errors occurred"
+msgid "One or more errors occurred during the import"
+msgstr "یک یا چند خطا رخ داده است"
+
+#: settings/mandatory_js.php:472 settings/mandatory_js.php:476
+msgid "One or more errors occurred"
+msgstr "یک یا چند خطا رخ داده است"
+
+#: settings/mandatory_js.php:492
+#, fuzzy
+#| msgid "go to page"
+msgid "go to option"
+msgstr "به صفحه بروید"
+
+#: settings/preset_styles.php:10 settings/structure.php:1421
+msgid "Light"
+msgstr "روشن"
+
+#: settings/preset_styles.php:11
+msgid "Dark"
+msgstr "تاریک"
+
+#: settings/settings_engine.php:161
+msgid "Update Options"
+msgstr "به روز رسانی تنظیمات"
+
+#: settings/settings_engine.php:332
+msgid "Password already set!"
+msgstr "رمز عبور از قبل تنظیم شده است!"
+
+#: settings/settings_engine.php:333
+msgid "change password"
+msgstr "تغییر رمز عبور"
+
+#: settings/settings_engine.php:868
+#, fuzzy
+#| msgid "Account successfully deleted!"
+msgid "Options successfully imported!"
+msgstr "حساب با موفقیت حذف شد!"
+
+#: settings/settings_engine.php:868
+#, fuzzy
+#| msgid "Account successfully deleted!"
+msgid "Options successfully saved!"
+msgstr "حساب با موفقیت حذف شد!"
+
+#: settings/settings_engine.php:933
+msgid ""
+"PHP compressed string passed but gzuncompress module not enabled. Please "
+"enable it in your PHP connfiguration"
+msgstr ""
+
+#: settings/settings_engine.php:948
+msgid "Import data not properly formed"
+msgstr ""
+
+#: settings/settings_engine.php:955
+msgid "Import data not related to this product"
+msgstr ""
+
+#: settings/settings_engine.php:1021
+#, fuzzy
+#| msgid "Export Users"
+msgid "export settings"
+msgstr "اکسپورت کاربران"
+
+#: settings/settings_engine.php:1022
+#, fuzzy
+#| msgid "Import Options"
+msgid "import settings"
+msgstr "گزینه های ایمپورت"
+
+#: settings/settings_engine.php:1044
+msgid "Export code successfully copied to your clipboard!"
+msgstr ""
+
+#: settings/settings_engine.php:1050
+msgid ""
+"WARNING: this will override every matched option. Do you really want to "
+"import data?"
+msgstr ""
+
+#: settings/settings_engine.php:1054
+#, fuzzy
+#| msgid "Import"
+msgid "Import data"
+msgstr "وارد كردن"
+
+#: settings/structure.php:17
+msgid "Enable restrictions engine on these post types"
+msgstr "فعال کردن موتورهای محدودیت در این نوع پست ها"
+
+#: settings/structure.php:27
+msgid "Enable restrictions engine on these taxonomies"
+msgstr "موتورهای محدود شده را در این طبقه بندی ها فعال کنید"
+
+#: settings/structure.php:56
+msgid "Registration"
+msgstr "ثبت نام"
+
+#: settings/structure.php:57
+msgid "WP User Sync"
+msgstr "همگام سازی کاربر وردپرس"
+
+#: settings/structure.php:58 settings/structure.php:1663
+msgid "Messages"
+msgstr "پیام ها"
+
+#: settings/structure.php:59 settings/structure.php:1728
+msgid "Lightbox"
+msgstr "جعبه نوری"
+
+#: settings/structure.php:61 settings/view.php:150
+msgid "Custom Restrictions"
+msgstr "محدودیت های سفارشی"
+
+#: settings/structure.php:85
+#, fuzzy
+#| msgid "Redirects"
+msgid "Redirects Scheme"
+msgstr "تغییر مسیرها"
+
+#: settings/structure.php:92 settings/structure.php:93
+#, fuzzy
+#| msgid "Main redirect target for restricted pages"
+msgid "Main target for redirect-restricted pages"
+msgstr "هدف اصلی تغییر مسیر صفحات محدود شده"
+
+#: settings/structure.php:93 settings/structure.php:101
+#: settings/structure.php:115 settings/structure.php:128
+msgid "Custom URL"
+msgstr "لینک سفارشی"
+
+#: settings/structure.php:105
+msgid "Redirect page after registration"
+msgstr "صفحه تغییر مسیر پس از ثبت نام"
+
+#: settings/structure.php:115
+msgid "Redirect page after user login"
+msgstr "تغییر مسیر صفحه پس از ورود کاربر به سیستم"
+
+#: settings/structure.php:119
+msgid "Redirect users to the last restricted page?"
+msgstr "تغییر مسیر کاربران به آخرین صفحه محدود شده؟"
+
+#: settings/structure.php:121
+msgid ""
+"If checked, move logged users back to last restricted page they tried to see "
+"(where available)"
+msgstr ""
+"اگر انتخاب شود، کاربران وارد شده را به آخرین صفحه محدود شده که سعی در مشاهده "
+"آن داشتند هدایت می کند (در صورتی که صفحه موجود باشد)"
+
+#: settings/structure.php:128
+msgid "Redirect page after user logout"
+msgstr "تغییر مسیر صفحه پس از خروج کاربر"
+
+#: settings/structure.php:136
+#, fuzzy, php-format
+#| msgid ""
+#| "This value can be overwritten through shortcode or using any URL + "
+#| "<strong>?pc_logout</strong>"
+msgid ""
+"This value can be overwritten through shortcode or using any website URL + "
+"%1$s?pc_logout%2$s"
+msgstr ""
+"این مقدار را می توان از طریق کد کوتاه یا استفاده از هر URL بازنویسی کرد + "
+"<strong>خروج از سیستم؟</strong>"
+
+#: settings/structure.php:140
+msgid "Do not use anti-cache parameter in redirects?"
+msgstr ""
+
+#: settings/structure.php:144
+msgid ""
+"By default the plugin uses a self-removing URL parameter (pcac) to try "
+"serving fresh page contents, not influenced by cache systems"
+msgstr ""
+
+#: settings/structure.php:144
+#, php-format
+msgid ""
+"Check this option %1$sONLY IF%2$s you notice bad behaviors during redirects "
+"ruled by PrivateContent"
+msgstr ""
+
+#: settings/structure.php:151
+#, fuzzy
+#| msgid "Users Private Page"
+msgid "Users Reserved Page"
+msgstr "صفحه شخصی کاربران"
+
+#: settings/structure.php:155
+#, fuzzy
+#| msgid "Page to use as users private page container"
+msgid "Page to use as users reserved page container"
+msgstr "انتخاب صفحه به عنوان صفحه ی محتوای خصوصی کاربران"
+
+#: settings/structure.php:157
+#, fuzzy
+#| msgid "no private page"
+msgid "no reserved page"
+msgstr "صفحه خصوصی وجود ندارد"
+
+#: settings/structure.php:160
+#, fuzzy, php-format
+#| msgid ""
+#| "Chosen page's content will be <strong>overwritten</strong> once user logs "
+#| "in"
+msgid "Chosen page contents will be %1$soverwritten%2$s once user logs in"
+msgstr ""
+"محتوای صفحه انتخاب شده <strong>رونویسی خواهد شد</strong> هنگامی که کاربر وارد "
+"سیستم می شود"
+
+#: settings/structure.php:163
+msgid "Default container page content"
+msgstr "محتوای صفحه کانتینر پیش‌فرض"
+
+#: settings/structure.php:168
+#, fuzzy, php-format
+#| msgid "Define container page contents for <strong>unlogged</strong> users"
+msgid "Define container page contents for %1$sunlogged%2$s users"
+msgstr ""
+"محتوای صفحه کانتینر را برای کاربران <strong>لاگین نشده</strong> تعریف کنید"
+
+#: settings/structure.php:177
+msgid "User contents overriding mehod"
+msgstr "روش اصلی محتویات کاربر"
+
+#: settings/structure.php:180
+msgid "Replace only contents"
+msgstr "فقط محتویات را جایگزین کنید"
+
+#: settings/structure.php:181
+msgid "Replace full page"
+msgstr "صفحه کامل را جایگزین کنید"
+
+#: settings/structure.php:182
+msgid "Inject contents replacing placeholder"
+msgstr ""
+
+#: settings/structure.php:184
+#, fuzzy
+#| msgid "Define how user private page will be changed for logged users"
+msgid "Define how user reserved page will be changed for logged users"
+msgstr "نحوه تغییر صفحه خصوصی کاربر برای کاربران وارد شده را مشخص کنید"
+
+#: settings/structure.php:197
+#, php-format
+msgid ""
+"If you are using a page builder (eg. %1$sElementor%2$s) is suggested to use "
+"the placeholder injection method. You can read more in the %3$srelated "
+"documentation page%4$s"
+msgstr ""
+
+#: settings/structure.php:201
+msgid "Required placeholder"
+msgstr ""
+
+#: settings/structure.php:212
+#, fuzzy
+#| msgid "Default private page content for new users"
+msgid "Default reserved page content for new users"
+msgstr "محتوای خصوصی پیش فرض برای کاربران جدید"
+
+#: settings/structure.php:223
+msgid "Enable preset content?"
+msgstr "محتوای از پیش تعیین شده فعال شود؟"
+
+#: settings/structure.php:225
+#, fuzzy
+#| msgid ""
+#| "If checked, displays the preset content in user private pages. Then every "
+#| "user will see it"
+msgid ""
+"If checked, displays the preset content in user reserved pages. Then every "
+"user will see it"
+msgstr ""
+"اگر علامت زده شود، محتوای از پیش تعیین شده را در صفحات خصوصی کاربر نمایش می "
+"دهد. سپس هر کاربر آن را خواهد دید"
+
+#: settings/structure.php:234
+msgid "Preset content position"
+msgstr "موقعیت محتوای از پیش تعیین شده"
+
+#: settings/structure.php:236
+msgid "Before page contents"
+msgstr "قبل از محتوای صفحه"
+
+#: settings/structure.php:236
+msgid "After page contents"
+msgstr "پس از محتویات صفحه"
+
+#: settings/structure.php:237
+#, fuzzy
+#| msgid "Set preset content's position in private page"
+msgid "Set preset content's position in users reserved page"
+msgstr "موقعیت محتوای از پیش تعیین شده را در صفحه خصوصی تنظیم کنید"
+
+#: settings/structure.php:246
+msgid "Preset content"
+msgstr "متن از پیش تعیین شده"
+
+#: settings/structure.php:257
+msgid "Allow comments for WP synced users?"
+msgstr "اجازه ارسال نظرات برای کاربران WP همگام سازی شده؟"
+
+#: settings/structure.php:259
+#, fuzzy
+#| msgid ""
+#| "Gives the ability to communicate with user through his private page "
+#| "contents"
+msgid "Gives the ability to communicate with the user through his reserved page"
+msgstr ""
+"توانایی برقراری ارتباط با کاربر را از طریق محتوای صفحه شخصی خود فراهم می کند"
+
+#: settings/structure.php:272
+#, php-format
+msgid "Only %1$sWP-synced users%2$s can use frontend comments!"
+msgstr ""
+
+#: settings/structure.php:285
+#, fuzzy
+#| msgid "Contents hiding system"
+msgid "Page Contents Hiding System"
+msgstr "سیستم مخفی سازی محتوا"
+
+#: settings/structure.php:289
+msgid "Restricted posts behavior"
+msgstr "واکنش پست های محدود شده"
+
+#: settings/structure.php:292
+msgid "Warning Box"
+msgstr "جعبه هشدار"
+
+#: settings/structure.php:293 settings/structure.php:305
+msgid "No contents"
+msgstr "بدون محتویات"
+
+#: settings/structure.php:294 settings/structure.php:306
+msgid "Excerpt"
+msgstr "گزیده"
+
+#: settings/structure.php:295
+msgid "Excerpt + warning box"
+msgstr "گزیده + جعبه هشدار"
+
+#: settings/structure.php:296 settings/structure.php:307
+msgid "Custom contents"
+msgstr "محتویات سفارشی"
+
+#: settings/structure.php:297
+msgid "Excerpt + custom contents"
+msgstr "گزیده + محتوای سفارشی"
+
+#: settings/structure.php:299
+msgid "What replaces restricted element contents in their own pages"
+msgstr "چه عنصری را جایگزین مطالب محدود در صفحات خود می نماید"
+
+#: settings/structure.php:302
+msgid "Restricted posts behavior (in lists)"
+msgstr "واکنش پست های محدود شده در (لیست ها)"
+
+#: settings/structure.php:308
+msgid "Do not act"
+msgstr ""
+
+#: settings/structure.php:310
+msgid ""
+"What replaces restricted element contents in searches, archives and categories"
+msgstr "چه عنصری را جایگزین مطالب محدود در جستجو ها، آرشیو ها و دسته ها می کند"
+
+#: settings/structure.php:313
+msgid "Restricted elements - custom contents"
+msgstr "عناصر محدود - محتوای سفارشی"
+
+#: settings/structure.php:313
+msgid "related option must be chosen to use this"
+msgstr "گزینه مربوط به آن باید انتخاب شود"
+
+#: settings/structure.php:318
+msgid "Warning box - Login button"
+msgstr "جعبه هشدار--دکمه ورود به سیستم"
+
+#: settings/structure.php:321
+msgid "Hide login button or select a lightbox instance to use"
+msgstr "پنهان کردن دکمه ورود یا انتخاب یک مورد دیگر از لیست"
+
+#: settings/structure.php:324
+msgid "Warning box - Registration button"
+msgstr "جعبه هشدار--دکمه ثبت نام"
+
+#: settings/structure.php:328
+msgid "Hide registration button or select a lightbox instance to use"
+msgstr "پنهان کردن دکمه ثبت نام یا انتخاب یک مورد دیگر از لیست"
+
+#: settings/structure.php:335
+msgid "Complete Site Lock"
+msgstr "قفل کامل سایت"
+
+#: settings/structure.php:339
+msgid "Enable lock?"
+msgstr "فعال کردن قفل؟"
+
+#: settings/structure.php:341
+msgid ""
+"Check to automatically restrict any website page except the \"Restriction "
+"redirect target\" page"
+msgstr ""
+
+#: settings/structure.php:346
+msgid ""
+"\"Restriction redirect target\" is excluded from this lock in order to allow "
+"users login. Be sure it is set on a Wordpress page!"
+msgstr ""
+
+#: settings/structure.php:355
+msgid "Avoid removing menus?"
+msgstr "اجتناب از حذف منوها؟"
+
+#: settings/structure.php:357
+msgid "Check to leave navigation menu visible"
+msgstr "اگر فعال کنید منوی پیمایش را قابل مشاهده کنید"
+
+#: settings/structure.php:365
+msgid "Excluded Pages"
+msgstr "صفحات منحصر به فرد"
+
+#: settings/structure.php:370
+msgid "Chosen pages will not be restricted"
+msgstr ""
+
+#: settings/structure.php:383
+#, fuzzy
+#| msgid "Lightbox on page's opening"
+msgid "Lightbox on Page's Opening"
+msgstr "باز شدن جعبه نوری در صفحه"
+
+#: settings/structure.php:387
+msgid "Default lightbox shown to unlogged users"
+msgstr "جعبه نوری پیش فرض به کاربران وارد نشده نمایش داده شود"
+
+#: settings/structure.php:390
+msgid "Default value to be inherited in restricrion's wizard"
+msgstr "مقدار پیش فرض در wizard boundrion به ارث برده می شود"
+
+#: settings/structure.php:397
+msgid "Custom Post types and Taxonomies"
+msgstr "انواع پست سفارشی و طبقه بندی ها"
+
+#: settings/structure.php:403 settings/view.php:64
+msgid "Google Analytics"
+msgstr "تجزیه و تحلیل ترافیک گوگل"
+
+#: settings/structure.php:407
+msgid "Measurement ID"
+msgstr ""
+
+#: settings/structure.php:411 settings/structure.php:418
+#: settings/structure.php:431
+msgid "how to find it?"
+msgstr "چگونه آن را پیدا کنیم؟"
+
+#: settings/structure.php:414
+#, fuzzy
+#| msgid "reCAPTCHA - secret key"
+msgid "API Secret Key"
+msgstr "reCAPTCHA - کلید مخفی"
+
+#: settings/structure.php:427
+msgid "Google Tag Manager ID"
+msgstr ""
+
+#: settings/structure.php:440
+msgid "Install Google codes in the website?"
+msgstr ""
+
+#: settings/structure.php:444
+#, php-format
+msgid ""
+"Check to inject Google codes along with your account IDs (%1$swhich codes?"
+"%2$s)"
+msgstr ""
+
+#: settings/structure.php:444
+msgid "Be sure they are not already added by other SEO tool"
+msgstr ""
+
+#: settings/structure.php:456
+msgid ""
+"Once saved, PrivateContent will setup the 'pc_user_id' tag to start the User "
+"ID tracking and create specific events"
+msgstr ""
+
+#: settings/structure.php:456
+#, php-format
+msgid ""
+"%1$sRemember%2$s to include Google Analytics and Google Tag Manager codes "
+"into the website. Check the %3$sdocumentation chapter%4$s to know more."
+msgstr ""
+
+#: settings/structure.php:469
+#, fuzzy
+#| msgid "WordPress users interactions"
+msgid "WordPress Users Interactions"
+msgstr "تعاملات کاربران وردپرس"
+
+#: settings/structure.php:473
+msgid "Minimum role to manage users"
+msgstr "حداقل نقش برای مدیریت کاربران"
+
+#: settings/structure.php:477
+msgid "Minimum WordPress role to edit and manage users"
+msgstr "حداقل نقش وردپرس برای ویرایش و مدیریت کاربران"
+
+#: settings/structure.php:477
+msgid ""
+"This option can be extended for each user category in the categories manager "
+"area"
+msgstr "این گزینه را می توان برای هر دسته از مدیریت دسته ها گسترش داد"
+
+#: settings/structure.php:480
+msgid "Extend the privilege also to users having \"PrivateContent admin\" role?"
+msgstr ""
+"آیا این امتیاز برای کاربرانی که نقش \"مدیر محتوای خصوصی\" را دارند نیز تمدید "
+"شود؟"
+
+#: settings/structure.php:482
+msgid ""
+"Normally they can manage only targered user categories. Checking this option "
+"any PrivateContent user will be manageable by them"
+msgstr ""
+"معمولاً آنها می توانند فقط دسته های کاربران هدفمند را مدیریت کنند. با علامت "
+"زدن این گزینه، هر کاربر PrivateContent توسط آنها قابل مدیریت خواهد بود"
+
+#: settings/structure.php:485
+msgid "Specifically selected WP users can edit PrivateContent user categories?"
+msgstr ""
+"کاربران WP به طور خاص انتخاب شده می توانند دسته های کاربران PrivateContent را "
+"ویرایش کنند؟"
+
+#: settings/structure.php:487
+msgid ""
+"Checking this option, WP users allowed to edit targeted PrivateContent user "
+"categories will be also able to edit their categories assignment"
+msgstr ""
+"با علامت زدن این گزینه، کاربران WP مجاز به ویرایش دسته‌های کاربر "
+"PrivateContent هدفمند نیز می‌توانند تخصیص دسته‌های خود را ویرایش کنند."
+
+#: settings/structure.php:493
+msgid "Minimum role bypassing front restrictions"
+msgstr "حداقل نقش دور زدن محدودیت های جلو"
+
+#: settings/structure.php:497
+#, fuzzy
+#| msgid "Minimum role to manage users"
+msgid "inherit \"To manage users\" value"
+msgstr "حداقل نقش برای مدیریت کاربران"
+
+#: settings/structure.php:498
+#, fuzzy
+#| msgid "Any logged user"
+msgid "only targeted users"
+msgstr "هر کاربر وارد شده"
+
+#: settings/structure.php:503
+msgid ""
+"WordPress users owning the role capability, will be able to bypass frontend "
+"restrictions."
+msgstr ""
+"کاربران وردپرس که دارای قابلیت نقش هستند، قادر خواهند بود محدودیت های "
+"frontend را دور بزنند."
+
+#: settings/structure.php:503
+#, fuzzy
+#| msgid ""
+#| "NB: WP users having \"PrivateContent admin\" role bypass restrictions by "
+#| "default. \"Obviously this will be ignored if \"testing mode\" is enabled"
+msgid ""
+"NB: WP users having \"PrivateContent admin\" role bypass restrictions by "
+"default."
+msgstr ""
+"توجه: کاربران WP دارای نقش \"PrivateContent admin\" به طور پیش فرض محدودیت ها "
+"را دور می زنند. \"بدیهی است که اگر \"حالت تست\" فعال باشد، این مورد نادیده "
+"گرفته خواهد شد"
+
+#: settings/structure.php:518
+msgid "PrivateContent Admin (WP role) - additional capabilities"
+msgstr "PrivateContent Admin (نقش WP) - قابلیت های اضافی"
+
+#: settings/structure.php:524
+msgid ""
+"Defines additional capabilities for the special 'PrivateContent Admin' "
+"WordPress role. By default it is only able to manage targeted PrivateContent "
+"categories and bypasses frontend restrictions"
+msgstr ""
+"قابلیت‌های اضافی را برای نقش ویژه «PrivateContent Admin» وردپرس تعریف می‌کند. "
+"به طور پیش فرض فقط می تواند دسته بندی های PrivateContent هدفمند را مدیریت کند "
+"و محدودیت های frontend را دور بزند"
+
+#: settings/structure.php:532
+#, fuzzy
+#| msgid "User deletion's icon"
+msgid "User Sessions Control"
+msgstr "آیکون حذف کاربر"
+
+#: settings/structure.php:536
+msgid "Control sessions?"
+msgstr ""
+
+#: settings/structure.php:538
+msgid ""
+"If checked, user sessions will be tracked to avoid multiple logins from "
+"different devices"
+msgstr ""
+
+#: settings/structure.php:538
+msgid "it will involve a new cookie named \"pc_session_token\""
+msgstr ""
+
+#: settings/structure.php:541
+msgid "How many allowed simultaneous sessions?"
+msgstr ""
+
+#: settings/structure.php:549
+msgid "Logged users owning old login tokens will be logged-out"
+msgstr ""
+
+#: settings/structure.php:566
+msgid "Use \"remember me\" check in login form?"
+msgstr "استفاده از چک باکس\"مرا به خاطر بسپار\" در فرم ورود؟"
+
+#: settings/structure.php:568
+#, fuzzy
+#| msgid ""
+#| "If checked, allows users to be logged into the website for 6 months "
+#| "through cookies"
+msgid ""
+"If checked, allows users to be logged into the website for 14-days through "
+"cookies"
+msgstr ""
+"در صورت فعالسازی، کاربران می توانند به مدت 6 ماه از طریق کوکی ها به وب سایت "
+"وارد شوند"
+
+#: settings/structure.php:571
+msgid "Allow login also through e-mail?"
+msgstr "اجازه ورود را از طریق پست الکترونیکی می دهید؟"
+
+#: settings/structure.php:573
+msgid "If checked, allows user login inserting username or e-mail."
+msgstr ""
+"در صورت فعالسازی، اجازه ورود کاربر را بر اساس نام کاربری یا ایمیل می دهد."
+
+#: settings/structure.php:573
+msgid "Be sure database is ok with this: every user should have a unique e-mail"
+msgstr ""
+"اطمینان حاصل کنید که پایگاه داده درست است: هر کاربر باید یک ایمیل منحصر به "
+"فرد داشته باشد"
+
+#: settings/structure.php:576
+msgid "Short login cookie"
+msgstr "کوکی ورود کوتاه"
+
+#: settings/structure.php:578
+#, fuzzy
+#| msgid ""
+#| "If checked, user session automatically ends 5 minutes after user closes "
+#| "its browser or has no interactions.<br/><strong>NB:</strong> using WP user "
+#| "sync, this behavior could be overrided"
+msgid ""
+"If checked, user session automatically ends 5 minutes after user closes its "
+"browser or has no interactions"
+msgstr ""
+"اگر علامت زده شود، جلسه کاربر به طور خودکار 5 دقیقه پس از بسته شدن مرورگر "
+"کاربر یا هیچ تعاملی به پایان می رسد.<br/><strong>نکته:</strong> با استفاده از "
+"همگام سازی کاربر WP، این رفتار می تواند لغو شود."
+
+#: settings/structure.php:578
+msgid "using WP user sync, this behavior could be overrided"
+msgstr ""
+
+#: settings/structure.php:581
+msgid "Anti bruteforce system - how many errors allow before block visitor?"
+msgstr "سیستم ضد bruteforce - چه تعداد خطا قبل از بازدیدکننده بلوک مجاز است؟"
+
+#: settings/structure.php:589
+msgid "Control performed on login form, use zero to skip this check"
+msgstr ""
+"کنترل انجام شده بر روی فرم ورود، از صفر برای رد شدن از این بررسی استفاده کنید"
+
+#: settings/structure.php:592
+msgid "HTACCESS credentials needed?"
+msgstr "اعتبار HTACCESS مورد نیاز است؟"
+
+#: settings/structure.php:593
+msgid "Credentials already set!"
+msgstr "اعتبار نامه در حال حاضر تنظیم شده!"
+
+#: settings/structure.php:597
+#, fuzzy, php-format
+#| msgid ""
+#| "In case of HTACCESS hidden website, its credentials are mandatory to "
+#| "remotely fetch page contents.<br/>Insert them in <strong>USERNAME:"
+#| "PASSWORD</strong> format."
+msgid ""
+"In case of HTACCESS hidden website, its credentials are mandatory to remotely "
+"fetch page contents.%1$sInsert them in %2$sUSERNAME:PASSWORD%3$s format."
+msgstr ""
+"در مورد وب‌سایت پنهان HTACCESS، اعتبار آن برای واکشی از راه دور محتویات صفحه "
+"الزامی است.<br/>آنها را در قالب <strong>USERNAME:PASSWORD</strong> وارد کنید."
+
+#: settings/structure.php:605
+msgid "Use first/last name in forms?"
+msgstr "از نام کوچک/ نام خانوادگی در فرم ها استفاده می کنید ؟"
+
+#: settings/structure.php:607
+msgid "If checked, replaces name/surname with first/last name"
+msgstr ""
+"اگر انتخاب شود، نام/نام خانوادگی با نام کوچک/ نام خانوادگی جایگزین خواهد شد"
+
+#: settings/structure.php:610
+msgid "Use dynamic CSS inline?"
+msgstr "از CSS پویا(درون خطی) استفاده می کنید؟"
+
+#: settings/structure.php:612
+msgid "If checked, uses dynamic CSS inline (useful for multisite installations)"
+msgstr ""
+"اگر چک شود، از CSS درون خطی استفاده می کند (برای نصب چندین مورد مفید است)"
+
+#: settings/structure.php:623
+msgid "General Registration Settings"
+msgstr "تنظیمات عمومی ثبت نام"
+
+#: settings/structure.php:627
+msgid "Allow duplicated e-mails?"
+msgstr "اجازه استفاده از ایمیل های قبلی؟"
+
+#: settings/structure.php:629
+msgid "If checked, allows users with same e-mail into the database"
+msgstr ""
+"اگر انتخاب شود، کاربران با همان ایمیل ثبت شده قبلی به دیتابیس دسترسی خواهند "
+"داشت"
+
+#: settings/structure.php:629
+msgid "Strongly not recommended"
+msgstr "به شدت توصیه نمی شود"
+
+#: settings/structure.php:632
+msgid "Default category for registered users"
+msgstr "دسته بندی پیش فرض برای کاربران ثبت نام شده"
+
+#: settings/structure.php:638
+msgid ""
+"Default user registration categories (ignored if you use category field in "
+"forms)"
+msgstr ""
+"دسته بندی های ثبت نام پیش فرض کاربر (اگر از قسمت دسته بندی در فرم استفاده می "
+"کنید نادیده گرفته می شود)"
+
+#: settings/structure.php:641
+#, fuzzy
+#| msgid "Enable private page for new registered users?"
+msgid "Enable the reserved page for new registered users?"
+msgstr "صفحه خصوصی برای کاربران ثبت نام شده جدید فعال می کنید؟"
+
+#: settings/structure.php:646
+msgid "Set users status as pending after registration?"
+msgstr ""
+"وضعيت کاربران را پس از ثبت نام در وضعیت \"در انتظار تایید\" قرار می دهید؟"
+
+#: settings/structure.php:651
+msgid "Use e-mail value as username in registration forms?"
+msgstr "از ارزش ایمیل به عنوان نام کاربری در فرم های ثبت نام استفاده می کنید؟"
+
+#: settings/structure.php:653
+msgid ""
+"If checked, username field will be hidden in registration form and e-mail "
+"value will be copied and used instead"
+msgstr ""
+"در صورت علامت زدن، فیلد نام کاربری در فرم ثبت نام پنهان می شود و مقدار ایمیل "
+"کپی شده و به جای آن استفاده می شود"
+
+#: settings/structure.php:653
+msgid "Be sure e-mail field is in your forms"
+msgstr "مطمئن شوید که فیلد ایمیل در فرم های شما وجود دارد"
+
+#: settings/structure.php:664
+msgid "Registration Forms Settings"
+msgstr "تنظیمات فرم های ثبت نام"
+
+#: settings/structure.php:668
+msgid "\"Category\" field - custom label"
+msgstr "\"دسته بندی\" فیلد- برچسب سفارشی"
+
+#: settings/structure.php:670
+msgid "Set a custom label for category field in registration forms"
+msgstr "یک برچسب سفارشی برای دسته فیلد در فرم ثبت نام قرار دهید"
+
+#: settings/structure.php:673
+#, fuzzy
+#| msgid "Category's icon and placeholder text"
+msgid "\"Category\" field - placeholder option"
+msgstr "آیکون دسته بندی و متن نگهدارنده"
+
+#: settings/structure.php:676
+#, fuzzy
+#| msgid "Set a custom label for category field in registration forms"
+msgid ""
+"Set a placeholder option for category field in registration forms, avoiding a "
+"default chosen category."
+msgstr "یک برچسب سفارشی برای دسته فیلد در فرم ثبت نام قرار دهید"
+
+#: settings/structure.php:676
+msgid "Only for single-choice field. Leave empty to discard"
+msgstr ""
+
+#: settings/structure.php:684
+msgid "Allow multiple user categories selection during registration?"
+msgstr "اجازه انتخاب چندین دسته کاربری در هنگام ثبت نام؟"
+
+#: settings/structure.php:686
+msgid "Check to allow users choose multiple categories in registration forms"
+msgstr ""
+"فعال کنید تا کاربران زمان ثبت نام بتوانند چند دسته مختلف را انتخاب کنند، اگر "
+"اجازه نمی دهید آن را بدون تغییر رها کنید"
+
+#: settings/structure.php:689
+msgid "Auto-login registered users?"
+msgstr "Auto-login registered users?"
+
+#: settings/structure.php:691
+msgid "Check to automatically login active users after their registration"
+msgstr "برای ورود خودکار کاربران فعال پس از ثبت نام، علامت بزنید"
+
+#: settings/structure.php:691
+msgid ""
+"NB: obviously you should use the registration form redirect (or a page "
+"refresh) to effectively show changes"
+msgstr ""
+"توجه: بدیهی است که شما باید از تغییر مسیر فرم ثبت نام (یا به روز رسانی صفحه) "
+"برای نمایش موثر تغییرات استفاده کنید"
+
+#: settings/structure.php:699
+msgid "Show pagination progress on top of forms?"
+msgstr "پیشرفت صفحه بندی در بالای فرم ها نشان داده شود؟"
+
+#: settings/structure.php:701
+msgid ""
+"If checked a progress bar (with clickable page numbers) will be prepended to "
+"form fields"
+msgstr ""
+"در صورت علامت زدن نوار پیشرفت (با شماره صفحه قابل کلیک) برای تشکیل فیلدها "
+"اضافه می شود"
+
+#: settings/structure.php:704
+msgid "Hide submit button on successful registration?"
+msgstr ""
+
+#: settings/structure.php:710
+msgid "Disable HTML5 fields validation?"
+msgstr "غیرفعال کردن فیلدهای HTML5؟"
+
+#: settings/structure.php:712
+msgid "Disables client-side fields validation"
+msgstr "اعتبار سنجی فیلد سمت سمت مشتری را غیرفعال می کند"
+
+#: settings/structure.php:715
+msgid "Anti-spam system"
+msgstr "سیستم ضد جاسوسی"
+
+#: settings/structure.php:718
+msgid "Honey pot hidden system"
+msgstr "سیستم مخفی Honey pot"
+
+#: settings/structure.php:719
+#, fuzzy
+#| msgid "Google's invisible reCAPTCHA"
+msgid "Google's invisible reCAPTCHA (v3)"
+msgstr "reCAPTCHA نامرئی گوگل"
+
+#: settings/structure.php:720
+#, fuzzy
+#| msgid "Google's invisible reCAPTCHA"
+msgid "Google's invisible reCAPTCHA (v2)"
+msgstr "reCAPTCHA نامرئی گوگل"
+
+#: settings/structure.php:722
+msgid "Choose the anti-spam solution you prefer"
+msgstr "راه حل ضد هرزنامه ای را که ترجیح می دهید، انتخاب کنید"
+
+#: settings/structure.php:725
+msgid "reCAPTCHA - site key"
+msgstr "reCAPTCHA - کلید سایت"
+
+#: settings/structure.php:737
+msgid "reCAPTCHA - secret key"
+msgstr "reCAPTCHA - کلید مخفی"
+
+#: settings/structure.php:743
+#, fuzzy, php-format
+#| msgid ""
+#| "To use reCAPTCHA you need to <a href=\"https://www.google.com/recaptcha/"
+#| "admin\" target=\"_blank\">create your personal keys</a>. Choose "
+#| "\"invisible reCAPTCHA\", insert the current domain and you will get your "
+#| "keys."
+msgid ""
+"To use reCAPTCHA you need to %1$screate your personal keys%2$s. Choose "
+"\"invisible reCAPTCHA\", insert the current domain and you will get your keys."
+msgstr ""
+"برای استفاده از reCAPTCHA شما باید در <a href=\"https://www.google.com/"
+"recaptcha/admin\" target=\"_blank\">کلید شخصی خود را ایجاد کنید</a>. را "
+"انتخاب کنید \"invisible reCAPTCHA\", اطلاعات دامنه فعلی را وارد کنید و کلید "
+"های خود را دریافت کنید."
+
+#: settings/structure.php:756
+#, fuzzy
+#| msgid "Registration form"
+msgid "Registration Disclaimer"
+msgstr "فرم ثبت نام"
+
+#: settings/structure.php:760
+#, fuzzy
+#| msgid "Enable disclaimer?"
+msgid "Enable the disclaimer?"
+msgstr "فعال کردن سلب مسئولیت؟"
+
+#: settings/structure.php:762
+#, fuzzy
+#| msgid "If checked, append the disclaimer to the registration form"
+msgid "If checked, append a disclaimer to registration forms"
+msgstr "در صورت انتخاب، متن سلب مسئولیت را به فرم ثبت نام اضافه می کند"
+
+#: settings/structure.php:765
+msgid "Disclaimer text"
+msgstr "متن سلب مسئولیت"
+
+#: settings/structure.php:774
+msgid "Password Settings"
+msgstr "تنظیمات رمز عبور"
+
+#: settings/structure.php:778
+msgid "Minimum password length"
+msgstr "حداقل طول رمز عبور"
+
+#: settings/structure.php:785
+msgid "Set minimum characters length for user's password"
+msgstr "حداقل طول کاراکتر برای رمز عبور کاربر را تنظیم کنید"
+
+#: settings/structure.php:788
+msgid "Password strength options"
+msgstr "گزینه های قدرت رمز عبور"
+
+#: settings/structure.php:792
+msgid "Improve passwords strength using these options"
+msgstr "با استفاده از این گزینه ها، قدرت رمز عبور را بهبود ببخشید"
+
+#: settings/structure.php:798
+msgid "Show helper in frontend forms?"
+msgstr "helper در فرم های ظاهری نشان داده شود؟"
+
+#: settings/structure.php:800
+msgid "If checked, password requirements will be shown in frontend forms"
+msgstr "اگر علامت زده شود، الزامات رمز عبور در فرم‌های ظاهری نشان داده می‌شود"
+
+#: settings/structure.php:803
+msgid "Use only one password field with input revealer in front forms?"
+msgstr ""
+"فقط از یک فیلد رمز عبور با آشکارساز ورودی در فرم های جلویی استفاده کنید؟"
+
+#: settings/structure.php:805
+msgid "If checked"
+msgstr "اگر علامت زده شود"
+
+#: settings/structure.php:806
+msgid "\"repeat password\" field will be removed"
+msgstr "قسمت \"تکرار رمز عبور\" حذف خواهد شد"
+
+#: settings/structure.php:807
+msgid "password field will always have the icon enabled"
+msgstr "فیلد رمز عبور همیشه نماد را فعال خواهد کرد"
+
+#: settings/structure.php:808
+msgid "a clickable eye will be always used as icon"
+msgstr "یک چشم قابل کلیک همیشه به عنوان نماد استفاده می شود"
+
+#: settings/structure.php:815
+msgid "Registration forms builder"
+msgstr "سازنده فرم ثبت نام"
+
+#: settings/structure.php:832
+msgid "Wordpress Users System Integration"
+msgstr "سیستم یکپارچه سازی کاربران وردپرس"
+
+#: settings/structure.php:836
+msgid "Enable integration?"
+msgstr "فعال کردن ادغام؟"
+
+#: settings/structure.php:840
+msgid ""
+"If checked, privateContent users will be logged also with basic WP account"
+msgstr ""
+"در صورت انتخاب، کاربران privateContent نیز با حساب WP پایه وارد خواهند شد"
+
+#: settings/structure.php:840
+#, fuzzy, php-format
+#| msgid ""
+#| "<strong><font class='lcwp_settings_rednote'>What does this imply?</font></"
+#| "strong> For more details, please check the related documentation chapter"
+msgid ""
+"What does this imply? For more details, please check the %1$srelated "
+"documentation chapter%2$s"
+msgstr ""
+"<strong><font class='lcwp_settings_rednote'>این به چه معناست؟</font></strong> "
+"برای جزئیات بیشتر، لطفاً فصل مستندات مرتبط را بررسی کنید"
+
+#: settings/structure.php:844
+msgid "Require sync during frontend registration?"
+msgstr "در هنگام ثبت نام همگام سازی نیاز دارید؟"
+
+#: settings/structure.php:846
+msgid ""
+"Allows new users only if WP user sync is successful (automatically adds e-"
+"mail field into registration forms)"
+msgstr ""
+"فقط به کاربران جدید اجازه می دهد که اگر همگام سازی WP موفق بود (به صورت "
+"خودکار فیلد ایمیل را به فرم ثبت نام اضافه می کند)"
+
+#: settings/structure.php:854
+msgid "Additional user roles"
+msgstr "نقشهای اضافی کاربر"
+
+#: settings/structure.php:860
+#, fuzzy, php-format
+#| msgid "Set which roles will be <strong>emulated</strong> to synced users"
+msgid "Set which roles will be %1$semulated%2$s to synced users"
+msgstr ""
+"مجموعه ای از نقش ها را تعیین کنید <strong>برای همگام سازی کاربران</strong> "
+"شبیه سازی شده"
+
+#: settings/structure.php:871 settings/view.php:88
+msgid "WordPress to PrivateContent - Registration Sync"
+msgstr "وردپرس به PrivateContent - همگام سازی ثبت نام"
+
+#: settings/structure.php:875
+msgid "Sync newly registered WP users?"
+msgstr "همگام سازی کاربران جدید ثبت شده WP ؟"
+
+#: settings/structure.php:879
+#, fuzzy, php-format
+#| msgid ""
+#| "If checked, WordPress users registered on <strong>frontend</strong> will "
+#| "be automatically synced in PrivateContent"
+msgid ""
+"If checked, WordPress users registered on %1$sfrontend%2$s will be "
+"automatically synced in PrivateContent"
+msgstr ""
+"در صورت فعالسازی، کاربران وردپرس که ثبت نام شده اند <strong>از همان ابتدا</"
+"strong> به طور خودکار در PrivateContent همگام سازی می شوند"
+
+#: settings/structure.php:882
+msgid "Default categories for synced users"
+msgstr "دسته های پیش فرض برای کاربران همگام سازی شده"
+
+#: settings/structure.php:886
+msgid "Choose at least a category that will be assigned to imported users"
+msgstr ""
+"حداقل یک دسته را انتخاب کنید که به کاربران ایمپورت شده اختصاص داده می شود"
+
+#: settings/structure.php:894
+msgid "Limit sync to these roles"
+msgstr "محدود کردن همگام سازی با این نقشها"
+
+#: settings/structure.php:898
+msgid ""
+"Sync on WP registration will be limited only to these user roles. Leave empty "
+"to sync each user"
+msgstr ""
+"همگام سازی در ثبت نام WP محدود به این نقشهای کاربری خواهد بود. برای همگام "
+"سازی هر کاربر آن را خالی بگذارید"
+
+#: settings/structure.php:909
+#, fuzzy
+#| msgid "Comments restriction"
+msgid "Comments Restriction"
+msgstr "محدود کردن نظرات"
+
+#: settings/structure.php:913
+msgid "Hide comments block in every page?"
+msgstr "مخفی کردن بلوک نظر در هر صفحه؟"
+
+#: settings/structure.php:915
+msgid ""
+"If checked, totally hides comment block on site for unlogged users "
+"(overriding other restrictions)"
+msgstr ""
+"اگر آن را فعال کنید، بلوک نظر در سایت را برای کاربران وارد نشده مخفی می کند "
+"(محدودیت های دیگر را ممنوع می کند)"
+
+#: settings/structure.php:918
+msgid "Display warning for hidden comment blocks?"
+msgstr "نمایش هشدار برای بلوک مخفی نظر؟"
+
+#: settings/structure.php:920
+msgid ""
+"If checked, shows a warning box replacing comment form (can be overrided for "
+"single posts)"
+msgstr ""
+"اگر فعال باشد، یک جعبه هشدار را جایگزین فرم نظر می کند(می تواند برای پست های "
+"تکی انتخاب شود)"
+
+#: settings/structure.php:926
+msgid "Manual Bulk Sync"
+msgstr "همگام سازی دستی"
+
+#: settings/structure.php:947
+msgid "Enable the sync and save settings to view options"
+msgstr "همگام سازی را فعال کنید و تنظیمات را برای مشاهده گزینه ها ذخیره کنید"
+
+#: settings/structure.php:965
+msgid "Default message for unlogged users"
+msgstr "پیام پیش فرض برای کاربران وارد نشده"
+
+#: settings/structure.php:969 settings/structure.php:976
+#: settings/structure.php:991 settings/structure.php:998
+#: settings/structure.php:1013 settings/structure.php:1028
+#: settings/structure.php:1035 settings/structure.php:1042
+#: settings/structure.php:1057
+msgid "Leave empty to use default message"
+msgstr "برای استفاده از پیام پیش فرض، فیلد را خالی بگذارید"
+
+#: settings/structure.php:969
+msgid "You must be logged in to view this content"
+msgstr "برای دیدن این محتوا شما می بایست وارد شده باشید"
+
+#: settings/structure.php:972 settings/structure.php:994
+msgid "Custom message for users having wrong permissions"
+msgstr "پیام سفارشی برای کاربرانی که دارای مجوز اشتباه هستند"
+
+#: settings/structure.php:976
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "با عرض پوزش، شما مجوزهای لازم برای مشاهده این محتوا را ندارید"
+
+#: settings/structure.php:983
+#, fuzzy
+#| msgid "Restricted Content"
+msgid "Restricted Comments"
+msgstr "محتوای محدود"
+
+#: settings/structure.php:987
+msgid "Custom message for unlogged users"
+msgstr "پیام سفارشی برای کاربران وارد نشده"
+
+#: settings/structure.php:991
+msgid "You must be logged in to post comments"
+msgstr "برای ارسال نظر باید وارد سیستم شوید"
+
+#: settings/structure.php:998
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr "با عرض پوزش، شما مجوز برای ارسال نظر ندارید"
+
+#: settings/structure.php:1005
+#, fuzzy
+#| msgid "Users Private Page"
+msgid "User Reserved Page"
+msgstr "صفحه شخصی کاربران"
+
+#: settings/structure.php:1009
+#, fuzzy
+#| msgid "Default message if a user doesn't have its own private page"
+msgid "Default message if user doesn't have its own reserved page"
+msgstr "پیام پیش فرض اگر یک کاربر صفحه شخصی خود را ندارد"
+
+#: settings/structure.php:1013
+msgid "You don't have a reserved area"
+msgstr "شما یک منطقه رزرو شده ندارید"
+
+#: settings/structure.php:1024
+msgid "Default message for successful login"
+msgstr "پیام پیش فرض برای ورود موفق"
+
+#: settings/structure.php:1028
+msgid "Logged successfully, welcome!"
+msgstr "با موفقیت وارد سیستم شدید، خوش آمدید!"
+
+#: settings/structure.php:1031
+msgid "Default message for pending users"
+msgstr "پیام پیش فرض برای کاربران در حال انتظار"
+
+#: settings/structure.php:1035
+msgid "Sorry, your account has not been activated yet"
+msgstr "با عرض پوزش، حساب شما هنوز فعال نشده است"
+
+#: settings/structure.php:1038
+msgid "Default message for disabled users"
+msgstr "پیام پیش فرض برای کاربران غیر فعال"
+
+#: settings/structure.php:1042
+msgid "Sorry, your account has been disabled"
+msgstr "با عرض پوزش، حساب شما غیرفعال شده است"
+
+#: settings/structure.php:1053
+msgid "Default message for successfully registered users"
+msgstr "پیام پیش فرض برای کاربران با موفقیت ثبت نام شده"
+
+#: settings/structure.php:1057
+msgid "Registration was successful. Welcome!"
+msgstr "ثبت نام با موفقیت انجام شد. خوش آمدی!"
+
+#: settings/structure.php:1068
+#, fuzzy
+#| msgid "Lightbox instances"
+msgid "Lightbox Instances"
+msgstr "نمونه جعبه های نوری"
+
+#: settings/structure.php:1068
+msgid "Add instance"
+msgstr "یک مثال اضافه کنید"
+
+#: settings/structure.php:1121
+#, fuzzy
+#| msgid "Preset Styles"
+msgid "Forms Preset Styles"
+msgstr "سبک های از پیش تعیین شده"
+
+#: settings/structure.php:1133
+#, fuzzy
+#| msgid "Elements Layout"
+msgid "Form Elements Layout"
+msgstr "چیدمان عناصر"
+
+#: settings/structure.php:1139
+#, fuzzy, php-format
+#| msgid "Forms additional padding <small>(vertical / horizontal)</small>"
+msgid "Forms additional padding %1$s(vertical / horizontal)%2$s"
+msgstr "فرم های اضافی <small>(عمودی/ افقی)</small>"
+
+#: settings/structure.php:1150
+#, fuzzy, php-format
+#| msgid "Fields padding <small>(vertical / horizontal)</small>"
+msgid "Fields padding %1$s(vertical / horizontal)%2$s"
+msgstr "فیلدهای حاشیه داخلی <small>(عمودی / افقی)</small>"
+
+#: settings/structure.php:1161
+#, fuzzy, php-format
+#| msgid "Buttons padding <small>(vertical / horizontal)</small>"
+msgid "Buttons padding %1$s(vertical / horizontal)%2$s"
+msgstr "دکمه های حاشیه داخلی<small>(عمودی / افقی)</small>"
+
+#: settings/structure.php:1173
+msgid "Forms border width"
+msgstr "عرض مرزی فرم ها"
+
+#: settings/structure.php:1184
+msgid "Fields border width"
+msgstr "عرض مرزی فیلدها"
+
+#: settings/structure.php:1195
+msgid "Buttons border width"
+msgstr "عرض مرزی دکمه ها"
+
+#: settings/structure.php:1209
+msgid "Forms border radius"
+msgstr "شعاع مرزی فرم ها"
+
+#: settings/structure.php:1220
+msgid "Fields border radius"
+msgstr "شعاع مرزی فیلدها"
+
+#: settings/structure.php:1231
+msgid "Buttons border radius"
+msgstr "دکمه های شعاع مرزی"
+
+#: settings/structure.php:1245
+msgid "Registration fields gap"
+msgstr "شکاف فیلدهای ثبت نام"
+
+#: settings/structure.php:1251
+msgid ""
+"Defines the vertical and horizontal gap between registration form fields "
+"(default: 20 / 35px)"
+msgstr ""
+"شکاف عمودی و افقی بین فیلدهای فرم ثبت نام را مشخص می کند (پیش فرض: 20 / 35 "
+"پیکسل)"
+
+#: settings/structure.php:1254
+msgid "Login fields gap"
+msgstr "شکاف فیلدهای ورود"
+
+#: settings/structure.php:1262
+msgid "Defines the vertical space between login form fields (default: 15px)"
+msgstr "فضای عمودی بین فیلدهای فرم ورود را مشخص می کند (پیش فرض: 15 پیکسل)"
+
+#: settings/structure.php:1265
+msgid "Fullwidth login fields?"
+msgstr ""
+
+#: settings/structure.php:1268
+#, fuzzy
+#| msgid "If checked, fields will just have a bottom border"
+msgid "If checked, the login fields will fill the whole form's width"
+msgstr "اگر انتخاب شود، فیلدها فقط مرز قسمت پایینی را دارند"
+
+#: settings/structure.php:1271
+#, fuzzy
+#| msgid "Login form - button's icon"
+msgid "Fullwidth login form buttons?"
+msgstr "فرم ورود - آیکون دکمه"
+
+#: settings/structure.php:1273
+msgid "If checked, the login buttons will fill the whole form's width"
+msgstr ""
+
+#: settings/structure.php:1276
+msgid "Separator bar's extra margin"
+msgstr "حاشیه اضافی نوار جداکننده"
+
+#: settings/structure.php:1284
+msgid ""
+"Defines an extra vertical margin for separator bar in registration forms "
+"(default: 10px)"
+msgstr ""
+"یک حاشیه عمودی اضافی برای نوار جداکننده در فرم های ثبت نام تعریف می کند (پیش "
+"فرض: 10 پیکسل)"
+
+#: settings/structure.php:1291
+msgid "Use bottom-border style?"
+msgstr "از سبک مرز پایین استفاده کنید؟"
+
+#: settings/structure.php:1293
+msgid "If checked, fields will just have a bottom border"
+msgstr "اگر انتخاب شود، فیلدها فقط مرز قسمت پایینی را دارند"
+
+#: settings/structure.php:1296
+msgid "Hide labels?"
+msgstr "مخفی کردن برچسب ها؟"
+
+#: settings/structure.php:1298
+msgid ""
+"If checked, input and dropdown labels will be hidden, focusing placeholders"
+msgstr ""
+"اگر انتخاب شود، برچسب های ورودی و کشویی پنهان، و بر روی متغیرها متمرکز می شود"
+
+#: settings/structure.php:1301
+msgid "Default forms layout"
+msgstr "طرح پیش فرض فرم"
+
+#: settings/structure.php:1307
+msgid "Select default layout for registration and User Data add-on forms"
+msgstr "طرح پیش فرض را برای ثبت نام و داده های کاربر به فرم اضافه کنید"
+
+#: settings/structure.php:1310
+msgid "One-column forms - maximum width"
+msgstr "فرم های تک ستونی - حداکثر عرض"
+
+#: settings/structure.php:1321
+msgid "Fluid forms - columns maximum width"
+msgstr "فرم های سیال - ستون حداکثر عرض"
+
+#: settings/structure.php:1329
+msgid "Threshold defining how fluid forms will be columnized"
+msgstr "آستانه تعیین کننده نحوه ستون بندی اشکال سیال"
+
+#: settings/structure.php:1336
+#, fuzzy
+#| msgid "Fixed field details"
+msgid "Fixed Field Details"
+msgstr "جزئیات فیلد ثابت"
+
+#: settings/structure.php:1341
+#, fuzzy
+#| msgid "Buttons icon"
+msgid "Buttons Icon"
+msgstr "دکمه های آیکون"
+
+#: settings/structure.php:1347
+#, fuzzy
+#| msgid "Typography"
+msgid "Forms Typography"
+msgstr "تایپوگرافی"
+
+#: settings/structure.php:1351
+msgid "Form labels - font size"
+msgstr "برچسب های فرم - اندازه فونت"
+
+#: settings/structure.php:1361
+msgid "Set labels size for any privateContent form (default: 15px)"
+msgstr ""
+"اندازه برچسب ها را برای هر فرم privateContent تنظیم میکند (پیش فرض: 15px)"
+
+#: settings/structure.php:1364
+msgid "Form fields - font size"
+msgstr "زمینه های فرم - اندازه فونت"
+
+#: settings/structure.php:1374
+msgid "Set registration form labels size (default: 14px)"
+msgstr "تنظیم اندازه برچسب‌های فرم ثبت نام (پیش‌فرض: 14 پیکسل)"
+
+#: settings/structure.php:1377
+msgid "Form buttons - font size"
+msgstr "دکمه های فرم - اندازه فونت"
+
+#: settings/structure.php:1387
+msgid "Set buttons font size (default: 14px)"
+msgstr "تنظیم اندازه فونت قلم (به طور پیش فرض: 14px)"
+
+#: settings/structure.php:1390
+msgid "Form elements - font family"
+msgstr "عناصر فرم - خانواده فونت"
+
+#: settings/structure.php:1392
+msgid "Set forms font family (leave empty to use theme's one)"
+msgstr "تنظیم خانواده فونت فرم (برای استفاده ازتمپلیت پیشفرض آنرا خالی بگذارید)"
+
+#: settings/structure.php:1399
+#, fuzzy
+#| msgid "Colors"
+msgid "Form Colors"
+msgstr "رنگ ها"
+
+#: settings/structure.php:1403 settings/structure.php:1802
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: settings/structure.php:1410 settings/structure.php:1779
+msgid "Border color"
+msgstr "رنگ لبه"
+
+#: settings/structure.php:1417
+msgid "Outer shadow?"
+msgstr ""
+
+#: settings/structure.php:1422
+msgid "Medium"
+msgstr ""
+
+#: settings/structure.php:1423
+msgid "Heavy"
+msgstr ""
+
+#: settings/structure.php:1428
+#, fuzzy
+#| msgid "Switch knob color"
+msgid "Shadow color"
+msgstr "تعویض رنگ دستگیره"
+
+#: settings/structure.php:1441
+msgid "Labels color"
+msgstr "برچسب رنگ"
+
+#: settings/structure.php:1451
+msgid "Fields background color - default status"
+msgstr "رنگ پس زمینه فیلدها - وضعیت پیش فرض"
+
+#: settings/structure.php:1458
+msgid "Fields border color - default status"
+msgstr "رنگ مرز زمینه ها - وضعیت پیش فرض"
+
+#: settings/structure.php:1465
+msgid "Fields placeholder color - default status"
+msgstr "رنگ متن نگهدارنده فیلدها - وضعیت پیش فرض"
+
+#: settings/structure.php:1472
+msgid "Fields text color - default status"
+msgstr "رنگ فیلد متن - وضعیت پیش فرض"
+
+#: settings/structure.php:1479
+msgid "Fields icon color - default status"
+msgstr "رنگ آیکون فیلدها - وضعیت پیش فرض"
+
+#: settings/structure.php:1486
+msgid "Fields icon background - default status"
+msgstr "رنگ آیکون بک گراند فیلدها - وضعیت پیش فرض"
+
+#: settings/structure.php:1492
+msgid "Fields background color - on hover"
+msgstr "رنگ بک گراند فیلدها - در حالت هاور"
+
+#: settings/structure.php:1499
+msgid "Fields border color - on hover"
+msgstr "رنگ مرز فیلدها - در حالت هاور"
+
+#: settings/structure.php:1506
+msgid "Fields placeholder color - on hover"
+msgstr "رنگ متن نگهدارنده فیلدها - در حالت هاور"
+
+#: settings/structure.php:1513
+msgid "Fields text color - on hover"
+msgstr "رنگ متن فیلدها - در حالت هاور"
+
+#: settings/structure.php:1520
+msgid "Fields icon color - hover status"
+msgstr "رنگ آیکون فیلدها - در حالت هاور"
+
+#: settings/structure.php:1527
+msgid "Fields icon background - hover status"
+msgstr "بک گراند آیکون فیلدها - در حالت هاور"
+
+#: settings/structure.php:1537 settings/structure.php:1682
+msgid "Buttons background color - default status"
+msgstr "رنگ پس زمینه دکمه - حالت پیش فرض"
+
+#: settings/structure.php:1544 settings/structure.php:1689
+msgid "Buttons border color - default status"
+msgstr "رنگ مرز دکمه ها - وضعیت پیش فرض"
+
+#: settings/structure.php:1551 settings/structure.php:1696
+msgid "Buttons text color - default status"
+msgstr "رنگ متن دکمه ها - وضعیت پیش فرض"
+
+#: settings/structure.php:1558 settings/structure.php:1703
+msgid "Buttons background color - on hover"
+msgstr "رنگ دکمه پس زمینه - در حالت هاور"
+
+#: settings/structure.php:1565 settings/structure.php:1710
+msgid "Buttons border color - on hover"
+msgstr "رنگ مرز دکمه ها - در حالت هاور"
+
+#: settings/structure.php:1572 settings/structure.php:1717
+msgid "Buttons text color - on hover"
+msgstr "رنگ متن دکمه ها - در حالت هاور"
+
+#: settings/structure.php:1582
+msgid "Switch knob color"
+msgstr "تعویض رنگ دستگیره"
+
+#: settings/structure.php:1589
+msgid "Switch color - off status"
+msgstr "تغییر وضعیت رنگ - خاموش"
+
+#: settings/structure.php:1596
+msgid "Switch color - on status"
+msgstr "تغییر رنگ - وضعیت روشن"
+
+#: settings/structure.php:1611
+#, fuzzy
+#| msgid "Forms pagination progressbar - default status - background"
+msgid "Pagination progressbar - default status - background"
+msgstr "نوار پیشرفت صفحه بندی - وضعیت پیش فرض - پس زمینه را تشکیل می دهد"
+
+#: settings/structure.php:1623
+#, fuzzy
+#| msgid "Forms pagination progressbar - default status - color"
+msgid "Pagination progressbar - default status - color"
+msgstr "نوار پیشرفت صفحه بندی - وضعیت پیش فرض - رنگ را تشکیل می دهد"
+
+#: settings/structure.php:1635
+#, fuzzy
+#| msgid "Forms pagination progressbar - active status - background"
+msgid "Pagination progressbar - active status - background"
+msgstr "نوار پیشرفت صفحه بندی - وضعیت فعال - پس زمینه را تشکیل می دهد"
+
+#: settings/structure.php:1647
+#, fuzzy
+#| msgid "Forms pagination progressbar - active status - color"
+msgid "Pagination progressbar - active status - color"
+msgstr "نوار پیشرفت صفحه بندی - وضعیت فعال - رنگ را تشکیل می دهد"
+
+#: settings/structure.php:1667
+#, fuzzy
+#| msgid "Messages"
+msgid "Messages style"
+msgstr "پیام ها"
+
+#: settings/structure.php:1673
+msgid "Messages style's preview"
+msgstr ""
+
+#: settings/structure.php:1732
+msgid "Padding"
+msgstr "حاشیه داخلی"
+
+#: settings/structure.php:1740
+msgid ""
+"Set lightbox padding - ignored if it contains only a form (default: 25px)"
+msgstr ""
+"تنظیم حاشیه داخلی جعبه نوری - اگر فقط شامل یک فرم باشد (به صورت پیش فرض: "
+"25px) نادیده گرفته می شود"
+
+#: settings/structure.php:1743
+msgid "Border Radius"
+msgstr "شعاع مرزی"
+
+#: settings/structure.php:1751
+msgid ""
+"Set lightbox border radius - ignored if it contains only a form (default: 3px)"
+msgstr ""
+"تنظیم شعاع مرز جعبه نور - اگر فقط یک فرم داشته باشد نادیده گرفته می شود "
+"(default: 3px)"
+
+#: settings/structure.php:1754
+msgid "Border width"
+msgstr "عرض مرز"
+
+#: settings/structure.php:1762
+msgid "Set lightbox borders width (default: 0px)"
+msgstr "تنظیم عرض خطوط جعبه نوری (پیش فرض: 0px)"
+
+#: settings/structure.php:1765
+msgid "Maximum width"
+msgstr "حداکثر عرض"
+
+#: settings/structure.php:1773
+msgid "Set lightbox max-width - on mobile it is fixed to 90% (default: 70%)"
+msgstr ""
+"تنظیم حداکثر عرض جعبه نوری در موبایل، بصورت فیکس شده تا 90 درصد (پیشفرض 70 "
+"درصد)"
+
+#: settings/structure.php:1785
+msgid "Overlay color"
+msgstr "رنگ هم پوشانی"
+
+#: settings/structure.php:1791
+msgid "Overlay opacity"
+msgstr "شفافیت هم پوشانی"
+
+#: settings/structure.php:1808
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: settings/structure.php:1811
+msgid "Note: this won't apply to PrivateContent forms"
+msgstr "توجه: این امر به فرم خصوصی ContentContent اعمال نخواهد شد"
+
+#: settings/structure.php:1818
+msgid "Custom CSS"
+msgstr "CSS سفارشی"
+
+#: settings/structure.php:1835
+msgid "URL-based Restrictions"
+msgstr "محدودیت های مبتنی بر URL"
+
+#: settings/structure.php:1835
+msgid "Add restriction"
+msgstr "اضافه کردن محدودیت"
+
+#: settings/view.php:25
+msgid "PrivateContent Settings"
+msgstr "تنظیمات PrivateContent"
+
+#: settings/view.php:31
+#, fuzzy
+#| msgid "sort field"
+msgid "search fields"
+msgstr "مرتب سازی فیلد"
+
+#: settings/view.php:50
+msgid "Restriction redirect target / Custom URL"
+msgstr "محدودیت تغییر مسیر مقصد / URL سفارشی"
+
+#: settings/view.php:50 settings/view.php:53 settings/view.php:56
+msgid "Insert a valid URL"
+msgstr "یک URL معتبر وارد کنید"
+
+#: settings/view.php:53 settings/view.php:56
+msgid "Logged In Users Redirect / Custom URL"
+msgstr "تغییر مسیر کاربران وارد شده / URL سفارشی"
+
+#: settings/view.php:64
+msgid "Tracking ID format is wrong"
+msgstr "فرمت شناسه رهگیری اشتباه است"
+
+#: settings/view.php:88
+msgid "Select at least one category"
+msgstr "حداقل یک رده را انتخاب کنید"
+
+#: settings/view.php:103 settings/view.php:119
+msgid "Lightbox instances"
+msgstr "نمونه جعبه های نوری"
+
+#: settings/view.php:103
+msgid "Missing fields"
+msgstr "فیلدهای گم شده"
+
+#: settings/view.php:119
+msgid "Every field must be filled"
+msgstr "هر فیلد باید پر شود"
+
+#: settings/view.php:150
+msgid "Each restriction must have an \"allow\" value"
+msgstr "هر محدودیت باید یک مقدار \"مجوز\" داشته باشد"
+
+#: settings/view.php:195
+msgid ""
+"An error occurred during dynamic CSS creation. Code will be used inline anyway"
+msgstr ""
+"یک خطا در زمان اجرای css داینامیک رخ داد. کد در هر صورت به صورت خطی استفاده "
+"می شود"
+
+#: settings/view.php:248
+#, fuzzy
+#| msgid "Create at least one user category"
+msgid "Please create at least one user category to use the plugin"
+msgstr "حداقل یک دسته کاربری ایجاد کنید"
+
+#: settings/view.php:289
+msgid "Error creating lightbox term"
+msgstr "خطا در مدت زمان ایجاد جعبه نور"
+
+#: settings/view.php:314
+#, fuzzy
+#| msgid ""
+#| "Once deleted, you won't be able to use this trigger's class. Continue?"
+msgid "Once deleted, you will not be able to use this trigger class. Continue?"
+msgstr ""
+"پس از حذف قادر به استفاده از این trigger's class نخواهید بود.ادامه می دهید؟"
+
+#: settings/view.php:363
+msgid "Remove this restriction?"
+msgstr "این محدودیت را حذف می کنید؟"
+
+#: settings/view.php:534
+msgid "Field already in the form"
+msgstr "فیلد در حال حاضر در فرم است"
+
+#: settings/view.php:643
+#, fuzzy
+#| msgid "Account successfully deleted!"
+msgid "Form successfully saved!"
+msgstr "حساب با موفقیت حذف شد!"
+
+#: settings/view.php:665
+msgid "At least one form is required"
+msgstr "حداقل یک فرم لازم است"
+
+#: settings/view.php:672
+msgid "Delete this form? Related shortcodes will show the first one"
+msgstr "این فرم را حذف می کنید? این کد مربوطه را برای اولین بار نشان می دهد"
+
+#: settings/view.php:721
+msgid "Mirror wordpress users will be created. Continue?"
+msgstr "آینه وردپرس کاربران ایجاد خواهد شد. ادامه می دهید؟"
+
+#: settings/view.php:748
+msgid ""
+"WARNING: this will delete connected wordpress users and any related content "
+"will be lost. Continue?"
+msgstr ""
+"هشدار: این کاربران وردپرس متصل را حذف خواهد کرد و هر محتوای مرتبط از بین "
+"خواهد رفت. ادامه می دهید؟"
+
+#: settings/view.php:775
+msgid ""
+"WARNING: this will turn matched WP userse into PrivateContent mirrors. "
+"Continue?"
+msgstr ""
+"هشدار: این عمل باعث می شود که کاربران WP به آینه های PrivateContent همانند "
+"شوند. ادامه می هید؟"
+
+#: user_dashboard/ajax.php:28 user_dashboard/ajax.php:152
+#: user_dashboard/view.php:20
+msgid "User not found"
+msgstr "کاربر یافت نشد"
+
+#: user_dashboard/ajax.php:38 user_dashboard/ajax.php:157
+msgid "You are not allowed to edit users"
+msgstr "شما مجاز به ویرایش کاربران نیستید"
+
+#: user_dashboard/ajax.php:163
+msgid "Invalid status"
+msgstr "وضعیت نامعتبر"
+
+#: user_dashboard/dashboard_engine.php:96 user_dashboard/view.php:122
+msgid "Edit User"
+msgstr "ویرایش کاربر"
+
+#: user_dashboard/structure.php:18
+msgid "Main Data"
+msgstr "اطلاعات اصلی"
+
+#: user_dashboard/structure.php:56
+msgid "WordPress User Sync"
+msgstr "همگام سازی کاربر وردپرس"
+
+#: user_dashboard/structure.php:128
+msgid "username can't be changed for WP synced users"
+msgstr "نام کاربری را نمی توان برای کاربران همگام سازی شده WP تغییر داد"
+
+#: user_dashboard/structure.php:160
+msgid "Disable user's private page?"
+msgstr "صفحه خصوصی کاربر غیرفعال شود؟"
+
+#: user_dashboard/structure.php:166
+msgid "Edit Contents"
+msgstr "ویرایش محتویات"
+
+#: user_dashboard/structure.php:172
+msgid "Update password"
+msgstr "به روزرسانی گذرواژه"
+
+#: user_dashboard/structure.php:175
+#, fuzzy
+#| msgid "Repeat password"
+msgid "generate password"
+msgstr "رمز عبور را تکرار کنید"
+
+#: user_dashboard/structure.php:190
+msgid "Create at least one user category"
+msgstr "حداقل یک دسته کاربری ایجاد کنید"
+
+#: user_dashboard/structure.php:253
+msgid "User cannot be sinced, e-mail is required"
+msgstr "کاربر نمیتواند مصنوعی باشد، ایمیل مورد نیاز است"
+
+#: user_dashboard/structure.php:269
+msgid "Globally emulated roles"
+msgstr "نقش های اصلی شبیه سازی شده است"
+
+#: user_dashboard/structure.php:277
+msgid "User synced"
+msgstr "کاربر همگام سازی شده"
+
+#: user_dashboard/structure.php:281
+msgid "Manage WP Fields"
+msgstr "مدیریت فیلدهای وردپرس"
+
+#: user_dashboard/structure.php:285
+msgid "Detach"
+msgstr "جدا کردن"
+
+#: user_dashboard/structure.php:288
+msgid "Custom roles association"
+msgstr "انجمن نقش های سفارشی"
+
+#: user_dashboard/structure.php:288
+msgid "Overrides global roles defined in settings. Leave empty to follow them"
+msgstr ""
+"نقش های جهانی تعریف شده در تنظیمات را باطل مى کند. برای پیگیری آنها ، خالی "
+"بگذارید"
+
+#: user_dashboard/structure.php:320
+msgid "User not synced"
+msgstr "کاربر همگام نشده است"
+
+#: user_dashboard/structure.php:321
+msgid "Sync Now"
+msgstr "همگام سازی اکنون"
+
+#: user_dashboard/view.php:37
+msgid "You are not allowed to access this page"
+msgstr "شما اجازه دسترسی به این صفحه را ندارید"
+
+#: user_dashboard/view.php:48
+msgid "Add PrivateContent User"
+msgstr "افزودن کاربر PrivateContent"
+
+#: user_dashboard/view.php:59
+msgid "active"
+msgstr "فعال"
+
+#: user_dashboard/view.php:60
+msgid "disabled"
+msgstr "ناتوان"
+
+#: user_dashboard/view.php:61
+msgid "pending"
+msgstr "انتظار"
+
+#: user_dashboard/view.php:62
+msgid "deleted"
+msgstr "حذف شده"
+
+#: user_dashboard/view.php:69
+msgid "Added on"
+msgstr "اضافه شده در"
+
+#: user_dashboard/view.php:78
+msgid "User status"
+msgstr "وضعیت کاربر"
+
+#: user_dashboard/view.php:85
+msgid "delete user"
+msgstr "حذف کاربر"
+
+#: user_dashboard/view.php:89
+msgid "enable user"
+msgstr "فعال کردن کاربر"
+
+#: user_dashboard/view.php:92
+msgid "disable user"
+msgstr "غیرفعال کردن کاربر"
+
+#: user_dashboard/view.php:172
+msgid "User updated successfully!"
+msgstr "کاربر با موفقیت به روز شد!"
+
+#: user_dashboard/view.php:172
+msgid "User added successfully!"
+msgstr "کاربر با موفقیت اضافه شد!"
+
+#: user_dashboard/view.php:221
+msgid "Do you really want to delete this user?"
+msgstr "آیا مطمئن هستید که میخواهید این کاربر را حذف کنید؟"
+
+#: user_dashboard/view.php:240
+msgid "User deleted successfully!"
+msgstr "کاربر باموفقیت حذف شد!"
+
+#: user_dashboard/view.php:241
+msgid "User enabled successfully!"
+msgstr "کاربر با موفقیت فعال شد!"
+
+#: user_dashboard/view.php:242
+msgid "User disabled successfully!"
+msgstr "کاربر با موفقیت غیرفعال شد!"
+
+#: user_dashboard/view.php:279
+msgid "A mirror WordPress user will be created. Continue?"
+msgstr "یک کاربر وردپرس آینه ایجاد خواهد شد. ادامه می دهید؟"
+
+#: user_dashboard/view.php:315
+msgid ""
+"WARNING: this will delete connected wordpres user and any related content "
+"will be lost. Continue?"
+msgstr ""
+"هشدار: این کاربر wordpres متصل را حذف می کند و هر محتوای مرتبط از بین خواهد "
+"رفت. ادامه می دهید؟"
+
+#: user_dashboard/view.php:330
+msgid "User detached successfully!"
+msgstr "کاربر با موفقیت جدا شد!"
+
+#: users_import_export/csv_export.php:6 users_import_export/pvtc_export.php:6
+#, fuzzy
+#| msgid "status"
+msgid "Any status"
+msgstr "وضعیت"
+
+#: users_import_export/csv_export.php:7 users_import_export/pvtc_export.php:7
+#, fuzzy
+#| msgid "Actives"
+msgid "Active users"
+msgstr "فعال"
+
+#: users_import_export/csv_export.php:8 users_import_export/pvtc_export.php:8
+#, fuzzy
+#| msgid "disable user"
+msgid "Disabled users"
+msgstr "غیرفعال کردن کاربر"
+
+#: users_import_export/csv_export.php:9 users_import_export/pvtc_export.php:9
+#, fuzzy
+#| msgid "Pending Users"
+msgid "Pending users"
+msgstr "کاربران در حال انتظار"
+
+#: users_import_export/csv_export.php:39
+msgid "Export type"
+msgstr "نوع خروجی"
+
+#: users_import_export/csv_export.php:42 users_import_export/pvtc_export.php:49
+msgid "Advanced users search - export parameters"
+msgstr ""
+
+#: users_import_export/csv_export.php:45 users_import_export/pvtc_export.php:52
+msgid "Users type"
+msgstr "نوع کاربران"
+
+#: users_import_export/csv_export.php:135
+#: users_import_export/engine_export.php:67
+#: users_import_export/pvtc_export.php:129
+msgid "Export configuration"
+msgstr ""
+
+#: users_import_export/csv_export.php:143
+#: users_import_export/pvtc_export.php:137
+#, fuzzy
+#| msgid "User status"
+msgid "Users status"
+msgstr "وضعیت کاربر"
+
+#: users_import_export/csv_export.php:179
+msgid "Export as"
+msgstr "اکسپورت به"
+
+#: users_import_export/csv_export.php:182
+msgid "Excel"
+msgstr "اکسل"
+
+#: users_import_export/csv_export.php:198
+#: users_import_export/engine_export.php:101
+#: users_import_export/pvtc_export.php:190
+msgid "Export"
+msgstr "اکسپورت"
+
+#: users_import_export/csv_import.php:29 users_import_export/engine_import.php:7
+#: users_import_export/pvtc_import.php:7
+msgid "Step 1 - File Upload"
+msgstr ""
+
+#: users_import_export/csv_import.php:36
+#, fuzzy
+#| msgid "Select a valid CSV file containing users"
+msgid "Select the CSV file cotaining users data"
+msgstr "یک فایل CSV معتبر حاوی کاربران را انتخاب کنید"
+
+#: users_import_export/csv_import.php:37
+#: users_import_export/engine_import.php:15
+#: users_import_export/pvtc_import.php:15
+msgid "max files size"
+msgstr ""
+
+#: users_import_export/csv_import.php:44
+#, fuzzy
+#| msgid "Default categories for imported users"
+msgid "Categories assigned to imported users"
+msgstr "دسته های پیش فرض برای کاربران ایمپورت شده"
+
+#: users_import_export/csv_import.php:56
+#, fuzzy
+#| msgid "Disable user's private page?"
+msgid "Enable imported users reserved page?"
+msgstr "صفحه خصوصی کاربر غیرفعال شود؟"
+
+#: users_import_export/csv_import.php:62
+#, fuzzy
+#| msgid "Ignore first row?"
+msgid "Ignore first CSV row?"
+msgstr "ردیف اول را نادیده بگیرید؟"
+
+#: users_import_export/csv_import.php:62
+msgid "to skip headings"
+msgstr ""
+
+#: users_import_export/csv_import.php:68
+#, fuzzy
+#| msgid "Default categories for imported users"
+msgid "Automatically create a new password for imported users?"
+msgstr "دسته های پیش فرض برای کاربران ایمپورت شده"
+
+#: users_import_export/csv_import.php:83
+#: users_import_export/engine_import.php:26
+#: users_import_export/pvtc_import.php:31
+msgid "Upload"
+msgstr ""
+
+#: users_import_export/csv_import.php:89
+msgid "Step 2 - Data Mapping"
+msgstr ""
+
+#: users_import_export/csv_import.php:103
+#: users_import_export/engine_import.php:40
+#: users_import_export/pvtc_import.php:54
+msgid "Back to upload"
+msgstr ""
+
+#: users_import_export/csv_import.php:243
+#: users_import_export/engine_import.php:139
+#: users_import_export/pvtc_import.php:156
+msgid "Did you double check the import setup? Proceed?"
+msgstr ""
+
+#: users_import_export/csv_import.php:294
+#: users_import_export/engine_import.php:194
+#: users_import_export/pvtc_import.php:208
+#, fuzzy
+#| msgid "Do you really want to delete these users?"
+msgid "Do you really want to go back to the upload form?"
+msgstr "آیا واقعا می خواهید این کاربران را حذف کنید؟"
+
+#: users_import_export/engine_export.php:16
+#, fuzzy
+#| msgid "Select at least one category"
+msgid "Please select at least one subject to export"
+msgstr "حداقل یک رده را انتخاب کنید"
+
+#: users_import_export/engine_export.php:25
+#, fuzzy
+#| msgid "Unknown error"
+msgid "Unknown subject"
+msgstr "خطای ناشناخته"
+
+#: users_import_export/engine_export.php:58
+#, fuzzy
+#| msgid "Account successfully deleted!"
+msgid "Export successfully performed!"
+msgstr "حساب با موفقیت حذف شد!"
+
+#: users_import_export/engine_import.php:14
+msgid "Select the JSON file cotaining the PrivateContent engine data"
+msgstr ""
+
+#: users_import_export/engine_import.php:32
+msgid "Step 2 - What to import"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:12
+msgid "back to main import/export page"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:19 users_import_export/imp_exp_hub.php:59
+#, fuzzy
+#| msgid "Add PrivateContent User"
+msgid "Export for PrivateContent"
+msgstr "افزودن کاربر PrivateContent"
+
+#: users_import_export/imp_exp_hub.php:23 users_import_export/imp_exp_hub.php:67
+msgid "CSV / EXCEL Export"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:27 users_import_export/imp_exp_hub.php:75
+#, fuzzy
+#| msgid "Add PrivateContent User"
+msgid "Import from PrivateContent"
+msgstr "افزودن کاربر PrivateContent"
+
+#: users_import_export/imp_exp_hub.php:31
+msgid "Import from CSV"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:35 users_import_export/imp_exp_hub.php:93
+#, fuzzy
+#| msgid "Import WordPress Users"
+msgid "Import from WordPress"
+msgstr "وارد کردن کاربران وردپرس"
+
+#: users_import_export/imp_exp_hub.php:39
+#, fuzzy
+#| msgid "Export Users"
+msgid "Export suite setup"
+msgstr "اکسپورت کاربران"
+
+#: users_import_export/imp_exp_hub.php:43
+#, fuzzy
+#| msgid "Import Users"
+msgid "Import suite setup"
+msgstr "وارد کردن کاربران"
+
+#: users_import_export/imp_exp_hub.php:53
+#, fuzzy
+#| msgid "Who to block?"
+msgid "What to do?"
+msgstr "چه کسی مسدود شده؟"
+
+#: users_import_export/imp_exp_hub.php:60
+#, fuzzy
+#| msgid "Displays PrivateContent registration form"
+msgid "Moving users from a PrivateContent installation to another"
+msgstr "فرم ثبت نام خصوصی را نشان می دهد"
+
+#: users_import_export/imp_exp_hub.php:68
+msgid "Getting users data to be used in third-party systems"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:76
+msgid "Importing users from another PrivateContent installation"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:83
+msgid "Import from CSV file"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:84
+msgid "Importing users from a CSV file generated on third-party systems"
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:94
+#, fuzzy
+#| msgid "WordPress users interactions"
+msgid "Turning WordPress users into PrivateContent ones"
+msgstr "تعاملات کاربران وردپرس"
+
+#: users_import_export/imp_exp_hub.php:110
+#, fuzzy
+#| msgid "PrivateContent Users"
+msgid "Export PrivateContent suite setup"
+msgstr "کاربران محتوای خصوصی"
+
+#: users_import_export/imp_exp_hub.php:111
+msgid "Selectively export PrivateContent suite settings, forms, fields, etc."
+msgstr ""
+
+#: users_import_export/imp_exp_hub.php:118
+#, fuzzy
+#| msgid "PrivateContent Users"
+msgid "Import PrivateContent suite setup"
+msgstr "کاربران محتوای خصوصی"
+
+#: users_import_export/imp_exp_hub.php:119
+msgid "Selectively import PrivateContent suite settings, forms, fields, etc."
+msgstr ""
+
+#: users_import_export/pvtc_export.php:38
+msgid "Please note these data linked to privateContent users cannot be exported"
+msgstr ""
+
+#: users_import_export/pvtc_export.php:174
+#, fuzzy
+#| msgid "Before page contents"
+msgid "Include user reserved page contents?"
+msgstr "قبل از محتوای صفحه"
+
+#: users_import_export/pvtc_import.php:14
+#, fuzzy
+#| msgid "Select a valid CSV file containing users"
+msgid "Select the JSON file cotaining users data"
+msgstr "یک فایل CSV معتبر حاوی کاربران را انتخاب کنید"
+
+#: users_import_export/pvtc_import.php:37
+msgid "Step 2 - Data Matching"
+msgstr ""
+
+#: users_import_export/pvtc_import.php:149
+msgid "No user to import, all have been discarded"
+msgstr ""
+
+#: users_import_export/pvtc_import.php:230
+#, fuzzy
+#| msgid "Do you really want to delete these users?"
+msgid "Do you really want to discard all corresponding users?"
+msgstr "آیا واقعا می خواهید این کاربران را حذف کنید؟"
+
+#: users_import_export/pvtc_import.php:235
+#, fuzzy
+#| msgid "Do you really want to delete these users?"
+msgid "Do you really want to overwrite all corresponding users?"
+msgstr "آیا واقعا می خواهید این کاربران را حذف کنید؟"
+
+#: users_import_export/wp_import.php:32
+#, fuzzy
+#| msgid "Import Options"
+msgid "Import configuration"
+msgstr "گزینه های ایمپورت"
+
+#: users_import_export/wp_import.php:39
+#, fuzzy
+#| msgid "WordPress users interactions"
+msgid "WordPress user roles to target"
+msgstr "تعاملات کاربران وردپرس"
+
+#: users_import_export/wp_import.php:41
+#, fuzzy
+#| msgid "Select a form to edit"
+msgid "Select a role"
+msgstr "یک فرم را برای ویرایش انتخاب کنید"
+
+#: users_import_export/wp_import.php:53
+msgid "Default categories for imported users"
+msgstr "دسته های پیش فرض برای کاربران ایمپورت شده"
+
+#: users_import_export/wp_import.php:55
+msgid "Select a category"
+msgstr "یک دسته را انتخاب کنید"
+
+#: users_import_export/wp_import.php:98
+#, fuzzy
+#| msgid "Select at least one category"
+msgid "Please select at least a WordPress role and a target category"
+msgstr "حداقل یک رده را انتخاب کنید"
+
+#: users_import_export/wp_import.php:103
+#, fuzzy
+#| msgid ""
+#| "Do you really want to turn every user belonging to these roles into a "
+#| "PrivateContent user? Won't be possible to have them back in future"
+msgid ""
+"Do you really want to turn every user belonging to these roles into a "
+"PrivateContent user? Will not be possible to have them back in future"
+msgstr ""
+"آیا واقعا می خواهید هر کاربر متعلق به این نقش را به یک کاربر PrivateContent "
+"تبدیل کنید؟ در آینده امکان پذیر نخواهد بود"
+
+#~ msgid "Get Add-ons!"
+#~ msgstr "دریافت افزودنیها!"
+
+#~ msgid "Enable \"testing\" mode?"
+#~ msgstr "فعال کردن حالت تست؟"
+
+#~ msgid ""
+#~ "If checked, WordPress users <strong>won't</strong> be able to see "
+#~ "restricted contents"
+#~ msgstr ""
+#~ "اگر انتخاب شود، کاربران <strong>قادر به دیدن محتوای محدود شده</strong> "
+#~ "نخواهند بود"
+
+#~ msgid "Logout Form"
+#~ msgstr "فرم خروج"
+
+#~ msgid "Enable updater to get version"
+#~ msgstr "برای به دست آوردن این نسخه بهروزرسانی را فعال کنید"
+
+#~ msgid "Visit plugin site"
+#~ msgstr "بازدید از سایت پلاگین"
+
+#~ msgid "Updater active"
+#~ msgstr "به روزرسانی فعال"
+
+#~ msgid "Setup updater"
+#~ msgstr "راه اندازی آپدیت"
+
+#~ msgid "Automatic Updates - Purchase Validation"
+#~ msgstr "به روز رسانی خودکار-خرید اعتبار"
+
+#~ msgid "how to get purchase code?"
+#~ msgstr "چگونه یک لایسنس خریداری کنیم؟"
+
+#~ msgid ""
+#~ "<span><strong>IMPORTANT</strong>: the auto-updater must be enabled only "
+#~ "once for <strong>ONE</strong> domain. Use it <strong>only</strong> in "
+#~ "final production website!<br/>Flag the checkbox to confirm you read this.</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span><strong>مهم</strong>: به‌روزرسانی خودکار باید فقط یک بار برای دامنه "
+#~ "<strong>ONE</strong> فعال شود. از آن <strong>فقط</strong> در وب‌سایت تولید "
+#~ "نهایی استفاده کنید!<br/>برای تأیید اینکه این مطلب را خوانده‌اید، کادر "
+#~ "انتخاب را علامت‌گذاری کنید.</span>"
+
+#~ msgid "Purchase successfully validated, auto-updater active!"
+#~ msgstr "خرید با موفقیت تأیید شد، به‌روزرسانی خودکار فعال شد!"
+
+#~ msgid "Username missing"
+#~ msgstr "نام کاربری مفقود شده"
+
+#~ msgid "Purchase code missing or incorrect"
+#~ msgstr "کد خرید گم شده یا نادرست است"
+
+#~ msgid "Empty username or purchase code"
+#~ msgstr "نام کاربری یا کد خرید خالی است"
+
+#~ msgid "Item not found"
+#~ msgstr "مورد یافت نشد"
+
+#~ msgid "Purchase code already redeemed on another domain"
+#~ msgstr "کد خرید قبلا در دامنه دیگری فعال شده است"
+
+#~ msgid "Error connecting to Envato servers"
+#~ msgstr "خطا در اتصال به سرورهای Envato"
+
+#~ msgid "Wrong username or purchase code"
+#~ msgstr "نام کاربری یا کد خرید اشتباه است"
+
+#~ msgid ""
+#~ "Error connecting to LCweb endpoint. Please check your cURL server settings"
+#~ msgstr ""
+#~ "خطا در اتصال به نقطه پایانی LCweb. لطفاً تنظیمات سرور cURL خود را بررسی کنید"
+
+#~ msgid "User Pages"
+#~ msgstr "صفحات کاربر"
+
+#~ msgid "User Page"
+#~ msgstr "صفحه کاربر"
+
+#~ msgid "Add New User Page"
+#~ msgstr "اضافه کردن صفحه کاربر جدید"
+
+#~ msgid "Edit User Page"
+#~ msgstr "ویرایش صفحه کاربر"
+
+#~ msgid "New User Page"
+#~ msgstr "صفحه کاربر جدید"
+
+#~ msgid "Search User Pages"
+#~ msgstr "جستجوی صفحات کاربر"
+
+#~ msgid "No user pages found"
+#~ msgstr "هیچ صفحات کاربری یافت نشد"
+
+#~ msgid "No user pages found in Trash"
+#~ msgstr "هیچ صفحات کاربری در زباله دان یافت نشد"
+
+#~ msgid "No user logged"
+#~ msgstr "کاربر وارد نشده است"
+
+#~ msgid "Please insert your password"
+#~ msgstr "لطفا رمز عبور خود را وارد کنید"
+
+#~ msgid "Wrong password"
+#~ msgstr "رمز عبور اشتباه است"
+
+#~ msgid "Register version"
+#~ msgstr "ثبت لایسنس محتوای خصوصی وردپرس"
+
+#~ msgid ""
+#~ "You already register your license key. to re validate it, you can use this "
+#~ "form."
+#~ msgstr ""
+#~ "شما در حال حاضر لایسنس خود را ثبت کرده اید. برای برسی مجدد ، می توانید از "
+#~ "این فرم استفاده کنید."
+
+#~ msgid "Your current license:"
+#~ msgstr "لایسنس فعلی شما:"
+
+#~ msgid "Revalidate"
+#~ msgstr "برسی دوباره"
+
+#~ msgid "Delete and submit another license"
+#~ msgstr "پاک کردن و حذف لایسنس دیگر"
+
+#~ msgid "New license key"
+#~ msgstr "کد لایسنس جدید"
+
+#~ msgid "Please wait..."
+#~ msgstr "لطفا صبر کنید..."
+
+#~ msgid "Please activate plugin with your license key to all features work."
+#~ msgstr ""
+#~ "لطفاً مجوز لایسنس را برای استفاده از تمام ویژگی های موجود افزونه فعال کنید."
+
+#~ msgid "License key"
+#~ msgstr "کد لایسنس"
+
+#~ msgid "Something goes wrong please try again."
+#~ msgstr "مشکلی پیش آمده لطفا مجددا تلاش کنید."
+
+#~ msgid "Please insert your license code"
+#~ msgstr "لطفا کد لایسنس خود را وارد کنید"
+
+#~ msgid "License code is valid."
+#~ msgstr "کد لایسنس معتبر است."
+
+#~ msgid "Thanks! Your license activated successfully."
+#~ msgstr "با تشکر! لایسنس شما با موفقیت فعال شد."
+
+#, php-format
+#~ msgid "To activating your %s please insert you license key"
+#~ msgstr "برای فعال کردن %s خود ، لطفاً کد لایسنس خود را وارد کنید"
+
+#~ msgid "Register Now"
+#~ msgstr "ثبت لایسنس"
+
+#, php-format
+#~ msgid "There is something wrong with your %s license. please check it."
+#~ msgstr "مشکلی در %s لایسنس شما وجود دارد . لطفا آن را برسی کنید."
+
+#~ msgid "Check Now"
+#~ msgstr "اکنون برسی کن"
+
+#~ msgid ""
+#~ "<strong>Note</strong>: only users with WP sync will be able to do this"
+#~ msgstr ""
+#~ "<strong>توجه</strong>: فقط کاربران با همگام سازی وردپرس قادر به انجام این "
+#~ "کار خواهند بود"
+
+#~ msgid ""
+#~ "<font class=\"lcwp_settings_rednote\"><strong>Note</strong>: \"Restriction "
+#~ "redirect target\" will be visible to allow the users login. Be sure you "
+#~ "are using a Wordpress page</font>"
+#~ msgstr ""
+#~ "<font class=\"lcwp_settings_rednote\"><strong>توجه</strong>: \"هدف تغییر "
+#~ "مسیر محدودیت\" قابل مشاهده خواهد بود تا به کاربران اجازه ورود به سیستم را "
+#~ "بدهد. مطمئن شوید که از صفحه وردپرس</font> استفاده می کنید"
+
+#~ msgid "Set pages excluded in the lock"
+#~ msgstr "صفحات را در قفل تنظیم کنید"
+
+#~ msgid "Tracking ID"
+#~ msgstr "شناسه رهگیری"
+
+#~ msgid ""
+#~ "Once saved, PrivateContent will track specific logged users navigation and "
+#~ "their events. In order to do so, remember to <a href='https://support."
+#~ "google.com/analytics/answer/3123666?utm_id=ad#setup' "
+#~ "target='_blank'>enable the related Analytics option</a>."
+#~ msgstr ""
+#~ "پس از ذخیره شدن PrivateContent فعالیت کاربران و رویدادهای آنان را ثبت می "
+#~ "کند. به منظور انجام این کار، به یاد داشته باشید <a href='https://support."
+#~ "google.com/analytics/answer/3123666?utm_id=ad#setup' target='_blank'>گزینه "
+#~ "تجزیه و تحلیل مرتبط را فعال کنید</a>."
+
+#~ msgid ""
+#~ "<strong>ONLY</strong> enable the function creating a new Analytics view, "
+#~ "PrivateContent will do the rest."
+#~ msgstr ""
+#~ "<strong>فقط</strong> عملکرد ایجاد نمای جدید Analytics را فعال کنید، "
+#~ "PrivateContent بقیه کارها را انجام خواهد داد."
+
+#~ msgid "Advanced"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Disable auto-updates?"
+#~ msgstr "غیرفعال کردن به روزرسانی خودکار؟"
+
+#~ msgid ""
+#~ "Use it only noticing serious backend slowdowns when this plugin is enabled"
+#~ msgstr ""
+#~ "به دلیل کاهش شدید سرعت سایت،تنها زمانی فعال کنید که می خواهید نسخه جدید "
+#~ "افزونه را دریافت کنید و پس از آپدیت دوباره آنرا غیر فعال کنید"
+
+#~ msgid "Disclaimer"
+#~ msgstr "سلب مسئولیت"
+
+#~ msgid "Restricted Content Messages"
+#~ msgstr "پیام های محرمانه"
+
+#~ msgid "Restricted Comment Messages"
+#~ msgstr "پیام های نظر محدود شده"
+
+#~ msgid "Private Page Messages"
+#~ msgstr "پیام صفحه خصوصی"
+
+#~ msgid "Login Form Messages"
+#~ msgstr "پیام های فرم ورود"
+
+#~ msgid "Registration Form Message"
+#~ msgstr "فرم ثبت نام پیام"
+
+#~ msgid "General Styling Settings"
+#~ msgstr "تنظیمات ظاهری عمومی"
+
+#~ msgid "Forms background color"
+#~ msgstr "رنگ پس زمینه فرم ها"
+
+#~ msgid "Forms border color"
+#~ msgstr "رنگ مرز فرم ها"
+
+#~ msgid "Options saved"
+#~ msgstr "گزینه ها ذخیره شدند"
+
+#~ msgid ""
+#~ "The settings of this section and the important parts of this plugin are "
+#~ "locked"
+#~ msgstr "تنظیمات این بخش و قسمتهای مهم این افزونه قفل گذاری شده است"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid ""
+#~ "Your server doesn't give the permissions to manage files. Please enable "
+#~ "the fopen() function"
+#~ msgstr ""
+#~ "سرور شما اجازه مدیریت فایل را نمیدهد. لطفا عملکرد fopen () را فعال کنید"
+
+#~ msgid "CSV file"
+#~ msgstr "فایل CSV"
+
+#~ msgid "Fields Delimiter"
+#~ msgstr "جدا کنند فیلدها"
+
+#~ msgid "CSV fields delimiter (normally is \";\")"
+#~ msgstr "محدوده فیلدهای CSV (بصورت نرمال \";\")"
+
+#~ msgid "Enable private page?"
+#~ msgstr "صفحه خصوصی را فعال می کنید؟"
+
+#~ msgid "If checked, enable private page for imported users"
+#~ msgstr "اگر فعال شود، صفحه خصوصی برای کاربران ایمپورت شده را فعال می کند"
+
+#~ msgid "If checked, ignore first CSV row (normally used for headings)"
+#~ msgstr ""
+#~ "اگر انتخاب شود، اولین ردیف CSV را نادیده می گیرد (معمولا برای عناوین "
+#~ "استفاده می شود)"
+
+#~ msgid "Abort if errors are found?"
+#~ msgstr "متوقف شود، اگر خطا یا خطاهایی پیدا شود؟"
+
+#~ msgid "If checked, abort import process whether an error is found"
+#~ msgstr "در صورت انتخاب، اگر خطایی پیدا شود فرآیند ایمپورت را متوقف می کند"
+
+#~ msgid "Abort if duplicated are found?"
+#~ msgstr "اگر تکراری پیدا شد متوقف شود؟"
+
+#~ msgid "or e-mail"
+#~ msgstr "یا ایمیل"
+
+#~ msgid "If checked, abort import process whether a duplicated username"
+#~ msgstr ""
+#~ "اگر انتخاب شود، چنانچه در فرایند ایمپورت، نام کاربری تکراری پیدا شد پیغام "
+#~ "می دهد، توقف ! زیرا کاربر تکراری"
+
+#~ msgid "is found"
+#~ msgstr "پیدا شده است"
+
+#~ msgid "Abort if wordpress sync fails?"
+#~ msgstr "متوقف شود، اگر همگام سازی وردپرس نتوانست انجام شود؟"
+
+#~ msgid ""
+#~ "If checked, abort import process whether a mirrored user already exists"
+#~ msgstr ""
+#~ "اگر انتخاب شود و یک کاربر معلق وجود داشته باشد فرایند ایمپورت قطع خواهد شد"
+
+#~ msgid "Custom fields import"
+#~ msgstr "فیلدهای سفارشی ایمپورت"
+
+#~ msgid "add field"
+#~ msgstr "اضافه کردن فیلد"
+
+#~ msgid "column"
+#~ msgstr "ستون"
+
+#~ msgid "Any"
+#~ msgstr "هر شخصی"
+
+#~ msgid "Only actives"
+#~ msgstr "فقط فعال"
+
+#~ msgid "Only disabled"
+#~ msgstr "فقط غیرفعال"
+
+#~ msgid "Export every user?"
+#~ msgstr "اکسپورت هر کاربر؟"
+
+#~ msgid "Field Delimiter"
+#~ msgstr "جدا کننده فیلد"
+
+#~ msgid "Category"
+#~ msgstr "دسته بندی"
+
+#~ msgid "invalid file uploaded"
+#~ msgstr "فایل آپلود شده نامعتبر است"
+
+#~ msgid "Row "
+#~ msgstr "ردیف "
+
+#~ msgid "Missing values have been found in rows"
+#~ msgstr "مقدارهای گم شده در ردیف یافت می شود"
+
+#~ msgid "Users with existing username have been found at rows"
+#~ msgstr "کاربران با نام کاربری موجود در ردیف یافت شده اند"
+
+#~ msgid "Users with existing e-mail have been found at rows"
+#~ msgstr "کاربران با ایمیل موجود در ردیف یافت شده اند"
+
+#~ msgid "Wordpress mirror users already exist at rows"
+#~ msgstr "کاربران آینه وردپرس در حال حاضر در ردیف وجود دارند"
+
+#~ msgid "Import completed succesfully"
+#~ msgstr "ایمپورت به طور موفقیت آمیز انجام شد"
+
+#~ msgid "Users added"
+#~ msgstr "کاربران اضافه شده"
+
+#~ msgid "Missing values"
+#~ msgstr "ارزش از دست رفته"
+
+#~ msgid "duplicated e-mails"
+#~ msgstr "ایمیل های تکراری"
+
+#~ msgid "Temporary file cannot be read"
+#~ msgstr "فایل موقت قابل خواندن نیست"
+
+#~ msgid "Envato username"
+#~ msgstr "نام کاربری Envato"
+
+#~ msgid "Purchase code"
+#~ msgstr "کد خرید"
+
+#~ msgid "Validate"
+#~ msgstr "اعتبارسنجی"
+
+#~ msgid "Use new credentials"
+#~ msgstr "از مدارک جدید استفاده کنید"
+
+#~ msgid "go to first page"
+#~ msgstr "به اولین صفحه برو"
+
+#, php-format
+#~ msgid "# of % selected"
+#~ msgstr "# از % sانتخاب شد"
+
+#~ msgid "All selected"
+#~ msgstr "همه انتخاب شده اند"
+
+#~ msgid "Private page container's content"
+#~ msgstr "محفظه محتوای صفحه شخصی"
+
+#~ msgid "Contents visible by unlogged users"
+#~ msgstr "مطالب قابل مشاهده توسط کاربران وارد نشده"
+
+#~ msgid ""
+#~ "Minimum WordPress role to use the plugin and access restricted contents"
+#~ msgstr "حداقل نقش وردپرس برای استفاده از افزونه و دسترسی به محتوای محدود شده"
+
+#~ msgid "Frontend style"
+#~ msgstr "سبک ظاهری"
+
+#~ msgid "Custom"
+#~ msgstr "سفارشی"
+
+#~ msgid ""
+#~ "Select the style used for forms and boxes - <strong style='color: "
+#~ "#D54E21;'>choose custom</strong> to apply options listed beneath"
+#~ msgstr ""
+#~ "سبک مورد استفاده برای فرم ها و جعبه ها را انتخاب کنید - <strong "
+#~ "style='color: #D54E21;'>سفارشی را انتخاب کنید</strong>برای استفاده از "
+#~ "گزینه های ذکر شده در زیر"
+
+#~ msgid "Disable default frontend CSS?"
+#~ msgstr "غیر فعال کردن CSS پیش فرض؟"
+
+#~ msgid "If checked, prevents plugin's CSS to be used"
+#~ msgstr "اگر انتخاب شود، از CSS پلاگین استفاده می شود"
+
+#~ msgid "reCAPTCHA icons color"
+#~ msgstr "رنگ آیکون reCAPTCHA"
+
+#~ msgid "\"transparent\" value allowed"
+#~ msgstr "مقدار \"شفاف\" مجاز است"
+
+#~ msgid "Please note Firefox actually doesn't support this feature"
+#~ msgstr "لطفا توجه داشته باشید که فایرفاکس از این ویژگی پشتیبانی نمی کند"
+
+#~ msgid "User enabled"
+#~ msgstr "کاربر فعال شده است"
+
+#~ msgid "User disabled"
+#~ msgstr "کاربر غیرفعال شده است"
+
+#~ msgid "WP sync error"
+#~ msgstr "خطای همگامسازی WP"
+
+#~ msgid "User updated"
+#~ msgstr "کاربر به روز شد"
+
+#~ msgid "User does not exists"
+#~ msgstr "کاربر موجود نیست"
+
+#~ msgid "User Data"
+#~ msgstr "داده های کاربر"
+
+#~ msgid "detach from WP sync to change username"
+#~ msgstr "جدا کردن از WP همگام سازی برای تغییر نام کاربری"
+
+#~ msgid "WordPress user sync"
+#~ msgstr "همگام سازی کاربر وردپرس"
+
+#~ msgid "sync"
+#~ msgstr "همگام سازی"
+
+#~ msgid "manage WP fields"
+#~ msgstr "مدیریت فیلدهای وردپرس"
+
+#~ msgid "detach"
+#~ msgstr "جدا کردن"
+
+#~ msgid "A mirror wordpress user will be created. Continue?"
+#~ msgstr "یک کاربر وردپرس آینه ایجاد خواهد شد. ادامه می دهید؟"
+
+#~ msgid "Edit Page"
+#~ msgstr "ویرایش صفحه"
+
+#~ msgid "Exported categories"
+#~ msgstr "مقادیر اکسپورت شده"
+
+#~ msgid "Choose what to export"
+#~ msgstr "موارد مورد نیاز برای اکسپورت"
+
+#~ msgid "Filter"
+#~ msgstr "فیلتر کردن"
+
+#~ msgid "insert a value for each condition"
+#~ msgstr "یک مقدار برای هر وضعیت وارد کنید"
+
+#~ msgid "Remove condition?"
+#~ msgstr "پاک کردن وضعیت؟"
+
+#~ msgid "Field already used"
+#~ msgstr "فیلد در حال استفاده است"
+
+#~ msgid "Do you really want to delete "
+#~ msgstr "شما واقعا میخواهی حذف کنی "
+
+#~ msgid "Registration form labels - font size"
+#~ msgstr "برچسب فرم ثبت نام - اندازه فونت"

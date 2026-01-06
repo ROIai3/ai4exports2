@@ -1,0 +1,670 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: et_EE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: classes/simple_form_validator.php\n"
+"X-Poedit-SearchPath-1: classes/recaptchalib.php\n"
+"X-Poedit-SearchPath-2: classes/users_manag.php\n"
+"X-Poedit-SearchPath-3: classes/meta_manag.php\n"
+"X-Poedit-SearchPath-4: user_registration.php\n"
+"X-Poedit-SearchPath-5: user_auth.php\n"
+"X-Poedit-SearchPath-6: public_api.php\n"
+"X-Poedit-SearchPath-7: comment_hack.php\n"
+"X-Poedit-SearchPath-8: classes/pc_form_framework.php\n"
+"X-Poedit-SearchPath-9: login_widget.php\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+msgid "Core fields"
+msgstr ""
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr "Eesnimi"
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "Nimi"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr "Kasutaja eesnimi"
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr "Kasutaja"
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr "Perekonnanimi"
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "Perekonnanimi"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr "Kasutaja perekonnanimi"
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "Kasutajanimi"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr "Kasutajanimi sisselogimiseks"
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "Salasõna / Password"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr "Salasõna sisselogimiseks"
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr "Kategooria"
+
+#: classes/pc_form_framework.php:132
+msgid "Categories"
+msgstr "Kategooriad"
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr "Epost"
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr "Kasutaja eposti aadress"
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "Telefon"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr "Kasutaja telefon"
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+msgid "go to page"
+msgstr ""
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr ""
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr "Korda salasõna"
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr "Salasõna tugevus"
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "See kasutajanimi on juba kasutusel"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr "Vähemalt üks kategooria on vale"
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr ""
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr ""
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr "sümbol"
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+msgid "must contain at least"
+msgstr ""
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr ""
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "väikseim väärtus on"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "suurim väärtus on"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr ""
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr ""
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr ""
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:478
+msgid "must be long"
+msgstr ""
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr ""
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr ""
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr ""
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr ""
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr ""
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr ""
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr ""
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr ""
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr ""
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr ""
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr ""
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr ""
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr ""
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr ""
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr ""
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr ""
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr ""
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr ""
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr ""
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr ""
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr ""
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr ""
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr ""
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr ""
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr ""
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr ""
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr ""
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr ""
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr ""
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr ""
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr ""
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr ""
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr ""
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+msgid "disabled"
+msgstr ""
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr ""
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr ""
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr ""
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr ""
+
+#: classes/users_manag.php:1122
+msgid "Another user has the same e-mail"
+msgstr ""
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr ""
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+msgid "All users already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:47
+msgid "can't be synced because of their username or e-mail"
+msgstr ""
+
+#: classes/wp_user_sync.php:48
+msgid "Users synced successfully!"
+msgstr ""
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr ""
+
+#: classes/wp_user_sync.php:278
+msgid "User not found"
+msgstr ""
+
+#: classes/wp_user_sync.php:281
+msgid "Administrators can't be synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:284
+msgid "PvtContent admins can't be synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:289
+msgid "User is already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:306
+#, fuzzy
+#| msgid "Another user already has this username"
+msgid "Another user has this username or e-mail"
+msgstr "See kasutajanimi on juba kasutusel"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr ""
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr ""
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr ""
+
+#: classes/wp_user_sync.php:378
+msgid "Users detached successfully!"
+msgstr ""
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr ""
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr ""
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr ""
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#: main_includes/front_ajax.php:258
+#, fuzzy
+#| msgid "Incorrect username or password"
+msgid "Invalid username or password"
+msgstr "Kasutajanimi või salasõna on ebatäpne"
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr "Kasutajanimi või salasõna on ebatäpne"
+
+#: main_includes/front_ajax.php:365
+msgid "No user logged"
+msgstr ""
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "Incorrect username or password"
+msgid "Please insert your password"
+msgstr "Kasutajanimi või salasõna on ebatäpne"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+#| msgid "Password"
+msgid "Wrong password"
+msgstr "Salasõna"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Logged successfully, welcome!"
+msgid "Account successfully deleted!"
+msgstr "Sisselogimine õnnestus, tere tulemast!"
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr ""
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr ""
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr "Tere"
+
+#: main_includes/public_api.php:277
+msgid "Username or e-mail"
+msgstr "Kasutajanimi või eposti aadress / Username or e-mail"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr "pea meeles"
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "Logi sisse / Login"
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "Logi välja / Logout"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr ""
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr ""
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr ""
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr ""
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr ""
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr ""
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Vabandame - Sul puudub antud lehe vaatamise õigus"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr ""
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr "Vabandame - Sul puudub antud lehe vaatamise õigus"
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr ""
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr "Sisselogimine õnnestus, tere tulemast!"
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr ""
+
+#: main_includes/public_api.php:903
+msgid "Sorry, your account has been disabled"
+msgstr ""
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr ""
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr ""
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr ""
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr ""
+
+#: main_includes/shortcodes.php:76
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "Salasõna"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr ""
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:28
+msgid "select a category"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Last name"
+#~ msgid "Last access"
+#~ msgstr "Perekonnanimi"
+
+#~ msgid "login"
+#~ msgstr "Login sisse"
+
+#~ msgid "Username or password incorrect"
+#~ msgstr "Kasutajanimi või salasõna on ebatäpne"

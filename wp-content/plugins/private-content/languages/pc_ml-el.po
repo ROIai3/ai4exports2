@@ -1,0 +1,707 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: classes/simple_form_validator.php\n"
+"X-Poedit-SearchPath-1: classes/recaptchalib.php\n"
+"X-Poedit-SearchPath-2: classes/users_manag.php\n"
+"X-Poedit-SearchPath-3: classes/meta_manag.php\n"
+"X-Poedit-SearchPath-4: user_registration.php\n"
+"X-Poedit-SearchPath-5: user_auth.php\n"
+"X-Poedit-SearchPath-6: public_api.php\n"
+"X-Poedit-SearchPath-7: classes/pc_form_framework.php\n"
+"X-Poedit-SearchPath-8: login_widget.php\n"
+"X-Poedit-SearchPath-9: restrictions/comment_hack.php\n"
+"X-Poedit-SearchPath-10: restrictions/comments_restriction.php\n"
+"X-Poedit-SearchPath-11: restrictions/contents_hiding.php\n"
+"X-Poedit-SearchPath-12: restrictions/lightbox_on_opening.php\n"
+"X-Poedit-SearchPath-13: restrictions/menu_restriction.php\n"
+"X-Poedit-SearchPath-14: restrictions/redirect_engine.php\n"
+"X-Poedit-SearchPath-15: restrictions/widgets_restriction.php\n"
+"X-Poedit-SearchPath-16: shortcodes.php\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+msgid "Core fields"
+msgstr ""
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr "Κύριο όνομα"
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "Όνομα"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr "Όνομα χρήστη"
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr "Όνομα χρήστη"
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr "Επώνυμο"
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "Επώνυμο"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr "Επίθετο χρήστη"
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr "Όνομα χρήστη που χρησιμοποιείται για τη σύνδεση"
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr "Κωδικός πρόσβασης που χρησιμοποιείται για τη σύνδεση"
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: classes/pc_form_framework.php:132
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr ""
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr "Email χρήστη"
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "Αριθ. τηλεφώνου"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr "Αριθ. τηλεφώνου χρήστη"
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+msgid "go to page"
+msgstr ""
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr ""
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr "Επανάληψη κωδικού πρόσβασης"
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr "Ισχύς Κωδικού Πρόσβασης"
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "Ένας άλλος χρήστης έχει ήδη αυτό το όνομα χρήστη"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr "Μία ή περισσότερες επιλεγμένες κατηγορίες είναι λάθος"
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr "χαρακτήρες και ψηφία"
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr "ένα κεφαλαίο χαρακτήρα"
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr "ένα σύμβολο"
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+msgid "must contain at least"
+msgstr "πρέπει να περιέχει τουλάχιστον"
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr ""
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "η ελάχιστη τιμή είναι"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "η μέγιστη τιμή είναι"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr "πρέπει να είναι τουλάχιστον"
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr "χαρακτήρες"
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr "ανώτατο όριο"
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr "χαρακτήρες που επιτρέπονται"
+
+#: classes/simple_form_validator.php:478
+msgid "must be long"
+msgstr "πρέπει να είναι μεγάλη"
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr "Επιλέξτε"
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr "επιλογές"
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr "Ανώτατο όριο"
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr "επιτρεπόμενες επιλογές"
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr "απαιτούνται"
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr "απαιτείται"
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr "δεν είναι έγκυροι ακέραιοι αριθμοί"
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr "δεν είναι έγκυρος ακέραιος αριθμός"
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr "δεν ισχύουν κυμαινόμενοι αριθμοί"
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr "δεν είναι ένας έγκυρος κυμαινόμενος αριθμός"
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr "δεν είναι έγκυρα email"
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr "δεν είναι έγκυρο email"
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr "δεν είναι έγκυρες ημερομηνίες4"
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr "δεν είναι έγκυρη ημερομηνία"
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr "δεν είναι έγκυροι χρόνοι"
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr "δεν είναι έγκυρος χρόνος"
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr "δεν είναι έγκυρες διευθύνσεις URL"
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr "δεν είναι έγκυρη διεύθυνση url"
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr ""
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr ""
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr ""
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr ""
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr ""
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr ""
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr "δεν είναι έγκυροι αριθμοί τηλεφώνου"
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr "δεν είναι έγκυρος αριθμός τηλεφώνου"
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr "εισήχθησαν μη έγκυρα δεδομένα"
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr "οι τιμές δεν είναι μεταξύ του επιτρεπόμενου"
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr "η τιμή δεν είναι μεταξύ του επιτρεπόμενου"
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr "οι τιμές είναι μεταξύ του απαγορευμένου"
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr "η τιμή είναι μεταξύ του απαγορευμένου"
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr "η τιμή δεν ταιριάζει"
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr "το μέγεθος του αρχείου είναι λάθος"
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr "καμία πρόσβαση"
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr "πριν"
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+msgid "disabled"
+msgstr ""
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr "Απενεργοποίηση ιδιωτικής σελίδας"
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr ""
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr "Σφάλμα κατά τη δημιουργία σελίδας χρήστη"
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr "Error inserting user data into database"
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr "Σφάλμα κατά την ενημέρωση των δεδομένων χρήστη στη βάση δεδομένων"
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr "Λανθασμένη τιμή κατάστασης"
+
+#: classes/users_manag.php:1122
+msgid "Another user has the same e-mail"
+msgstr "Ένας άλλος χρήστης έχει το ίδιο e-mail"
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr "Wp sync - άλλος χρήστης έχει το ίδιο όνομα χρήστη ή e-mail"
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr "Wp sync - άλλος χρήστης έχει το ίδιο e-mail"
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+msgid "All users already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:47
+#, fuzzy
+#| msgid "WP sync - another user has the same username or e-mail"
+msgid "can't be synced because of their username or e-mail"
+msgstr "Wp sync - άλλος χρήστης έχει το ίδιο όνομα χρήστη ή e-mail"
+
+#: classes/wp_user_sync.php:48
+msgid "Users synced successfully!"
+msgstr ""
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr ""
+
+#: classes/wp_user_sync.php:278
+#, fuzzy
+#| msgid "Form not found"
+msgid "User not found"
+msgstr "Η φόρμα δεν βρέθηκε"
+
+#: classes/wp_user_sync.php:281
+msgid "Administrators can't be synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:284
+msgid "PvtContent admins can't be synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:289
+msgid "User is already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:306
+#, fuzzy
+#| msgid "Another user has the same e-mail"
+msgid "Another user has this username or e-mail"
+msgstr "Ένας άλλος χρήστης έχει το ίδιο e-mail"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr ""
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr ""
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr ""
+
+#: classes/wp_user_sync.php:378
+msgid "Users detached successfully!"
+msgstr ""
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr "Η φόρμα δεν βρέθηκε"
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr ""
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr ""
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr "πρέπει να γίνει δεκτό για να προχωρήσετε με την εγγραφή"
+
+#: main_includes/front_ajax.php:258
+#, fuzzy
+#| msgid "Incorrect username or password"
+msgid "Invalid username or password"
+msgstr "Λάθος όνομα χρήστη ή κωδικός πρόσβασης"
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr "Λάθος όνομα χρήστη ή κωδικός πρόσβασης"
+
+#: main_includes/front_ajax.php:365
+msgid "No user logged"
+msgstr ""
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "Incorrect username or password"
+msgid "Please insert your password"
+msgstr "Λάθος όνομα χρήστη ή κωδικός πρόσβασης"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+#| msgid "Password"
+msgid "Wrong password"
+msgstr "Κωδικός πρόσβασης"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Logged successfully, welcome!"
+msgid "Account successfully deleted!"
+msgstr "Σύνδεση με επιτυχία, καλώς ήρθατε!"
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+"Εμφανίζει μια φόρμα σύνδεσης για τους χρήστες του ιδιωτικού περιεχομένου"
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr "Σύνδεση ιδιωτικού περιεχομένου"
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr "Τίτλος"
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr "Καλώς ήρθατε"
+
+#: main_includes/public_api.php:277
+msgid "Username or e-mail"
+msgstr "Όνομα χρήστη ή e-mail"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr "να με θυμάσαι"
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "Σύνδεση"
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr "Πρέπει να ορίσετε κατηγορία προεπιλεγμένων χρηστών στις ρυθμίσεις"
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr "Δεν βρέθηκαν φόρμες εγγραφής"
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr "Τα πεδία ονόματος χρήστη και κωδικού πρόσβασης είναι υποχρεωτικά"
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr "Επόμενο"
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr "Πρέπει να είστε συνδεδεμένοι για να δείτε αυτό το περιεχόμενο"
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr ""
+"Λυπούμαστε, δεν έχετε τα σωστά δικαιώματα για να δείτε αυτό το περιεχόμενο"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr "Πρέπει να είστε συνδεδεμένοι για να δημοσιεύσετε σχόλια"
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr "Λυπούμαστε, δεν έχετε τα σωστά δικαιώματα για να δημοσιεύσετε σχόλια"
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr "Δεν διαθέτετε αποκλειστικό τομέα"
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr "Σύνδεση με επιτυχία, καλώς ήρθατε!"
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr "Λυπούμαστε, ο λογαριασμός σας δεν έχει ενεργοποιηθεί ακόμα"
+
+#: main_includes/public_api.php:903
+msgid "Sorry, your account has been disabled"
+msgstr "Λυπούμαστε, ο λογαριασμός σας έχει απενεργοποιηθεί"
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr "Η εγγραφή ήταν επιτυχής. Καλώς ήρθατε!"
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr ""
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr ""
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr ""
+
+#: main_includes/shortcodes.php:76
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "Κωδικός πρόσβασης"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr ""
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr "Εγγραφή"
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr ""
+"Ποιες κατηγορίες χρηστών Ιδιωτικού περιεχομένου μπορούν να δουν αυτό το "
+"widget;"
+
+#: restrictions/widgets_restriction.php:28
+msgid "select a category"
+msgstr "επιλέξτε μία κατηγορία"
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgid "Registered on"
+#~ msgstr "Εγγραφή"
+
+#, fuzzy
+#~| msgid "no access"
+#~ msgid "Last access"
+#~ msgstr "καμία πρόσβαση"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "search options"
+#~ msgstr "επιλογές"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "add options"
+#~ msgstr "επιλογές"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Select options"
+#~ msgstr "επιλογές"
+
+#, fuzzy
+#~| msgid "Error during user page creation"
+#~ msgid "Error performing the operation"
+#~ msgstr "Σφάλμα κατά τη δημιουργία σελίδας χρήστη"
+
+#~ msgid "wasn't entered correctly"
+#~ msgstr "δεν εισήχθη σωστά"

@@ -1,0 +1,692 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent Mail Actions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:41+0100\n"
+"Last-Translator: Superadmin\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1\n"
+"X-Poedit-SearchPath-0: front_ajax.php\n"
+"X-Poedit-SearchPath-1: integrations.php\n"
+"X-Poedit-SearchPath-2: default_mail_texts.php\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+msgid "Core fields"
+msgstr ""
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr "Nombre del usuario"
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "Nombre"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr "Nombre del usuario"
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr "Nombre de usuario"
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr "Apellidos"
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "Apellido"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr "Apellido del usuario"
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr "Nombre de usuario utilizado para logearse"
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "Contraseña"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr "Contraseña utilizada para logearse"
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr "Categoría"
+
+#: classes/pc_form_framework.php:132
+msgid "Categories"
+msgstr "Categorías"
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr "Email"
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr "Email del usuario"
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "Teléfono"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr "Teléfono del usuario"
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr "Descargo de responsabilidad"
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr "Descargo de responsabilidad de registro"
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+msgid "go to page"
+msgstr "ir a la página"
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr "alternar la visibilidad de la contraseña"
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr "Repetir contraseña"
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr "Seguridad de la contraseña"
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "Existe otro usuario con el mismo nombre"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr "Una o más categorías elegidas son incorrectas"
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr "caracteres y dígitos"
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr "un carácter en mayúscula"
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr "un símbolo"
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+msgid "must contain at least"
+msgstr "debe contener al menos"
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr "Min. %s caracteres"
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "valor mínimo es"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "valor máximo es"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr "debe contener al menos"
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr "caracteres"
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr "máximo"
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr "caracteres permitidos"
+
+#: classes/simple_form_validator.php:478
+msgid "must be long"
+msgstr "la longitud debe ser"
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr "Seleccionar"
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr "opciones"
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr "Máximo"
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr "opciones permitidas"
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr "son requeridos"
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr "es requerido"
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr "no son enteros válidos"
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr "no es un entero válido"
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr "no son números flotantes válidos"
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr "no es un número flotante válido"
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr "no son direcciones de email válidas"
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr "no es una dirección de e-mail válida"
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr "no son fechas válidas"
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr "no es una fecha válida"
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr "no son tiempos válidos"
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr "no es un tiempo válido"
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr "no son urls válidas"
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr "no es una url válida"
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr "no son colores hexadecimales válidos"
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr "no es un color hexadecimal válido"
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr "no son direcciones ip válidas"
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr "no es una dirección ip válida"
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr "no son códigos postales válidos"
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr "no es un código postal válido"
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr "no son números de teléfono válidos"
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr "no es un número de teléfono válido"
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr "datos no válidos insertados"
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr "los valores no están entre los permitidos"
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr "el valor no está entre los permitidos"
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr "los valores están entre los prohibidos"
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr "el valor está prohibido"
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr "el valor no coincide"
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr "el tamaño del archivo es incorrecto"
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr "sin acceso"
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr "atrás"
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+msgid "disabled"
+msgstr ""
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr "Desactivar la página privada"
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr "carácter prohibido utilizado"
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr "Error durante la creación de la página del usuario"
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr "Error actualizando la contraseña en la base de datos"
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr "Error actualizando la contraseña en la base de datos"
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr "Valor de estado incorrecto"
+
+#: classes/users_manag.php:1122
+msgid "Another user has the same e-mail"
+msgstr "Otro usuario tiene el mismo correo electrónico"
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr ""
+"Sincronización de WP: otro usuario tiene el mismo nombre de usuario o correo "
+"electrónico"
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr "Sincronización de WP: otro usuario tiene el mismo correo electrónico"
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+msgid "All users already synced"
+msgstr "Todos los usuarios ya están sincronizados"
+
+#: classes/wp_user_sync.php:47
+msgid "can't be synced because of their username or e-mail"
+msgstr ""
+"no se puede sincronizar debido a su nombre de usuario o correo electrónico"
+
+#: classes/wp_user_sync.php:48
+msgid "Users synced successfully!"
+msgstr "¡Usuarios sincronizados exitosamente!"
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr "coincidencias encontradas y sincronizaciones realizadas"
+
+#: classes/wp_user_sync.php:278
+msgid "User not found"
+msgstr "El usuario no se encuentra o está desactivado"
+
+#: classes/wp_user_sync.php:281
+msgid "Administrators can't be synced"
+msgstr "Los administradores no pueden ser sincronizados"
+
+#: classes/wp_user_sync.php:284
+#, fuzzy
+#| msgid "Administrators can't be synced"
+msgid "PvtContent admins can't be synced"
+msgstr "Los administradores no pueden ser sincronizados"
+
+#: classes/wp_user_sync.php:289
+msgid "User is already synced"
+msgstr "El usuario ya está sincronizado"
+
+#: classes/wp_user_sync.php:306
+msgid "Another user has this username or e-mail"
+msgstr "Otro usuario tiene este nombre de usuario o correo electrónico"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr "Se debe especificar al menos una categoría"
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr "La categoría %s no existe"
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr "Todos los usuarios ya están desconectados"
+
+#: classes/wp_user_sync.php:378
+msgid "Users detached successfully!"
+msgstr "¡Usuarios desconectados con éxito!"
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr "Formulario no encontrado"
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr "error al recuperar la verificación remota"
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr "detectado un bot"
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr "debe ser aceptado para proceder con el registro"
+
+#: main_includes/front_ajax.php:258
+msgid "Invalid username or password"
+msgstr "Nombre de usuario o contraseña no válido"
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr "Nombre de usuario o contraseña incorrectos"
+
+#: main_includes/front_ajax.php:365
+msgid "No user logged"
+msgstr ""
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "To proceed, please insert your password and submit"
+msgid "Please insert your password"
+msgstr "Para continuar, ingresa tu contraseña y pulsa enviar"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+#| msgid "password"
+msgid "Wrong password"
+msgstr "contraseña"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Logged successfully, welcome!"
+msgid "Account successfully deleted!"
+msgstr "!Ya estas dentro!"
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+"Muestra un formulario de inicio de sesión para los usuarios de PrivateContent"
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr "PrivateContent Login"
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr "Título"
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr "Bienvenido/a"
+
+#: main_includes/public_api.php:277
+msgid "Username or e-mail"
+msgstr "Email"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr "recuérdame"
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "Entrar"
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr ""
+"Debe establecer la categoría predeterminada de los usuarios registrados en "
+"la configuración"
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr "No se encontraron formularios de registro"
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr "Los campos de nombre de usuario y contraseña son obligatorios"
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr "Previo"
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr "Próximo"
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr "Enviar"
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr "Necesitas iniciar sesión para poder ver este contenido"
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Lo sentimos, no tienes los permisos adecuados para ver este contenido"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr "Debes iniciar sesión para publicar comentarios"
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr ""
+"Lo sentimos, no tienes los permisos adecuados para publicar comentarios"
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr "No tienes un área reservada"
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr "!Ya estas dentro!"
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr "Lo sentimos, tu cuenta aún no ha sido activada"
+
+#: main_includes/public_api.php:903
+msgid "Sorry, your account has been disabled"
+msgstr "Lo sentimos, tu cuenta ha sido inhabilitada"
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr "¡Bienvenido/a!"
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr "Estás a punto de solicitar una eliminación completa"
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr "Esta acción no se puede revertir"
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr "Para continuar, ingresa tu contraseña y pulsa enviar"
+
+#: main_includes/shortcodes.php:76
+msgid "password"
+msgstr "contraseña"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr "Borrar mi cuenta"
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr "Registrarse"
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr "¿Qué categorías de usuarios de PrivateContent pueden ver este widget?"
+
+#: restrictions/widgets_restriction.php:28
+msgid "select a category"
+msgstr "seleccione una categoría"
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "User Private Pages Container"
+#~ msgid "User Reserved Pages Container"
+#~ msgstr "Contenedor de páginas privadas de usuario"
+
+#~ msgid "Redirect Restriction Target"
+#~ msgstr "Opciones de búsqueda"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentación"
+
+#, fuzzy
+#~| msgid "Register"
+#~ msgid "Registered on"
+#~ msgstr "Registrarse"
+
+#, fuzzy
+#~| msgid "no access"
+#~ msgid "Last access"
+#~ msgstr "sin acceso"
+
+#~ msgid "search options"
+#~ msgstr "buscar opciones"
+
+#~ msgid "add options"
+#~ msgstr "añade opciones"
+
+#~ msgid "Select options"
+#~ msgstr "Selecciona opciones"
+
+#~ msgid "no matching options"
+#~ msgstr "las opciones no coinciden"
+
+#~ msgid "Error performing the operation"
+#~ msgstr "Error durante la operación"

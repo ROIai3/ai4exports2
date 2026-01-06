@@ -1,0 +1,1435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+#, fuzzy
+#| msgid "No categories found .. "
+msgid "Core fields"
+msgstr "კატეგორიები ვერ მოიძებნა"
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr ""
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "სახელი"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr ""
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr ""
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "გვარი"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "მომხმარებელი"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "პაროლი"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr "კატეგორია"
+
+#: classes/pc_form_framework.php:132
+#, fuzzy
+msgid "Categories"
+msgstr "კატეგორია"
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr "ელ-ფოსტა"
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr ""
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "ტელეფონი"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr ""
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+msgid "go to page"
+msgstr ""
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr ""
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr ""
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr ""
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "ეს სახელი უკვე გამოიყენება"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr ""
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr ""
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr ""
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr ""
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+msgid "must contain at least"
+msgstr ""
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr ""
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "მინიმალური მაჩვენებელი"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "მაქსიმალური მაჩვენებელი"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr ""
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr "სიმბოლო"
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr "მაქსიმუმ"
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr "დაშვებული სიმბოლოები"
+
+#: classes/simple_form_validator.php:478
+#, fuzzy
+msgid "must be long"
+msgstr "საჭიროა უფრო გრძელი"
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr "არჩევა"
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr "ოფციები"
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr "მაქსიმუმ"
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr "დაშვებული ოფციები"
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr "სავალდებულოა"
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr "სავალდებულოა"
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr "არ არის მთელი რიცხვები"
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr "არ არის მთელი რიცხვი"
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr "არასწორი რიცხვები"
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr "არასწორი რიცხვი"
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr "არასწორი საფოსტო მისამართები"
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr "არასწორი ელ-ფოსტა"
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr "არასწორი თარიღები"
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr "არასწორი თარიღი"
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr "არასწორი დრო"
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr "არასწორი დრო"
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr "დაუშვებელი ლინკები"
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr "დაუშვებელი ლინკი"
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr "დაუშვებელი hex ფერები"
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr "დაუშვებელი hex ფერი "
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr "დაუშვებელი IP მისამართები"
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr "დაუშვებელი IP მისამართი"
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr "არასწორი საფოსტო ინდექსები"
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr "არასწორი საფოსტო ინდექსი"
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr "არასწორი ტელეფონის ნომრები"
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr "არასწორი ტელეფონის ნომერი"
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr "გამოყენებულია აკრძალული მაჩვენებლები"
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr "მაჩვენებლები არ არის ნებადართული"
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr "მაჩვენებელი არ არის ნებადართული"
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr "მაჩვენებელები აკრძალულთა შორისაა"
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr "მაჩვენებელი აკრძალულთა შორისაა"
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr "მონაცემები არ ემთხვევა"
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr "ფაილი დაუშვებელი ზომა"
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr ""
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr ""
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+#, fuzzy
+#| msgid "Username not found or disabled"
+msgid "disabled"
+msgstr "მომხმარებლის სახელი ვერ მოიძებნა"
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr ""
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr ""
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr ""
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr ""
+
+#: classes/users_manag.php:1122
+msgid "Another user has the same e-mail"
+msgstr "ასეთი ელ-ფოსტა უკვე გამოიყენება"
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr ""
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+#, fuzzy
+#| msgid "Fields saved"
+msgid "All users already synced"
+msgstr "ველები შენახულია"
+
+#: classes/wp_user_sync.php:47
+#, fuzzy
+#| msgid "Another user has the same e-mail"
+msgid "can't be synced because of their username or e-mail"
+msgstr "ასეთი ელ-ფოსტა უკვე გამოიყენება"
+
+#: classes/wp_user_sync.php:48
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users synced successfully!"
+msgstr "მონაცემები შენახულია"
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr ""
+
+#: classes/wp_user_sync.php:278
+#, fuzzy
+#| msgid "Username not found or disabled"
+msgid "User not found"
+msgstr "მომხმარებლის სახელი ვერ მოიძებნა"
+
+#: classes/wp_user_sync.php:281
+#, fuzzy
+#| msgid "Administrator"
+msgid "Administrators can't be synced"
+msgstr "ადმინისტრატორი"
+
+#: classes/wp_user_sync.php:284
+#, fuzzy
+#| msgid "Administrator"
+msgid "PvtContent admins can't be synced"
+msgstr "ადმინისტრატორი"
+
+#: classes/wp_user_sync.php:289
+#, fuzzy
+#| msgid "Username"
+msgid "User is already synced"
+msgstr "მომხმარებელი"
+
+#: classes/wp_user_sync.php:306
+#, fuzzy
+#| msgid "Another user has the same e-mail"
+msgid "Another user has this username or e-mail"
+msgstr "ასეთი ელ-ფოსტა უკვე გამოიყენება"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr ""
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr ""
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr ""
+
+#: classes/wp_user_sync.php:378
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users detached successfully!"
+msgstr "მონაცემები შენახულია"
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr ""
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr ""
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr ""
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#: main_includes/front_ajax.php:258
+#, fuzzy
+msgid "Invalid username or password"
+msgstr "პაროლი დაგავიწყდათ?"
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr ""
+
+#: main_includes/front_ajax.php:365
+#, fuzzy
+#| msgid "No categories found .. "
+msgid "No user logged"
+msgstr "კატეგორიები ვერ მოიძებნა"
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "is not a valid floating number"
+msgid "Please insert your password"
+msgstr "არასწორი რიცხვი"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+msgid "Wrong password"
+msgstr "პაროლი დაგავიწყდათ?"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Account succesfully verified via e-mail"
+msgid "Account successfully deleted!"
+msgstr "ანგარიში შემოწმებულია ელ-ფოსტით"
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr ""
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr ""
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr "სალამი"
+
+#: main_includes/public_api.php:277
+#, fuzzy
+#| msgid "Username"
+msgid "Username or e-mail"
+msgstr "მომხმარებელი"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr ""
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "შესვლა"
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "გამოსვლა"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr ""
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr ""
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr ""
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr ""
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr "გაგზავნა"
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr "სანახავად საჭიროა სისტემაში შესვლა"
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "უკაცრავად, თქვენ არ გაქვთ ნახვის უფლება"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr ""
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr ""
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr "თქვენ არ გაქვთ პირადი გვერდი"
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr ""
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr "უკაცრავად, თქვენი ანგარიში არ გააქტიურებულა"
+
+#: main_includes/public_api.php:903
+#, fuzzy
+msgid "Sorry, your account has been disabled"
+msgstr "უკაცრავად, თქვენი ანგარიში არ გააქტიურებულა"
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr ""
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr ""
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr ""
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr ""
+
+#: main_includes/shortcodes.php:76
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "პაროლი"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr ""
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:28
+msgid "select a category"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Registration was succesful. Welcome!"
+#~ msgid "Registered on"
+#~ msgstr "გილოცავთ, რეგისტრაცია დასრულებულია!"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "search options"
+#~ msgstr "ოფციები"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "add options"
+#~ msgstr "ოფციები"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Select options"
+#~ msgstr "ოფციები"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "no matching options"
+#~ msgstr "ოფციები"
+
+#, fuzzy
+#~| msgid "Error processing the action"
+#~ msgid "Error performing the operation"
+#~ msgstr "შეცდომა დამუშავების პროცესში"
+
+#~ msgid "wasn't entered correctly"
+#~ msgstr "არასწორად იქნა შეყვანილი"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "E-mail sent successfully"
+#~ msgstr "მონაცემები შენახულია"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "An error occurred sending the e-mail"
+#~ msgstr "შეცდომა ელ-ფოსტის  გაგზავნისას"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing custom fields"
+#~ msgstr "შეცდომა ელ-ფოსტის  გაგზავნისას"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing users"
+#~ msgstr "შეცდომა ელ-ფოსტის  გაგზავნისას"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Envato username"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Username missing"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username or password incorrect"
+#~ msgid "Purchase code missing or incorrect"
+#~ msgstr "მომხმარებელი ან პაროლი არასწორია"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "ანგარიშში ელ-ფოსტა არ არის მითითებული"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "შეცდომა ელ-ფოსტის  გაგზავნისას"
+
+#, fuzzy
+#~| msgid "The password has been sent to your e-mail"
+#~ msgid "Password has been sent to your e-mail address"
+#~ msgstr "პაროლი გამოგეგზავნათ ელ-ფოსტაზე"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "Insert your username or e-mail"
+#~ msgstr "ასეთი ელ-ფოსტა უკვე გამოიყენება"
+
+#~ msgid "Back to login form"
+#~ msgstr "შესვლის ფორმასთან დაბრუნება"
+
+#~ msgid "Recover"
+#~ msgstr "აღდგენა"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome message"
+#~ msgstr "სალამი"
+
+#, fuzzy
+#~ msgid "e-mail verified"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~ msgid "E-mail Verification"
+#~ msgstr "შემოწმების გაუქმება"
+
+#~ msgid "cancel verification"
+#~ msgstr "შემოწმების გაუქმება"
+
+#~ msgid "Verification Impossible - User has no e-mail"
+#~ msgstr "შემოწმება შეუძლებელია - მომხმარებელს ელ-ფოსტა არა აქვს"
+
+#~ msgid "Account not verified yet"
+#~ msgstr "ანგარიში ჯერ არ შემოწმებულა"
+
+#~ msgid "verify manually"
+#~ msgstr "ხელით შემოწმება"
+
+#, fuzzy
+#~| msgid "Registration was succesful. Welcome!"
+#~ msgid "Operation successfully performed!"
+#~ msgstr "გილოცავთ, რეგისტრაცია დასრულებულია!"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "Add-on must be configured to use this module"
+#~ msgstr "სანახავად საჭიროა სისტემაში შესვლა"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail title"
+#~ msgstr "ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail text"
+#~ msgstr "ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's Name"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's Surname"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's Username"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "User's E-mail"
+#~ msgstr "ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "User's Telephone"
+#~ msgstr "ტელეფონი"
+
+#, fuzzy
+#~ msgid "User Categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~ msgid "Select categories"
+#~ msgstr "კატეგორია"
+
+#~ msgid "All users"
+#~ msgstr "ყველა მომხმარებელი"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "Add single users"
+#~ msgstr "ყველა მომხმარებელი"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "Send E-mail"
+#~ msgstr "ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "Receiver's e-mail address"
+#~ msgstr "არასწორი ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Back to login form"
+#~ msgid "Only login form"
+#~ msgstr "შესვლის ფორმასთან დაბრუნება"
+
+#~ msgid "Subscriber"
+#~ msgstr "გამომწერი"
+
+#~ msgid "Contributor"
+#~ msgstr "სპონსორი"
+
+#~ msgid "Author"
+#~ msgstr "ავტორი"
+
+#~ msgid "Editor"
+#~ msgstr "რედაქტორი"
+
+#, fuzzy
+#~| msgid "characters allowed"
+#~ msgid "use characters and digits"
+#~ msgstr "დაშვებული სიმბოლოები"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Main Options"
+#~ msgstr "ოფციები"
+
+#, fuzzy
+#~ msgid "Users Verification"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome Message"
+#~ msgstr "სალამი"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password Recovery"
+#~ msgstr "პაროლი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "E-mail username"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "E-mail password"
+#~ msgstr "პაროლი"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Enable users verification?"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been successfully activated!\""
+#~ msgstr "თქვენი ანგარიში უკვე გააქტიურებულია!"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been already activated!\""
+#~ msgstr "თქვენი ანგარიში უკვე გააქტიურებულია!"
+
+#, fuzzy
+#~| msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgid ""
+#~ "By default is: \"Sorry, your request is invalid or your account has been "
+#~ "deleted\""
+#~ msgstr "თქვენი მოთხოვნა არასწორია ან ანგარიში გაუქმებულია"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail builder"
+#~ msgstr "ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's name"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's surame"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's userame"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~ msgid "User's password"
+#~ msgstr "პაროლი დაგავიწყდათ?"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "User's telephone"
+#~ msgstr "ტელეფონი"
+
+#, fuzzy
+#~ msgid "User categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~ msgid "Verification URL"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~ msgid "Manual E-mail Verification"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "New Users Notification"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "Admin Notifier - e-mail address"
+#~ msgstr "არასწორი ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Activated Users Notification"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "Any user"
+#~ msgstr "ყველა მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Recovered Password"
+#~ msgstr "პაროლი"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Fields Builder"
+#~ msgid "PrivateContent - Mail Actions"
+#~ msgstr "PrivateContent - ველების კონსტრუქტორი"
+
+#, fuzzy
+#~ msgid "E-mail verification"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password recovery"
+#~ msgstr "პაროლი"
+
+#, fuzzy
+#~| msgid "Your account doesn't have an e-mail"
+#~ msgid "One or more users don't have an e-mail"
+#~ msgstr "ანგარიშში ელ-ფოსტა არ არის მითითებული"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "One or more users have the same e-mail"
+#~ msgstr "ასეთი ელ-ფოსტა უკვე გამოიყენება"
+
+#, fuzzy
+#~| msgid "options allowed"
+#~ msgid "Options saved"
+#~ msgstr "დაშვებული ოფციები"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "Insert a valid e-mail"
+#~ msgstr "არასწორი ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Users verified successfully"
+#~ msgstr "მონაცემები შენახულია"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "E-mails sent successfully"
+#~ msgstr "მონაცემები შენახულია"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "თქვენი მოთხოვნა არასწორია ან ანგარიში გაუქმებულია"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "თქვენი ანგარიში უკვე გააქტიურებულია!"
+
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "თქვენი ანგარიში გააქტიურებულია!"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select field"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field name"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "is required"
+#~ msgid "Required?"
+#~ msgstr "სავალდებულოა"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select a page"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "is not a valid url"
+#~ msgid "insert a valid URL"
+#~ msgstr "დაუშვებელი ლინკი"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Fields Builder"
+#~ msgid "Custom Fields Builder"
+#~ msgstr "PrivateContent - ველების კონსტრუქტორი"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field ID"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Index"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Label"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Type"
+#~ msgstr "ველები შენახულია"
+
+#~ msgid "Fields saved"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field label"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field index"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "field label"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field type"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select type"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select subtype"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Placeholder"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Field added successfully!"
+#~ msgstr "მონაცემები შენახულია"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Custom Forms Builder"
+#~ msgstr "PrivateContent - ფორმების კონსტრუქტორი"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Form Name"
+#~ msgstr "სახელი"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select a form"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Form saved"
+#~ msgstr "ველები შენახულია"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "You must be logged to use this form"
+#~ msgstr "სანახავად საჭიროა სისტემაში შესვლა"
+
+#, fuzzy
+#~| msgid ""
+#~| "Form submitted successfully. You are not logged as an user so nothing "
+#~| "has been saved"
+#~ msgid ""
+#~ "Form submitted successfully.<br/> Not logged as PrivateContent user, "
+#~ "nothing has been saved"
+#~ msgstr ""
+#~ "ფორმა გაგზავნილია. თქვენ არ დარეგისტრირებულხართ მომხმარებლად. მონაცემები "
+#~ "არ არის შენახული."
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Data saved successfully"
+#~ msgstr "მონაცემები შენახულია"
+
+#~ msgid "E-mail"
+#~ msgstr "ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "US Telephone"
+#~ msgstr "ტელეფონი"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select values"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "User Data add-on - receiver's e-mail address"
+#~ msgstr "არასწორი ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select form"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "Surname"
+#~ msgid "Form name"
+#~ msgstr "გვარი"
+
+#, fuzzy
+#~| msgid "Login"
+#~ msgid "Login Form"
+#~ msgstr "შესვლა"
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Logout Box"
+#~ msgstr "გამოსვლა"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "self restriction"
+#~ msgstr "შემოწმების გაუქმება"
+
+#, fuzzy
+#~| msgid "No categories found .. "
+#~ msgid "No matches found"
+#~ msgstr "კატეგორიები ვერ მოიძებნა"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "Sync users"
+#~ msgstr "ყველა მომხმარებელი"
+
+#, fuzzy
+#~ msgid "Default category for registered users"
+#~ msgstr "რეგისტრირებულთათვის საწყისი კატეგორია უნდა შეარჩიოთ."
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Default message for successful login"
+#~ msgstr "მონაცემები შენახულია"
+
+#, fuzzy
+#~| msgid "Maximum"
+#~ msgid "Maximum width"
+#~ msgstr "მაქსიმუმ"
+
+#, fuzzy
+#~| msgid "is not a valid url"
+#~ msgid "Insert a valid URL"
+#~ msgstr "დაუშვებელი ლინკი"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "User Category"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~ msgid "Search User Categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~ msgid "Popular User Categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~ msgid "All User Categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Edit User Category"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~| msgid "is not a valid url"
+#~ msgid "Use a valid URL"
+#~ msgstr "დაუშვებელი ლინკი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User enabled"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User saved"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User updated"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Editor"
+#~ msgid "Edit"
+#~ msgstr "რედაქტორი"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Add PrivateContent User"
+#~ msgstr "PrivateContent - ფორმების კონსტრუქტორი"
+
+#, fuzzy
+#~ msgid "Update password"
+#~ msgstr "პაროლი დაგავიწყდათ?"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "enable user"
+#~ msgstr "ყველა მომხმარებელი"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "delete user"
+#~ msgstr "ყველა მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "User synced successfully!"
+#~ msgstr "მონაცემები შენახულია"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "User detached successfully!"
+#~ msgstr "მონაცემები შენახულია"
+
+#, fuzzy
+#~ msgid "Exported categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Import Options"
+#~ msgstr "ოფციები"
+
+#, fuzzy
+#~| msgid "is not a valid floating number"
+#~ msgid "Select a valid CSV file containing users"
+#~ msgstr "არასწორი რიცხვი"
+
+#, fuzzy
+#~ msgid "Default category for imported users"
+#~ msgstr "რეგისტრირებულთათვის საწყისი კატეგორია უნდა შეარჩიოთ."
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "or e-mail"
+#~ msgstr "ელ-ფოსტა"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Import completed succesfully"
+#~ msgstr "მონაცემები შენახულია"
+
+#, fuzzy
+#~| msgid "minimum value is"
+#~ msgid "Missing values"
+#~ msgstr "მინიმალური მაჩვენებელი"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "PrivateContent Users"
+#~ msgstr "PrivateContent - ფორმების კონსტრუქტორი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Users"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~ msgid "Change categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "username, name, surname, e-mail"
+#~ msgstr "ასეთი ელ-ფოსტა უკვე გამოიყენება"
+
+#, fuzzy
+#~ msgid "All Categories"
+#~ msgstr "კატეგორია"
+
+#, fuzzy
+#~| msgid "the value doesn't match"
+#~ msgid "at least one must match"
+#~ msgstr "მონაცემები არ ემთხვევა"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Set"
+#~ msgstr "არჩევა"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Pages"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Page"
+#~ msgstr "მომხმარებელი"
+
+#~ msgid "login"
+#~ msgstr "შესვლა"
+
+#~ msgid "Repeat"
+#~ msgstr "გამეორება"
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr "სალამი!"
+
+#, fuzzy
+#~ msgid "Invalid Category"
+#~ msgstr "კატეგორია"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "რეგისტრაციის დროს შეცდომა მოხდა, დაუკავშირდით ადმინისტრატორს"
+
+#~ msgid "minimum"
+#~ msgstr "მინიმუმ"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr "ფორმა გაგზავნილია. დემო ვერსიაში მონაცემები არ შეინახება."

@@ -1,0 +1,972 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+#, fuzzy
+#| msgid "Select"
+msgid "Core fields"
+msgstr "Seç"
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr ""
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "Adınız"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr ""
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr ""
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "Soyadınız"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "Kullanıcı Adınız"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "Şifre"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr ""
+
+#: classes/pc_form_framework.php:132
+msgid "Categories"
+msgstr ""
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr "eMail"
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr ""
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "Telefon"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr ""
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+msgid "go to page"
+msgstr ""
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr ""
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr ""
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr ""
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "Başka bir kullanıcı bu adı kullanıyor"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr ""
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr ""
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr ""
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr ""
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+msgid "must contain at least"
+msgstr ""
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr ""
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "en düşük değer"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "en yüksek değer"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr ""
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr "karakter"
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr "maksimum"
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr "karakterler geçerli"
+
+#: classes/simple_form_validator.php:478
+#, fuzzy
+msgid "must be long"
+msgstr "uzunluğu"
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr "Seç"
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr "Seçenekler"
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr "Maksimum"
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr "Geçerli seçenekler"
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr "gerekli olanlar"
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr "gerekli olan"
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr "geçerli değil"
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr "geçerli değil"
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr "geçerli numaralar değil"
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr "geçerli numara değil"
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr "geçerli eMail adresi değil"
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr "geçerli eMail adresleri değil"
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr "geçerli tarihler değil"
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr "geçerli tarih değil"
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr "geçerli zamanlar değil"
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr "geçerli zaman değil"
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr "geçerli URL'ler değil"
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr "geçerli URL değil"
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr "geçerli renk numaraları değil"
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr "geçerli renk numarası değil"
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr "geçerli IP numaraları değil"
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr "geçerli IP numarası değil"
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr "geçerli Posta Kodları değil"
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr "geçerli Posta Koduı değil"
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr "geçerli Telefon Numaraları değil"
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr "geçerli Telefon Numarası değil"
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr "geçersiz bilgi girişi"
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr "değerler izin verilenler arasında değil"
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr "değer izin verilenler arasında değil"
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr "değerler yasak verilenler arasında"
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr "değer yasak verilenler arasında"
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr "değer eşleşmiyor"
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr "dosya büyüklüğü yanlış"
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr ""
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr ""
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+#, fuzzy
+#| msgid "Username"
+msgid "disabled"
+msgstr "Kullanıcı Adınız"
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr ""
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr ""
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr ""
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr ""
+
+#: classes/users_manag.php:1122
+#, fuzzy
+msgid "Another user has the same e-mail"
+msgstr "Başka bir kullanıcı bu adı kullanıyor"
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr ""
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+msgid "All users already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:47
+#, fuzzy
+msgid "can't be synced because of their username or e-mail"
+msgstr "Başka bir kullanıcı bu adı kullanıyor"
+
+#: classes/wp_user_sync.php:48
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users synced successfully!"
+msgstr "Veri başarı şekilde kaydedildi"
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr ""
+
+#: classes/wp_user_sync.php:278
+msgid "User not found"
+msgstr ""
+
+#: classes/wp_user_sync.php:281
+msgid "Administrators can't be synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:284
+msgid "PvtContent admins can't be synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:289
+#, fuzzy
+#| msgid "Username"
+msgid "User is already synced"
+msgstr "Kullanıcı Adınız"
+
+#: classes/wp_user_sync.php:306
+#, fuzzy
+msgid "Another user has this username or e-mail"
+msgstr "Başka bir kullanıcı bu adı kullanıyor"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr ""
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr ""
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr ""
+
+#: classes/wp_user_sync.php:378
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users detached successfully!"
+msgstr "Veri başarı şekilde kaydedildi"
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr ""
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr ""
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr ""
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#: main_includes/front_ajax.php:258
+msgid "Invalid username or password"
+msgstr ""
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr ""
+
+#: main_includes/front_ajax.php:365
+msgid "No user logged"
+msgstr ""
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "is not a valid floating number"
+msgid "Please insert your password"
+msgstr "geçerli numara değil"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+#| msgid "Password"
+msgid "Wrong password"
+msgstr "Şifre"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Registration was succesful. Welcome!"
+msgid "Account successfully deleted!"
+msgstr "Kayıt başarılı, Hoşgeldiniz"
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr ""
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr ""
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr ""
+
+#: main_includes/public_api.php:277
+#, fuzzy
+#| msgid "Username"
+msgid "Username or e-mail"
+msgstr "Kullanıcı Adınız"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr ""
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "Giriş "
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "Çıkış"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr ""
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr ""
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr ""
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr ""
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr "Gönder"
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr "Bu içeriği görmeniz için üye girişi yapmalısınız"
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Üzgünüm, bu içeriği görmeğe yetkiniz yok"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr ""
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr ""
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr "Ayrılmış alanınız yok"
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr ""
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr ""
+
+#: main_includes/public_api.php:903
+#, fuzzy
+msgid "Sorry, your account has been disabled"
+msgstr "Veri başarı şekilde kaydedildi"
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr ""
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr ""
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr ""
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr ""
+
+#: main_includes/shortcodes.php:76
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "Şifre"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr ""
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:28
+#, fuzzy
+#| msgid "Select"
+msgid "select a category"
+msgstr "Seç"
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Registration was succesful. Welcome!"
+#~ msgid "Registered on"
+#~ msgstr "Kayıt başarılı, Hoşgeldiniz"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "search options"
+#~ msgstr "Seçenekler"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "add options"
+#~ msgstr "Seçenekler"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Select options"
+#~ msgstr "Seçenekler"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "no matching options"
+#~ msgstr "Seçenekler"
+
+#~ msgid "wasn't entered correctly"
+#~ msgstr "giriş işlemi doğru değil"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "E-mail sent successfully"
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Envato username"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Username missing"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Username or password incorrect"
+#~ msgid "Purchase code missing or incorrect"
+#~ msgstr "Kullanıcı adınız veya şifreniz yanlış"
+
+#, fuzzy
+#~ msgid "Insert your username or e-mail"
+#~ msgstr "Başka bir kullanıcı bu adı kullanıyor"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "Add-on must be configured to use this module"
+#~ msgstr "Bu içeriği görmeniz için üye girişi yapmalısınız"
+
+#, fuzzy
+#~| msgid "characters allowed"
+#~ msgid "use characters and digits"
+#~ msgstr "karakterler geçerli"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Main Options"
+#~ msgstr "Seçenekler"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password Recovery"
+#~ msgstr "Şifre"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "E-mail username"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "E-mail password"
+#~ msgstr "Şifre"
+
+#, fuzzy
+#~ msgid "By default is: \"Your account has been successfully activated!\""
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~ msgid "By default is: \"Your account has been already activated!\""
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's name"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's surame"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's userame"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "User's password"
+#~ msgstr "Şifre"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "User's telephone"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "Admin Notifier - e-mail address"
+#~ msgstr "geçerli eMail adresleri değil"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Recovered Password"
+#~ msgstr "Şifre"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password recovery"
+#~ msgstr "Şifre"
+
+#, fuzzy
+#~ msgid "One or more users don't have an e-mail"
+#~ msgstr "Başka bir kullanıcı bu adı kullanıyor"
+
+#, fuzzy
+#~ msgid "One or more users have the same e-mail"
+#~ msgstr "Başka bir kullanıcı bu adı kullanıyor"
+
+#, fuzzy
+#~| msgid "options allowed"
+#~ msgid "Options saved"
+#~ msgstr "Geçerli seçenekler"
+
+#, fuzzy
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~ msgid "Your account has been already activated!"
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "You must be logged to use this form"
+#~ msgstr "Bu içeriği görmeniz için üye girişi yapmalısınız"
+
+#, fuzzy
+#~| msgid ""
+#~| "Form submitted successfully. You are not logged as an user so nothing "
+#~| "has been saved"
+#~ msgid ""
+#~ "Form submitted successfully.<br/> Not logged as PrivateContent user, "
+#~ "nothing has been saved"
+#~ msgstr ""
+#~ "Form başarıyla gönderildi. Kullanıcı girişi yapmadığınızda hiçbir şey "
+#~ "kayedilmedi"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Data saved successfully"
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "US Telephone"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select values"
+#~ msgstr "Seç"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "User Data add-on - receiver's e-mail address"
+#~ msgstr "geçerli eMail adresleri değil"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select form"
+#~ msgstr "Seç"
+
+#, fuzzy
+#~| msgid "Surname"
+#~ msgid "Form name"
+#~ msgstr "Soyadınız"
+
+#, fuzzy
+#~| msgid "is required"
+#~ msgid "Required?"
+#~ msgstr "gerekli olan"
+
+#, fuzzy
+#~| msgid "Login"
+#~ msgid "Login Form"
+#~ msgstr "Giriş "
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Logout Box"
+#~ msgstr "Çıkış"
+
+#, fuzzy
+#~ msgid "Default category for registered users"
+#~ msgstr "Kayıtlı kullanıcılar için genel kategoriyi ayarlamalısınız"
+
+#, fuzzy
+#~| msgid "reCAPTCHA"
+#~ msgid "reCAPTCHA validation"
+#~ msgstr "reCAPTCHA"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Default message for successful login"
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~| msgid "Maximum"
+#~ msgid "Maximum width"
+#~ msgstr "Maksimum"
+
+#, fuzzy
+#~| msgid "reCAPTCHA"
+#~ msgid "reCAPTCHA icons color"
+#~ msgstr "reCAPTCHA"
+
+#, fuzzy
+#~| msgid "is not a valid url"
+#~ msgid "Insert a valid URL"
+#~ msgstr "geçerli URL değil"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User saved"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User updated"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Update password"
+#~ msgstr "Şifre"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Import completed succesfully"
+#~ msgstr "Veri başarı şekilde kaydedildi"
+
+#, fuzzy
+#~| msgid "minimum value is"
+#~ msgid "Missing values"
+#~ msgstr "en düşük değer"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Users"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Pages"
+#~ msgstr "Kullanıcı Adınız"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Page"
+#~ msgstr "Kullanıcı Adınız"
+
+#~ msgid "login"
+#~ msgstr "giriş"
+
+#~ msgid "Repeat"
+#~ msgstr "Tekrar"
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr "Giriş başarılı, hoşgeldiniz"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "Kayıt işlemi sırasında bir hata oluştu, lütfen yöneticiye başvurun"
+
+#~ msgid "minimum"
+#~ msgstr "az"
+
+#, fuzzy
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Form başarıyla gönderildi. Kullanıcı girişi yapmadığınızda hiçbir şey "
+#~ "kayedilmedi"

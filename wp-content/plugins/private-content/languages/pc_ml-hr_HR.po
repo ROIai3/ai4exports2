@@ -1,0 +1,1233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: Hrvoje\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+#, fuzzy
+#| msgid "Select"
+msgid "Core fields"
+msgstr "Odaberi"
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr ""
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "Ime"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr ""
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr ""
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "Prezime"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr ""
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "Zaporka"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr ""
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr "Kategorija"
+
+#: classes/pc_form_framework.php:132
+#, fuzzy
+msgid "Categories"
+msgstr "Kategorija"
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr ""
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "Telefon"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr ""
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr ""
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+msgid "go to page"
+msgstr ""
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr ""
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr ""
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr ""
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "Korisničko ime je već u upotrebi"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr ""
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr ""
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr ""
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr ""
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+msgid "must contain at least"
+msgstr ""
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr ""
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "minimalna vrijednost je"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "maksimalna vrijednost je"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr ""
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr "znakovi"
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr "maksimum"
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr "dopušteni znakovi"
+
+#: classes/simple_form_validator.php:478
+#, fuzzy
+msgid "must be long"
+msgstr "mora biti dugačko"
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr "Odaberi"
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr "Opcije"
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr "Maksimum"
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr "Dopuštene opcije"
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr "potrebni"
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr "potrebno"
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr "vrijednosti nisu točne"
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr "vrijednost nije točna"
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr "nisu valjane vrijednosti"
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr "nije valjana vrijednost"
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr "E-mail adrese nisu točne"
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr "E-mail adresa nije točna"
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr "Datumi nisu točni"
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr "Datum nije točan"
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr "Vremena nisu točna"
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr "Vrijeme nije točno"
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr "url-ovi nisu točni"
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr "url nije točan"
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr "nisu valjani hexdecimalni brojevi"
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr "nije valjan hexdecimalni broj"
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr "IP adrese nisu točne"
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr "IP adresa nije točna"
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr "poštanski brojevi nisu točni"
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr "poštanski broj nije točan"
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr "telefnski brojevi nisu točni"
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr "telefonski broj nije točan"
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr "podaci nisu točni"
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr "vrijednosti nisu među dopuštenima"
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr "vrijednost nije među dopuštenima"
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr "vrijednosti su među zabranjenima"
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr "vrijednost je među zabranjenima"
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr "Vrijednost se ne podudara"
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr "veličina datoteke je pogrešna"
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr ""
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr ""
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+#, fuzzy
+#| msgid "Username not found or disabled"
+msgid "disabled"
+msgstr "Korisničko ime nije pronađeno ili je deaktivirano"
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr ""
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr ""
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr ""
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr ""
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr ""
+
+#: classes/users_manag.php:1122
+msgid "Another user has the same e-mail"
+msgstr "Drugi korisnik već koristi istu e-mail adresu"
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr ""
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr ""
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+msgid "All users already synced"
+msgstr ""
+
+#: classes/wp_user_sync.php:47
+#, fuzzy
+#| msgid "Another user has the same e-mail"
+msgid "can't be synced because of their username or e-mail"
+msgstr "Drugi korisnik već koristi istu e-mail adresu"
+
+#: classes/wp_user_sync.php:48
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users synced successfully!"
+msgstr "Podaci uspješno spremljeni"
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr ""
+
+#: classes/wp_user_sync.php:278
+#, fuzzy
+#| msgid "Username not found or disabled"
+msgid "User not found"
+msgstr "Korisničko ime nije pronađeno ili je deaktivirano"
+
+#: classes/wp_user_sync.php:281
+#, fuzzy
+#| msgid "Administrator"
+msgid "Administrators can't be synced"
+msgstr "Administrator"
+
+#: classes/wp_user_sync.php:284
+#, fuzzy
+#| msgid "Administrator"
+msgid "PvtContent admins can't be synced"
+msgstr "Administrator"
+
+#: classes/wp_user_sync.php:289
+#, fuzzy
+#| msgid "Username"
+msgid "User is already synced"
+msgstr "Korisničko ime"
+
+#: classes/wp_user_sync.php:306
+#, fuzzy
+#| msgid "Another user has the same e-mail"
+msgid "Another user has this username or e-mail"
+msgstr "Drugi korisnik već koristi istu e-mail adresu"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr ""
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr ""
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr ""
+
+#: classes/wp_user_sync.php:378
+#, fuzzy
+#| msgid "Data saved succesfully"
+msgid "Users detached successfully!"
+msgstr "Podaci uspješno spremljeni"
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr ""
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr ""
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr ""
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#: main_includes/front_ajax.php:258
+#, fuzzy
+msgid "Invalid username or password"
+msgstr "Zaboravili ste lozinku?"
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr ""
+
+#: main_includes/front_ajax.php:365
+#, fuzzy
+#| msgid "No categories found .. "
+msgid "No user logged"
+msgstr "Nema pronađenih kategorija"
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "is not a valid floating number"
+msgid "Please insert your password"
+msgstr "nije valjana vrijednost"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+msgid "Wrong password"
+msgstr "Zaboravili ste lozinku?"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Account succesfully verified via e-mail"
+msgid "Account successfully deleted!"
+msgstr "Račun uspješno provjeren putem e-mail adrese"
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr ""
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr ""
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr ""
+
+#: main_includes/login_widget.php:62
+#, fuzzy
+#| msgid "Welcome"
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: main_includes/public_api.php:277
+#, fuzzy
+#| msgid "Username"
+msgid "Username or e-mail"
+msgstr "Korisničko ime"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr ""
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "Prijava"
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "Odjava"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr ""
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr ""
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr ""
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr ""
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr ""
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr "Pošalji"
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr "Morate biti logirani da vidite ovaj sadržaj"
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Žao nam je ali nemate dozvolu za pristup ovom sadržaju"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr ""
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr ""
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr "Nemate rezervirano područje"
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr ""
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr "Žao nam je, Vaš račun još nije aktiviran"
+
+#: main_includes/public_api.php:903
+#, fuzzy
+msgid "Sorry, your account has been disabled"
+msgstr "Žao nam je, Vaš račun još nije aktiviran"
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr ""
+
+#: main_includes/shortcodes.php:64
+msgid "You are about to request a complete removal from"
+msgstr ""
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr ""
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr ""
+
+#: main_includes/shortcodes.php:76
+#, fuzzy
+#| msgid "Password"
+msgid "password"
+msgstr "Zaporka"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr ""
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr ""
+
+#: restrictions/widgets_restriction.php:28
+#, fuzzy
+msgid "select a category"
+msgstr "Kategorija"
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Registration was succesful. Welcome!"
+#~ msgid "Registered on"
+#~ msgstr "Registracija uspješna. Dobrodošli!"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "search options"
+#~ msgstr "Opcije"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "add options"
+#~ msgstr "Opcije"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Select options"
+#~ msgstr "Opcije"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "no matching options"
+#~ msgstr "Opcije"
+
+#, fuzzy
+#~| msgid "Error processing the action"
+#~ msgid "Error performing the operation"
+#~ msgstr "Greška u izvođenju"
+
+#~ msgid "wasn't entered correctly"
+#~ msgstr "Unos nije ispravan"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "E-mail sent successfully"
+#~ msgstr "Podaci uspješno spremljeni"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "An error occurred sending the e-mail"
+#~ msgstr "Pogreška kod slanja e-maila"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing custom fields"
+#~ msgstr "Pogreška kod slanja e-maila"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing users"
+#~ msgstr "Pogreška kod slanja e-maila"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Envato username"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Username missing"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username or password incorrect"
+#~ msgid "Purchase code missing or incorrect"
+#~ msgstr "Korisničko ime ili lozinka nije točno"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "Vaš račun nema e-mail adresu"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "Pogreška kod slanja e-maila"
+
+#, fuzzy
+#~| msgid "The password has been sent to your e-mail"
+#~ msgid "Password has been sent to your e-mail address"
+#~ msgstr "Lozinka je poslana na Vašu e-mail adresu"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "Insert your username or e-mail"
+#~ msgstr "Drugi korisnik već koristi istu e-mail adresu"
+
+#~ msgid "Back to login form"
+#~ msgstr "Povratak na obrazac prijave"
+
+#~ msgid "Recover"
+#~ msgstr "Oporavi"
+
+#, fuzzy
+#~ msgid "e-mail verified"
+#~ msgstr "prekid potvrde"
+
+#~ msgid "cancel verification"
+#~ msgstr "prekid potvrde"
+
+#~ msgid "Verification Impossible - User has no e-mail"
+#~ msgstr "Provjera nemoguća - Korisnik nema e-mail adresu"
+
+#~ msgid "Account not verified yet"
+#~ msgstr "Račun još nije potvrđen"
+
+#~ msgid "verify manually"
+#~ msgstr "provjeri ručno"
+
+#, fuzzy
+#~| msgid "Registration was succesful. Welcome!"
+#~ msgid "Operation successfully performed!"
+#~ msgstr "Registracija uspješna. Dobrodošli!"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "Add-on must be configured to use this module"
+#~ msgstr "Morate biti logirani da vidite ovaj sadržaj"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail title"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail text"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "Back to login form"
+#~ msgid "Only login form"
+#~ msgstr "Povratak na obrazac prijave"
+
+#~ msgid "Subscriber"
+#~ msgstr "Pretplatnik"
+
+#~ msgid "Contributor"
+#~ msgstr "Contributor"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Editor"
+#~ msgstr "Uređivač"
+
+#, fuzzy
+#~| msgid "characters allowed"
+#~ msgid "use characters and digits"
+#~ msgstr "dopušteni znakovi"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Main Options"
+#~ msgstr "Opcije"
+
+#, fuzzy
+#~ msgid "Users Verification"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password Recovery"
+#~ msgstr "Zaporka"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "E-mail username"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "E-mail password"
+#~ msgstr "Zaporka"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "Send E-mail"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Enable users verification?"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been successfully activated!\""
+#~ msgstr "Vaš račun je već aktiviran!"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been already activated!\""
+#~ msgstr "Vaš račun je već aktiviran!"
+
+#, fuzzy
+#~| msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgid ""
+#~ "By default is: \"Sorry, your request is invalid or your account has been "
+#~ "deleted\""
+#~ msgstr "Žao nam je, Vaš zahtjev je neispravan ili je račun izbrisan"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail builder"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's name"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's surame"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's userame"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~ msgid "User's password"
+#~ msgstr "Zaboravili ste lozinku?"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "User's telephone"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~ msgid "User categories"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~ msgid "Verification URL"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~ msgid "Manual E-mail Verification"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "New Users Notification"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "Admin Notifier - e-mail address"
+#~ msgstr "E-mail adresa nije točna"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Activated Users Notification"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "Any user"
+#~ msgstr "Svi korisnici"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Recovered Password"
+#~ msgstr "Zaporka"
+
+#, fuzzy
+#~ msgid "E-mail verification"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome message"
+#~ msgstr "Dobrodošli"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password recovery"
+#~ msgstr "Zaporka"
+
+#, fuzzy
+#~| msgid "Your account doesn't have an e-mail"
+#~ msgid "One or more users don't have an e-mail"
+#~ msgstr "Vaš račun nema e-mail adresu"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "One or more users have the same e-mail"
+#~ msgstr "Drugi korisnik već koristi istu e-mail adresu"
+
+#, fuzzy
+#~| msgid "options allowed"
+#~ msgid "Options saved"
+#~ msgstr "Dopuštene opcije"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "Žao nam je, Vaš zahtjev je neispravan ili je račun izbrisan"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "Vaš račun je već aktiviran!"
+
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "Vaš račun je uspješno aktiviran!"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field ID"
+#~ msgstr "Polja spremljena"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Index"
+#~ msgstr "Polja spremljena"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Label"
+#~ msgstr "Polja spremljena"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Type"
+#~ msgstr "Polja spremljena"
+
+#~ msgid "Fields saved"
+#~ msgstr "Polja spremljena"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Custom Forms Builder"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Form saved"
+#~ msgstr "Polja spremljena"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select a form"
+#~ msgstr "Odaberi"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "You must be logged to use this form"
+#~ msgstr "Morate biti logirani da vidite ovaj sadržaj"
+
+#, fuzzy
+#~| msgid ""
+#~| "Form submitted successfully. You are not logged as an user so nothing "
+#~| "has been saved"
+#~ msgid ""
+#~ "Form submitted successfully.<br/> Not logged as PrivateContent user, "
+#~ "nothing has been saved"
+#~ msgstr ""
+#~ "Obrazac uspješno podnesen. Niste prijavljeni kao korisnik  pa ništa nije "
+#~ "spremljeno"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Data saved successfully"
+#~ msgstr "Podaci uspješno spremljeni"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "US Telephone"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Fields Builder"
+#~ msgid "Custom Fields Builder"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select values"
+#~ msgstr "Odaberi"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "User Data add-on - receiver's e-mail address"
+#~ msgstr "E-mail adresa nije točna"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select form"
+#~ msgstr "Odaberi"
+
+#, fuzzy
+#~| msgid "Surname"
+#~ msgid "Form name"
+#~ msgstr "Prezime"
+
+#, fuzzy
+#~| msgid "is required"
+#~ msgid "Required?"
+#~ msgstr "potrebno"
+
+#, fuzzy
+#~ msgid "User Categories"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~| msgid "Login"
+#~ msgid "Login Form"
+#~ msgstr "Prijava"
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Logout Box"
+#~ msgstr "Odjava"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "self restriction"
+#~ msgstr "prekid potvrde"
+
+#, fuzzy
+#~| msgid "No categories found .. "
+#~ msgid "No matches found"
+#~ msgstr "Nema pronađenih kategorija"
+
+#, fuzzy
+#~ msgid "Default category for registered users"
+#~ msgstr "Morate postaviti zadanu kategoriju za registrirane korisnike."
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Default message for successful login"
+#~ msgstr "Podaci uspješno spremljeni"
+
+#, fuzzy
+#~| msgid "Maximum"
+#~ msgid "Maximum width"
+#~ msgstr "Maksimum"
+
+#, fuzzy
+#~| msgid "is not a valid url"
+#~ msgid "Insert a valid URL"
+#~ msgstr "url nije točan"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "User Category"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~ msgid "Search User Categories"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~ msgid "Popular User Categories"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~ msgid "All User Categories"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Edit User Category"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User enabled"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User saved"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User updated"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Editor"
+#~ msgid "Edit"
+#~ msgstr "Uređivač"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Add PrivateContent User"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#, fuzzy
+#~ msgid "Update password"
+#~ msgstr "Zaboravili ste lozinku?"
+
+#, fuzzy
+#~ msgid "Exported categories"
+#~ msgstr "Kategorija"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "or e-mail"
+#~ msgstr "E-mail"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Import completed succesfully"
+#~ msgstr "Podaci uspješno spremljeni"
+
+#, fuzzy
+#~| msgid "minimum value is"
+#~ msgid "Missing values"
+#~ msgstr "minimalna vrijednost je"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "PrivateContent Users"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Users"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Pages"
+#~ msgstr "Korisničko ime"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Page"
+#~ msgstr "Korisničko ime"
+
+#~ msgid "login"
+#~ msgstr "prijava"
+
+#~ msgid "Repeat"
+#~ msgstr "Ponovi"
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr "Prijava uspješna, dobrodošli!"
+
+#, fuzzy
+#~ msgid "Invalid Category"
+#~ msgstr "Kategorija"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "Greška kod registracije, kontaktirajte administratora"
+
+#~ msgid "minimum"
+#~ msgstr "minimum"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Obrazac uspješno podnesen. U demo verziji podaci se ne mogu spremati"

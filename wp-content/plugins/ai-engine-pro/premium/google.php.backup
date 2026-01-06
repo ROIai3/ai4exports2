@@ -1,0 +1,903 @@
+<?php
+
+class MeowPro_MWAI_Google extends Meow_MWAI_Engines_Google {
+  private $streamFunctionCall = null;
+  private $streamFunctionCalls = [];
+
+  public function __construct( $core, $env ) {
+    parent::__construct( $core, $env );
+  }
+
+  private function reset_stream() {
+    $this->streamContent = '';
+    $this->streamBuffer = '';
+    $this->streamFunctionCall = null;
+    $this->streamFunctionCalls = [];
+    $this->streamImages = [];
+  }
+
+  /**
+   * Handle streaming responses from Google Gemini API
+   *
+   * CRITICAL PERFORMANCE NOTES:
+   * 1. Google Gemini Flash Image models send images as base64 in "inlineData" (often 2.5MB+)
+   * 2. Streaming large base64 through text protocol causes severe performance issues:
+   *    - Takes 2+ minutes vs 6 seconds for normal streaming
+   *    - Causes 100% CPU usage due to character-by-character parsing
+   *    - Buffers grow exponentially, causing memory issues
+   *
+   * SOLUTION:
+   * - Stream text normally for immediate user feedback
+   * - When "inlineData" is detected, stream raw image data directly to a temp file
+   * - No JSON parsing or buffering of image data - just write bytes to disk
+   * - After streaming completes, read the image from the temp file
+   * - This avoids both the streaming performance issues AND the need for a second request
+   *
+   * @param resource $handle CURL handle
+   * @param array $args Arguments
+   * @param string $url API endpoint URL
+   */
+  public function stream_handler( $handle, $args, $url ) {
+    curl_setopt( $handle, CURLOPT_SSL_VERIFYPEER, false );
+    curl_setopt( $handle, CURLOPT_SSL_VERIFYHOST, false );
+
+    curl_setopt( $handle, CURLOPT_WRITEFUNCTION, function ( $curl, $data ) {
+
+      $length = strlen( $data );
+
+      // TEMPORARY DEBUG: Log data chunks for image models
+      static $chunkCount = 0;
+      static $lastLogTime = 0;
+      // CRITICAL: Skip mode prevents buffering 2.5MB+ base64 images that cause 100% CPU usage
+      // When in skip mode, we write raw data directly to a temp file
+      static $skipImageData = false;
+      static $imageDetected = false;
+      static $imageTempFile = null;
+      static $imageFileHandle = null;
+      static $collectingImageHeader = false;
+      static $imageHeader = '';
+      static $patternWarningLogged = false;
+      static $insideBase64 = false;
+      static $base64Buffer = '';
+      $currentTime = microtime(true);
+
+      if ( strpos( $this->streamBuffer, 'flash-image' ) !== false || strpos( $this->streamBuffer, 'image-preview' ) !== false ) {
+        $chunkCount++;
+        // Log every 10 chunks or every 5 seconds
+        if ( $chunkCount % 10 === 0 || ($currentTime - $lastLogTime) > 5 ) {
+          error_log( '[AI Engine DEBUG - Streaming] Chunk #' . $chunkCount . ', size: ' . $length . ' bytes, skip mode: ' . ($skipImageData ? 'YES' : 'NO') );
+          $lastLogTime = $currentTime;
+        }
+      }
+
+      // CRITICAL FIX: Detect when Google starts sending massive base64 image data
+      // IMPORTANT: We should NOT enter skip mode because the raw chunks contain SSE markers
+      // Instead, we'll set a flag to extract base64 from properly parsed JSON
+      if ( !$skipImageData && strpos( $data, '"inlineData"' ) !== false ) {
+        error_log( '[AI Engine DEBUG - Streaming] Detected start of image data, enabling file streaming mode' );
+
+        // DEBUG: Log a sample of the actual data to understand Google's format
+        $sampleStart = strpos( $data, '"inlineData"' );
+        $sampleEnd = min( $sampleStart + 500, strlen($data) );
+        $sample = substr( $data, $sampleStart, $sampleEnd - $sampleStart );
+        error_log( '[AI Engine DEBUG - Streaming] InlineData format sample: ' . $sample );
+
+        $skipImageData = true;
+        $collectingImageHeader = true;
+        $imageHeader = $data; // Start collecting to find the actual base64 data start
+
+        // Create temp file for streaming image data
+        $imageTempFile = tempnam( sys_get_temp_dir(), 'mwai_image_' );
+        error_log( '[AI Engine DEBUG - Streaming] Created temp file: ' . $imageTempFile );
+
+        // Emit event immediately so user knows image was generated
+        if ( $this->streamCallback && $this->currentDebugMode && !$imageDetected ) {
+          error_log( '[AI Engine DEBUG - Streaming] Emitting image_gen event (image detected)' );
+          $event = new Meow_MWAI_Event( 'live', MWAI_STREAM_TYPES['IMAGE_GEN'] );
+          $event->set_content( 'Image generated' );
+          call_user_func( $this->streamCallback, $event );
+        }
+
+        $imageDetected = true;
+
+        // Store reference to temp file
+        $this->streamImages[] = [
+          'temp_file' => $imageTempFile,
+          'mimeType' => 'image/png'
+        ];
+
+        // We'll process this chunk below to extract the base64 start
+      }
+
+      // PERFORMANCE OPTIMIZATION: Stream image data directly to file
+      if ( $skipImageData ) {
+        // If we're still collecting the header to find where base64 starts
+        if ( $collectingImageHeader ) {
+          // Still collecting the header to find where base64 starts
+          $imageHeader .= $data;
+
+          // Debug: Log first part of header to see structure
+          if ( strlen($imageHeader) > 100 && strlen($imageHeader) < 500 ) {
+            error_log( '[AI Engine DEBUG - Streaming] Image header sample: ' . substr($imageHeader, 0, 200) );
+          }
+
+          // Look for the start of base64 data - try multiple patterns
+          // Google might use different field names or formats
+          $patterns = [
+            '"data":"',         // Standard format
+            '"data": "',        // With space
+            '"image":"',        // Alternative field name
+            '"bytes":"',        // Another possible field name
+            '"mimeType":"image' // Look for mimeType followed by data
+          ];
+
+          $dataPos = false;
+          $usedPattern = null;
+          foreach ($patterns as $pattern) {
+            $pos = strpos( $imageHeader, $pattern );
+            if ( $pos !== false ) {
+              $dataPos = $pos;
+              $usedPattern = $pattern;
+              error_log( '[AI Engine DEBUG - Streaming] Found pattern "' . $pattern . '" at position ' . $pos );
+              break;
+            }
+          }
+
+          // If we found mimeType, look for the actual data field after it
+          if ( $usedPattern === '"mimeType":"image' ) {
+            // Search for data field after mimeType
+            $searchFrom = $dataPos + strlen($usedPattern);
+            $dataFieldPos = strpos( $imageHeader, '"data"', $searchFrom );
+            if ( $dataFieldPos !== false ) {
+              // Now find the actual start of the base64 data (after the colon and quote)
+              $colonPos = strpos( $imageHeader, ':', $dataFieldPos );
+              if ( $colonPos !== false ) {
+                // Skip any whitespace and find the opening quote
+                $quotePos = strpos( $imageHeader, '"', $colonPos );
+                if ( $quotePos !== false ) {
+                  $dataPos = $quotePos;
+                  $usedPattern = '"'; // Adjust pattern since we're at the quote
+                  error_log( '[AI Engine DEBUG - Streaming] Found data field after mimeType at position ' . $dataPos );
+                }
+              }
+            }
+          }
+
+          if ( $dataPos === false ) {
+            // No pattern found yet, log once when buffer is large enough
+            if ( strlen($imageHeader) > 1000 && !$patternWarningLogged ) {
+              error_log( '[AI Engine DEBUG - Streaming] WARNING: No expected patterns found in ' . strlen($imageHeader) . ' bytes' );
+              error_log( '[AI Engine DEBUG - Streaming] Buffer sample (first 300 chars): ' . substr($imageHeader, 0, 300) );
+              $patternWarningLogged = true;
+            }
+          }
+
+          if ( $dataPos !== false ) {
+            $collectingImageHeader = false;
+
+            // Position right after the pattern
+            $base64Start = $dataPos + strlen($usedPattern);
+
+            // Open file for writing
+            $imageFileHandle = fopen( $imageTempFile, 'w' );
+
+            if (!$imageFileHandle) {
+              error_log( '[AI Engine DEBUG - Streaming] ERROR: Failed to open temp file for writing' );
+              return $length;
+            }
+
+            // Extract the base64 part from the header
+            // We start from the position after the pattern
+            $remainingData = substr( $imageHeader, $base64Start );
+            error_log( '[AI Engine DEBUG - Streaming] Found data pattern at position: ' . $dataPos . ', base64 starts at: ' . $base64Start );
+
+            // Debug: Check what we're about to write
+            $firstChars = substr($remainingData, 0, 50);
+            error_log( '[AI Engine DEBUG - Streaming] First 50 chars of base64: ' . $firstChars );
+
+            // Write the initial base64 data to the temp file
+            // Don't close the file yet - we'll continue writing in subsequent chunks
+            $bytesWritten = fwrite( $imageFileHandle, $remainingData );
+            error_log( '[AI Engine DEBUG - Streaming] Started writing base64 to temp file. Initial bytes: ' . $bytesWritten );
+
+            // Mark that we're now inside the base64 data
+            $insideBase64 = true;
+
+            // IMPORTANT: Keep the file handle open for subsequent chunks
+            // The static variable will preserve it across calls
+          } else {
+            // Pattern not found yet
+            if ( strlen($imageHeader) > 5000 ) {
+              error_log( '[AI Engine DEBUG - Streaming] WARNING: Pattern "data":" not found in ' . strlen($imageHeader) . ' bytes' );
+            }
+          }
+          return $length;
+        }
+
+        // In skip mode, we're collecting the raw base64 data
+        // We need to look for the end of the inline data object, not just a quote
+
+        // Debug: Log the state of the file handle
+        if (!$imageFileHandle) {
+          error_log('[AI Engine DEBUG - Streaming] WARNING: In skip mode but file handle is null!');
+        }
+
+        // Only continue if we have an open file handle
+        if ( !$imageFileHandle ) {
+          // File was already closed, skip this data
+          error_log('[AI Engine DEBUG - Streaming] Skipping data - file handle already closed');
+          return $length;
+        }
+
+        // Look for the closing quote of the base64 data
+        // The base64 string ends with a quote, followed by JSON structure
+        $quotePos = strpos( $data, '"' );
+        if ( $quotePos !== false ) {
+          // Found a quote - this should be the end of the base64 data
+          error_log('[AI Engine DEBUG - Streaming] Found quote at position ' . $quotePos . ' in chunk');
+
+          // Write only the base64 data before the quote
+          if ($quotePos > 0) {
+            $finalData = substr( $data, 0, $quotePos );
+            $finalBytes = fwrite( $imageFileHandle, $finalData );
+            error_log('[AI Engine DEBUG - Streaming] Wrote final ' . $finalBytes . ' bytes before closing quote');
+          }
+
+          // Close the file
+          fclose( $imageFileHandle );
+          $imageFileHandle = null;
+
+          // Get final file size
+          $finalSize = filesize( $imageTempFile );
+          error_log( '[AI Engine DEBUG - Streaming] Finished writing image. Total file size: ' . $finalSize . ' bytes' );
+
+          // Verify this is really the end by checking what comes after
+          $afterQuote = substr($data, $quotePos, 50);
+          error_log('[AI Engine DEBUG - Streaming] After quote: ' . $afterQuote);
+
+          error_log( '[AI Engine DEBUG - Streaming] Detected end of image data, disabling skip mode' );
+          $skipImageData = false;
+          $insideBase64 = false;
+        } else {
+          // Still in the middle of base64 data
+          if ( $imageFileHandle ) {
+            // The raw HTTP stream includes JSON separators between objects
+            // We need to write ONLY the base64 data, not any JSON markers
+
+            // Check for common streaming separators and truncate before them
+            $separators = [
+              ',{"candidates"',  // New JSON object
+              ',\n{"candidates"', // New JSON object with newline
+              '\n{"candidates"',  // New JSON object with just newline
+              ']},',             // End of object, start of next
+              ']}]',             // End of array
+            ];
+
+            $truncateAt = strlen($data);
+            foreach ($separators as $sep) {
+              $pos = strpos($data, $sep);
+              if ($pos !== false && $pos < $truncateAt) {
+                $truncateAt = $pos;
+                error_log('[AI Engine DEBUG - Streaming] Found separator "' . $sep . '" at position ' . $pos);
+              }
+            }
+
+            if ($truncateAt < strlen($data)) {
+              $data = substr($data, 0, $truncateAt);
+              error_log('[AI Engine DEBUG - Streaming] Truncated chunk to ' . strlen($data) . ' bytes to remove JSON separators');
+            }
+
+            $bytesWritten = fwrite( $imageFileHandle, $data );
+            // Log periodically to track progress
+            static $totalBytesWritten = 0;
+            if (!$imageDetected) {
+              $totalBytesWritten = 0; // Reset on first detection
+            }
+            $totalBytesWritten += $bytesWritten;
+            if ($totalBytesWritten % 100000 == 0) {
+              error_log( '[AI Engine DEBUG - Streaming] Written ' . $totalBytesWritten . ' bytes to temp file so far' );
+            }
+          }
+        }
+
+        return $length;
+      }
+
+      // Only buffer text/non-image data
+      // This prevents memory bloat and CPU issues with large images
+
+      // CRITICAL: Google uses Server-Sent Events (SSE) format for streaming
+      // Each event is prefixed with "data: " and separated by newlines
+      // We need to extract the JSON from the SSE format
+
+      // Check if this looks like SSE format
+      if (strpos($data, 'data: ') !== false || strpos($this->streamTemporaryBuffer, 'data: ') !== false) {
+        // Parse SSE format
+        $this->streamTemporaryBuffer .= $data;
+
+        // Split by "data: " to get individual events
+        $parts = explode("\ndata: ", $this->streamTemporaryBuffer);
+
+        // Keep the incomplete part for next iteration
+        $this->streamTemporaryBuffer = array_pop($parts);
+
+        // Process complete events
+        foreach ($parts as $part) {
+          // Remove "data: " prefix if present at the start
+          if (strpos($part, 'data: ') === 0) {
+            $part = substr($part, 6);
+          }
+
+          // Remove trailing newlines
+          $part = trim($part);
+
+          // Skip empty events
+          if (empty($part)) {
+            continue;
+          }
+
+          // Add to buffer for processing
+          $this->streamBuffer .= $part;
+        }
+      } else {
+        // Not SSE format, use as-is
+        $this->streamTemporaryBuffer .= $data;
+        $this->streamBuffer .= $data;
+      }
+
+      $this->stream_error_check( $this->streamBuffer );
+
+      // ---------------- Find full JSON objects -----------------
+      // OPTIMIZATION: Use different strategies based on buffer size
+      static $lastProcessedPos = 0;
+      $buf = $this->streamTemporaryBuffer;
+      $bufLen = strlen($buf);
+      $objects = [];
+
+      // Early exit if we're in skip mode - buffer won't have valid JSON
+      if ( strpos($buf, 'SKIPPED_DURING_STREAMING') !== false ) {
+        return $length;
+      }
+
+      {
+        // For text streaming: Use character-by-character JSON parsing
+        // This works well for small JSON objects (text responses)
+        $pos = 0;
+        $depth = 0;
+        $inStr = false;
+        $escape = false;
+        $start = null;
+
+        // PERFORMANCE: Cache buffer length to avoid repeated strlen() calls
+        while ( $pos < $bufLen ) {
+          $ch = $buf[$pos];
+
+          // Handle string state
+          if ( $inStr ) {
+            if ( $escape ) {
+              $escape = false;
+            }
+            elseif ( $ch === '\\' ) {
+              $escape = true;
+            }
+            elseif ( $ch === '"' ) {
+              $inStr = false;
+            }
+            $pos++;
+            continue;
+          }
+
+          if ( $ch === '"' ) {
+            $inStr = true;
+            $pos++;
+            continue;
+          }
+
+          // Handle brace counting for object detection
+          if ( $ch === '{' ) {
+            if ( $depth === 0 ) {
+              $start = $pos;
+            }
+            $depth++;
+          }
+          elseif ( $ch === '}' ) {
+            $depth--;
+            if ( $depth === 0 && $start !== null ) {
+              $jsonChunk = substr( $buf, $start, $pos - $start + 1 );
+
+              $json = json_decode( $jsonChunk, true );
+
+              if ( json_last_error() === JSON_ERROR_NONE ) {
+                $objects[] = $json;
+
+                // Skip trailing spaces / commas / newlines
+                $commaPos = $pos + 1;
+                while ( $commaPos < $bufLen && in_array( $buf[ $commaPos ], [ ' ', "\n", "\r", ',' ] ) ) {
+                  $commaPos++;
+                }
+                // Trim processed part from buffer and restart scanning
+                $buf = substr( $buf, $commaPos );
+                $bufLen = strlen($buf);
+                $pos = -1;      // will be ++ to 0 at loop bottom
+                $start = null;
+              }
+              else {
+                // JSON still incomplete – wait for more bytes
+                break;
+              }
+            }
+          }
+          $pos++;
+        }
+
+        // Keep the unprocessed tail for next callback
+        $this->streamTemporaryBuffer = $buf;
+      }
+
+      // --------------- Forward each decoded object --------------
+      foreach ( $objects as $objIdx => $obj ) {
+        // TEMPORARY DEBUG: Log every streaming object
+        error_log( '[AI Engine DEBUG - Streaming] Received object #' . $objIdx . ' at time: ' . microtime(true) );
+
+        if ( isset( $obj['candidates'] ) ) {
+          error_log( '[AI Engine DEBUG - Streaming] Has candidates: ' . count( $obj['candidates'] ) );
+        }
+
+        // Handle all parts, not just the first one
+        if ( isset( $obj['candidates'][0]['content']['parts'] ) ) {
+          $parts = $obj['candidates'][0]['content']['parts'];
+          error_log( '[AI Engine DEBUG - Streaming] Parts count: ' . count( $parts ) );
+
+          foreach ( $parts as $partIdx => $part ) {
+            // TEMPORARY DEBUG: Log every part type
+            $partKeys = array_keys( $part );
+            error_log( '[AI Engine DEBUG - Streaming] Part #' . $partIdx . ' contains keys: ' . implode( ', ', $partKeys ) );
+
+            if ( isset( $part['text'] ) ) {
+              error_log( '[AI Engine DEBUG - Streaming] Part #' . $partIdx . ' has text: "' . substr( $part['text'], 0, 100 ) . '"' );
+            }
+            if ( isset( $part['functionCall'] ) ) {
+              error_log( '[AI Engine DEBUG - Streaming] Part #' . $partIdx . ' has functionCall' );
+            }
+            if ( isset( $part['inlineData'] ) ) {
+              error_log( '[AI Engine DEBUG - Streaming] Part #' . $partIdx . ' has inlineData!' );
+            }
+            $delta = [ 'role' => 'assistant' ];
+
+            if ( isset( $part['functionCall'] ) ) {
+              $delta['function_call'] = $part['functionCall'];
+            }
+            if ( isset( $part['text'] ) ) {
+              // Check if this is a thought part (for thinking mode)
+              if ( isset( $part['thought'] ) && $part['thought'] === true ) {
+                // Emit thinking event
+                if ( $this->streamCallback ) {
+                  $event = new Meow_MWAI_Event( 'live', MWAI_STREAM_TYPES['THINKING'] );
+                  $event->set_content( $part['text'] );
+                  call_user_func( $this->streamCallback, $event );
+                }
+                // Don't add thoughts to the main content
+                continue;
+              } else {
+                $delta['content'] = $part['text'];
+              }
+            }
+            // IMPORTANT: Skip inline images - they're already handled by skip mode
+            // This prevents trying to process image data as text
+            if ( isset( $part['inlineData'] ) ) {
+              continue;
+            }
+
+            $mapped = [
+              'choices' => [ [ 'delta' => $delta ] ],
+            ];
+
+            $content = $this->stream_data_handler( $mapped );
+            if ( !is_null( $content ) ) {
+              if ( $content === "\n" ) {
+                $content = "  \n";
+              }
+              $this->streamContent .= $content;
+              call_user_func( $this->streamCallback, $content );
+            }
+          }
+        }
+      }
+
+      return $length;
+    } );
+  }
+
+  private $streamImages = [];
+
+  protected function stream_data_handler( $json ) {
+    if ( !isset( $json['choices'][0]['delta'] ) ) {
+      return null;
+    }
+    $choice = $json['choices'][0];
+    $delta = $choice['delta'];
+
+    // Capture a function-call if the model sends one.
+    if ( isset( $delta['function_call'] ) ) {
+      $this->streamFunctionCall = $delta['function_call'];
+      $this->streamFunctionCalls[] = $delta['function_call'];
+
+      // Emit function_calling event
+      if ( $this->currentDebugMode && $this->streamCallback ) {
+        $functionName = $delta['function_call']['name'] ?? 'unknown';
+        $functionArgs = isset( $delta['function_call']['args'] ) ?
+          json_encode( $delta['function_call']['args'] ) : '';
+
+        $event = Meow_MWAI_Event::function_calling( $functionName, $functionArgs );
+        call_user_func( $this->streamCallback, $event );
+      }
+    }
+
+    // Note: Images are handled directly in the stream handler, not here
+
+    if ( isset( $delta['content'] ) && $delta['content'] !== '' ) {
+      return $delta['content'];
+    }
+    return null;
+  }
+
+  public function try_decode_error( $data ) {
+    $json = json_decode( $data, true );
+    if ( isset( $json['error']['message'] ) ) {
+      return $json['error']['message'];
+    }
+    return null;
+  }
+
+  public function run_completion_query( $query, $streamCallback = null ): Meow_MWAI_Reply {
+    $isStreaming = !is_null( $streamCallback );
+
+    // TEMPORARY DEBUG: Log streaming mode
+    if ( preg_match( '/(flash-image|image-preview|preview-image-generation)/i', $query->model ) ) {
+      error_log( '[AI Engine DEBUG - Streaming] Starting completion query for model: ' . $query->model );
+      error_log( '[AI Engine DEBUG - Streaming] Streaming mode: ' . ( $isStreaming ? 'YES' : 'NO' ) );
+    }
+
+    // Initialize debug mode
+    $this->init_debug_mode( $query );
+
+    if ( $isStreaming ) {
+      $this->streamCallback = $streamCallback;
+      $this->reset_stream();
+
+      // Emit "Generating image..." event for image generation models
+      if ( $this->currentDebugMode && preg_match( '/(flash-image|image-preview|preview-image-generation)/i', $query->model ) ) {
+        error_log( '[AI Engine DEBUG - Streaming] Emitting initial image_gen event' );
+        $event = new Meow_MWAI_Event( 'live', MWAI_STREAM_TYPES['IMAGE_GEN'] );
+        $event->set_content( 'Generating image...' );
+        call_user_func( $streamCallback, $event );
+      }
+    }
+
+    // Build body using the parent's build_body method which handles event emission
+    $body = $this->build_body( $query, $streamCallback );
+
+    $base = $this->endpoint . '/models/' . $query->model;
+    if ( $isStreaming ) {
+      $url = $base . ':streamGenerateContent?key=' . $this->apiKey;
+    }
+    else {
+      $url = $base . ':generateContent?key=' . $this->apiKey;
+    }
+
+    if ( $isStreaming ) {
+      // TEMPORARY DEBUG: Log streaming API call
+      if ( preg_match( '/(flash-image|image-preview|preview-image-generation)/i', $query->model ) ) {
+        error_log( '[AI Engine DEBUG - Streaming] Making streaming API call to: ' . $url );
+      }
+
+      // Emit "Request sent" event for feedback queries
+      if ( $this->currentDebugMode && !empty( $streamCallback ) &&
+           ( $query instanceof Meow_MWAI_Query_Feedback || $query instanceof Meow_MWAI_Query_AssistFeedback ) ) {
+        $event = Meow_MWAI_Event::request_sent()
+          ->set_metadata( 'is_feedback', true )
+          ->set_metadata( 'feedback_count', count( $query->blocks ) );
+        call_user_func( $streamCallback, $event );
+      }
+
+      $ch = curl_init();
+      curl_setopt_array( $ch, [
+        CURLOPT_URL => $url,
+        CURLOPT_POST => true,
+        CURLOPT_HTTPHEADER => [ 'Content-Type: application/json', 'Accept: text/event-stream' ],
+        CURLOPT_POSTFIELDS => json_encode( $body ),
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_2_0
+      ] );
+      $this->stream_handler( $ch, [], $url );
+      curl_exec( $ch );
+      $httpCode = curl_getinfo( $ch, CURLINFO_HTTP_CODE );
+      curl_close( $ch );
+
+      // TEMPORARY DEBUG: Log streaming results
+      if ( preg_match( '/(flash-image|image-preview|preview-image-generation)/i', $query->model ) ) {
+        error_log( '[AI Engine DEBUG - Streaming] HTTP response code: ' . $httpCode );
+        error_log( '[AI Engine DEBUG - Streaming] Stream content length: ' . strlen( $this->streamContent ) );
+        error_log( '[AI Engine DEBUG - Streaming] Stream buffer length: ' . strlen( $this->streamBuffer ) );
+        if ( !empty( $this->streamImages ) ) {
+          error_log( '[AI Engine DEBUG - Streaming] Images collected: ' . count( $this->streamImages ) );
+        } else {
+          error_log( '[AI Engine DEBUG - Streaming] No images collected' );
+        }
+      }
+
+      if ( empty( $this->streamContent ) ) {
+        $error = $this->try_decode_error( $this->streamBuffer );
+        if ( !is_null( $error ) ) {
+          // TEMPORARY DEBUG: Log error
+          error_log( '[AI Engine DEBUG - Streaming] ERROR: ' . $error );
+          throw new Exception( $error );
+        }
+      }
+
+      $reply = new Meow_MWAI_Reply( $query );
+      
+      // If we have multiple function calls, return them in Google's format
+      $returned_choices = [];
+      
+      // Add each function call as a separate choice
+      if ( !empty( $this->streamFunctionCalls ) ) {
+        foreach ( $this->streamFunctionCalls as $function_call ) {
+          $returned_choices[] = [
+            'message' => [
+              'content' => null,
+              'function_call' => $function_call
+            ]
+          ];
+        }
+      }
+      
+      // Add text content if present
+      if ( !empty( $this->streamContent ) ) {
+        if ( empty( $returned_choices ) ) {
+          // No function calls, just text
+          $returned_choices[] = [ 'message' => [ 'content' => $this->streamContent ] ];
+        } else {
+          // Add text as a separate choice
+          $returned_choices[] = [ 'role' => 'assistant', 'text' => $this->streamContent ];
+        }
+      }
+
+      // CRITICAL FIX: Handle images that were streamed to temp files
+      // We streamed the base64 data directly to disk to avoid memory/CPU issues
+      if ( !empty( $this->streamImages ) ) {
+        foreach ( $this->streamImages as $image ) {
+          if ( isset($image['temp_file']) ) {
+            error_log( '[AI Engine DEBUG - Streaming] Temp file: ' . $image['temp_file'] );
+
+            if ( file_exists($image['temp_file']) ) {
+              $fileSize = filesize($image['temp_file']);
+              error_log( '[AI Engine DEBUG - Streaming] Temp file exists, size: ' . $fileSize . ' bytes' );
+
+              if ( $fileSize > 0 ) {
+                // Read the base64 data from the temp file
+                $base64Data = file_get_contents( $image['temp_file'] );
+
+                if ( $base64Data !== false && strlen($base64Data) > 0 ) {
+                  // Remove any whitespace that might have been included
+                  $base64Data = preg_replace('/\s+/', '', $base64Data);
+
+                  // Debug: Check if this is valid base64
+                  $testDecode = base64_decode($base64Data, true);
+                  if ($testDecode === false) {
+                    error_log( '[AI Engine DEBUG - Streaming] WARNING: Invalid base64 data detected!' );
+                    // Check first and last characters
+                    $first100 = substr($base64Data, 0, 100);
+                    $last100 = substr($base64Data, -100);
+                    error_log( '[AI Engine DEBUG - Streaming] First 100 chars: ' . $first100 );
+                    error_log( '[AI Engine DEBUG - Streaming] Last 100 chars: ' . $last100 );
+
+                    // Check for non-base64 characters
+                    if (preg_match('/[^A-Za-z0-9+\/=]/', $base64Data, $invalidChars, PREG_OFFSET_CAPTURE)) {
+                      error_log('[AI Engine DEBUG - Streaming] Found invalid character "' . $invalidChars[0][0] . '" at position ' . $invalidChars[0][1]);
+                      $context = substr($base64Data, max(0, $invalidChars[0][1] - 20), 40);
+                      error_log('[AI Engine DEBUG - Streaming] Context around invalid char: ' . $context);
+                    }
+                  } else {
+                    error_log( '[AI Engine DEBUG - Streaming] Valid base64 confirmed, decoded size: ' . strlen($testDecode) . ' bytes' );
+                    // Check if it's a valid PNG
+                    $pngHeader = substr($testDecode, 0, 8);
+                    $expectedHeader = "\x89PNG\r\n\x1a\n";
+                    if (substr($pngHeader, 0, 8) === $expectedHeader) {
+                      error_log('[AI Engine DEBUG - Streaming] Valid PNG image confirmed!');
+                    }
+                  }
+
+                  $returned_choices[] = [ 'b64_json' => $base64Data ];
+                  error_log( '[AI Engine DEBUG - Streaming] Retrieved image from temp file: ' . strlen($base64Data) . ' bytes' );
+                } else {
+                  error_log( '[AI Engine DEBUG - Streaming] ERROR: file_get_contents returned empty/false' );
+                }
+              } else {
+                error_log( '[AI Engine DEBUG - Streaming] ERROR: Temp file is empty (0 bytes)' );
+              }
+
+              // Clean up the temp file
+              unlink( $image['temp_file'] );
+            } else {
+              error_log( '[AI Engine DEBUG - Streaming] ERROR: Temp file does not exist' );
+            }
+          } else if ( isset($image['b64_json']) ) {
+            // Fallback: Direct base64 data if available
+            $returned_choices[] = [ 'b64_json' => $image['b64_json'] ];
+            error_log( '[AI Engine DEBUG - Streaming] Added image with size: ' . strlen( $image['b64_json'] ) );
+          }
+        }
+      }
+
+      // If we still have no choices, add a single function call if available
+      if ( empty( $returned_choices ) && $this->streamFunctionCall ) {
+        $returned_choices[] = [ 'message' => [ 'content' => null, 'function_call' => $this->streamFunctionCall ] ];
+      }
+      
+      $reply->set_choices( $returned_choices );
+      $this->handle_tokens_usage( $reply, $query, $query->model, null, null );
+      return $reply;
+    }
+
+    // Emit "Request sent" event for feedback queries (non-streaming)
+    if ( !$isStreaming && $this->currentDebugMode && !empty( $streamCallback ) && 
+         ( $query instanceof Meow_MWAI_Query_Feedback || $query instanceof Meow_MWAI_Query_AssistFeedback ) ) {
+      $event = Meow_MWAI_Event::request_sent()
+        ->set_metadata( 'is_feedback', true )
+        ->set_metadata( 'feedback_count', count( $query->blocks ) );
+      call_user_func( $streamCallback, $event );
+    }
+    
+    $headers = $this->build_headers( $query );
+    $options = $this->build_options( $headers, $body );
+    $res = $this->run_query( $url, $options );
+    $reply = new Meow_MWAI_Reply( $query );
+    $data = $res['data'];
+    if ( empty( $data ) ) {
+      throw new Exception( 'No content received (res is null).' );
+    }
+    $returned_choices = [];
+    if ( isset( $data['candidates'] ) ) {
+      foreach ( $data['candidates'] as $candidate ) {
+        $content = $candidate['content'];
+        
+        // Check if there are any parts with function calls
+        $functionCalls = [];
+        $textContent = '';
+        
+        if ( isset( $content['parts'] ) ) {
+          foreach ( $content['parts'] as $part ) {
+            if ( isset( $part['functionCall'] ) ) {
+              $functionCalls[] = $part['functionCall'];
+              
+              // Emit function calling event if debug mode is enabled
+              if ( $this->currentDebugMode && !empty( $streamCallback ) ) {
+                $functionName = $part['functionCall']['name'] ?? 'unknown';
+                $functionArgs = isset( $part['functionCall']['args'] ) ? json_encode( $part['functionCall']['args'] ) : '';
+                
+                $event = Meow_MWAI_Event::function_calling( $functionName, $functionArgs );
+                call_user_func( $streamCallback, $event );
+              }
+            }
+            elseif ( isset( $part['text'] ) ) {
+              $textContent .= $part['text'];
+            }
+          }
+        }
+        
+        // If we have function calls, return them in Google's expected format
+        if ( !empty( $functionCalls ) ) {
+          // Process each function call separately to ensure all are handled
+          foreach ( $functionCalls as $function_call ) {
+            $returned_choices[] = [
+              'message' => [
+                'content' => null,
+                'function_call' => $function_call
+              ]
+            ];
+          }
+        }
+        
+        // Add text content if present (separate from function calls)
+        if ( !empty( $textContent ) ) {
+          $returned_choices[] = [ 'role' => 'assistant', 'text' => $textContent ];
+        }
+      }
+    }
+    // Create a proper Google-formatted rawMessage
+    $googleRawMessage = null;
+    if ( isset( $data['candidates'][0]['content'] ) ) {
+      $googleRawMessage = $data['candidates'][0]['content'];
+    }
+    
+    $reply->set_choices( $returned_choices, $googleRawMessage );
+    $this->handle_tokens_usage( $reply, $query, $query->model, null, null );
+    return $reply;
+  }
+
+  public function run_embedding_query( Meow_MWAI_Query_Base $query ) {
+    // For experimental models, we might need to use a different approach
+    // For now, let's use the model as specified
+    $modelName = $query->model;
+    
+    // Build the URL for embeddings
+    $url = $this->endpoint . '/models/' . $modelName . ':embedContent';
+    if ( strpos( $url, '?' ) === false ) {
+      $url .= '?key=' . $this->apiKey;
+    }
+    else {
+      $url .= '&key=' . $this->apiKey;
+    }
+
+    // Build the request body
+    $body = [
+      'content' => [
+        'parts' => [
+          [ 'text' => $query->get_message() ]
+        ]
+      ]
+    ];
+
+    $headers = $this->build_headers( $query );
+    $options = $this->build_options( $headers, $body );
+    
+    try {
+      // Debug logging
+      if ( $this->core->get_option( 'queries_debug_mode' ) ) {
+        error_log( '[AI Engine] Google Embedding Request URL: ' . $url );
+        error_log( '[AI Engine] Google Embedding Request Body: ' . json_encode( $body ) );
+      }
+      
+      $res = $this->run_query( $url, $options );
+      $data = $res['data'];
+      
+      // Debug logging
+      if ( $this->core->get_option( 'queries_debug_mode' ) ) {
+        // Don't log the full embedding response, just the structure
+        if ( isset( $data['embedding']['values'] ) && is_array( $data['embedding']['values'] ) ) {
+          error_log( '[AI Engine] Google Embedding Response: Received ' . count( $data['embedding']['values'] ) . ' dimensions' );
+        } else {
+          error_log( '[AI Engine] Google Embedding Response: ' . json_encode( $data ) );
+        }
+      }
+      
+      // Check if we have an error response
+      if ( isset( $data['error'] ) ) {
+        $errorMsg = isset( $data['error']['message'] ) ? $data['error']['message'] : 'Unknown error';
+        $errorCode = isset( $data['error']['code'] ) ? $data['error']['code'] : 'N/A';
+        throw new Exception( "Google API Error (Code: {$errorCode}): {$errorMsg}" );
+      }
+      
+      if ( !isset( $data['embedding']['values'] ) ) {
+        throw new Exception( 'No embedding values in the response. Response: ' . json_encode( $data ) );
+      }
+      
+      $embedding = $data['embedding']['values'];
+      
+      // Handle matryoshka truncation if dimensions are specified
+      if ( $query->dimensions && $query->dimensions < count( $embedding ) ) {
+        // Google Gemini embedding models support matryoshka (dimension truncation)
+        // We can safely truncate to the requested dimensions
+        $embedding = array_slice( $embedding, 0, $query->dimensions );
+        
+        if ( $this->core->get_option( 'queries_debug_mode' ) ) {
+          error_log( "[AI Engine] Truncated embedding from " . count( $data['embedding']['values'] ) . " to {$query->dimensions} dimensions (matryoshka)" );
+        }
+      }
+      
+      $reply = new Meow_MWAI_Reply( $query );
+      $reply->type = 'embedding';
+      $reply->result = $embedding;
+      $reply->results = [ $embedding ];
+      
+      // Record usage (Google doesn't provide token counts for embeddings)
+      $this->handle_tokens_usage( $reply, $query, $query->model, null, null );
+      
+      return $reply;
+    }
+    catch ( Exception $e ) {
+      Meow_MWAI_Logging::error( '(Google) Embedding error: ' . $e->getMessage() );
+      throw new Exception( 'Google Embedding Error: ' . $e->getMessage() );
+    }
+  }
+}

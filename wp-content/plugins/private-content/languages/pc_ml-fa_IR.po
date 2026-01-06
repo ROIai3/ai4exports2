@@ -1,0 +1,1308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-07 20:39+0100\n"
+"PO-Revision-Date: 2025-03-07 20:41+0100\n"
+"Last-Translator: zaghak team <zaghakschool@gmail.com>\n"
+"Language-Team: LCweb\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: classes/pc_anti_bruteforce_static.php:97
+msgid "Too many attempts, please try again in 30 minutes"
+msgstr ""
+
+#: classes/pc_form_framework.php:68 classes/pc_form_framework.php:226
+#, fuzzy
+#| msgid "Select"
+msgid "Core fields"
+msgstr "انتخاب"
+
+#: classes/pc_form_framework.php:72
+msgid "First name"
+msgstr "نام کوچک"
+
+#: classes/pc_form_framework.php:72
+msgid "Name"
+msgstr "نام"
+
+#: classes/pc_form_framework.php:81
+msgid "User first name"
+msgstr "نام کوچک کاربر"
+
+#: classes/pc_form_framework.php:81 classes/pc_form_framework.php:93
+msgid "User name"
+msgstr "نام کاربری"
+
+#: classes/pc_form_framework.php:84
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: classes/pc_form_framework.php:84
+msgid "Surname"
+msgstr "نام خانوادگی"
+
+#: classes/pc_form_framework.php:93
+msgid "User last name"
+msgstr "نام خانوادگی کاربر"
+
+#: classes/pc_form_framework.php:96 classes/pc_form_framework.php:1016
+#: classes/users_manag.php:756 classes/users_manag.php:975
+#: main_includes/public_api.php:268 main_includes/public_api.php:281
+msgid "Username"
+msgstr "نام کاربری"
+
+#: classes/pc_form_framework.php:105
+msgid "Username used for the login"
+msgstr "نام کاربری مورد استفاده برای ورود به سیستم"
+
+#: classes/pc_form_framework.php:109 main_includes/public_api.php:271
+#: main_includes/public_api.php:287 main_includes/public_api.php:310
+#: main_includes/public_api.php:314 main_includes/shortcodes.php:50
+msgid "Password"
+msgstr "رمز عبور"
+
+#: classes/pc_form_framework.php:119
+msgid "Password used for the login"
+msgstr "گذرواژه مورد استفاده برای ورود به سیستم"
+
+#: classes/pc_form_framework.php:123
+msgid "Category"
+msgstr "دسته بندی"
+
+#: classes/pc_form_framework.php:132
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: classes/pc_form_framework.php:138
+msgid "E-Mail"
+msgstr "ایمیل"
+
+#: classes/pc_form_framework.php:145
+msgid "User E-mail"
+msgstr "پست الکترونیکی کاربر"
+
+#: classes/pc_form_framework.php:151
+msgid "Telephone"
+msgstr "تلفن"
+
+#: classes/pc_form_framework.php:160
+msgid "User Telephone"
+msgstr "تلفن کاربر"
+
+#: classes/pc_form_framework.php:163 main_includes/front_ajax.php:88
+msgid "Disclaimer"
+msgstr "سلب مسئولیت"
+
+#: classes/pc_form_framework.php:172
+msgid "Registration disclaimer"
+msgstr "سلب مسئولیت ثبت نام"
+
+#: classes/pc_form_framework.php:236
+msgid "Ungrouped"
+msgstr ""
+
+#: classes/pc_form_framework.php:370
+msgid "go to page"
+msgstr ""
+
+#: classes/pc_form_framework.php:485 main_includes/public_api.php:271
+#: main_includes/shortcodes.php:54
+msgid "toggle password visibility"
+msgstr ""
+
+#: classes/pc_form_framework.php:591 classes/pc_form_framework.php:614
+#: classes/pc_form_framework.php:929
+msgid "Repeat password"
+msgstr "تکرار رمز عبور"
+
+#: classes/pc_form_framework.php:994
+msgid "Password strength"
+msgstr "قدرت رمز عبور"
+
+#: classes/pc_form_framework.php:1016
+msgid "Another user already has this username"
+msgstr "در حال حاضر کاربر دیگری دارای این نام کاربری است"
+
+#: classes/pc_form_framework.php:1027
+msgid "One or more chosen categories are wrong"
+msgstr "یک یا چند دسته انتخابی اشتباه هستند"
+
+#: classes/pc_form_framework.php:1078 classes/pc_form_framework.php:1166
+msgid "characters and digits"
+msgstr "کاراکترها و ارقام"
+
+#: classes/pc_form_framework.php:1081 classes/pc_form_framework.php:1169
+msgid "an uppercase character"
+msgstr "یک کاراکتر بزرگ"
+
+#: classes/pc_form_framework.php:1084 classes/pc_form_framework.php:1172
+msgid "a symbol"
+msgstr "یک نشانه"
+
+#: classes/pc_form_framework.php:1088
+msgid "and"
+msgstr ""
+
+#: classes/pc_form_framework.php:1089 classes/pc_form_framework.php:1176
+msgid "must contain at least"
+msgstr "باید حداقل باشد"
+
+#: classes/pc_form_framework.php:1160
+#, php-format
+msgid "Min. %s chars long"
+msgstr ""
+
+#: classes/simple_form_validator.php:434
+msgid "minimum value is"
+msgstr "حداقل مقدار آن"
+
+#: classes/simple_form_validator.php:445
+msgid "maximum value is"
+msgstr "حداکثر مقدار"
+
+#: classes/simple_form_validator.php:456
+msgid "must be at least of"
+msgstr "باید حداقل باشد"
+
+#: classes/simple_form_validator.php:456 classes/simple_form_validator.php:478
+msgid "characters"
+msgstr "شخصیت های"
+
+#: classes/simple_form_validator.php:467
+msgid "maximum"
+msgstr "بیشترین"
+
+#: classes/simple_form_validator.php:467
+msgid "characters allowed"
+msgstr "نویسه های مجاز"
+
+#: classes/simple_form_validator.php:478
+msgid "must be long"
+msgstr "باید طولانی باشد"
+
+#: classes/simple_form_validator.php:523
+msgid "Select"
+msgstr "انتخاب"
+
+#: classes/simple_form_validator.php:523
+msgid "options"
+msgstr "گزینه های"
+
+#: classes/simple_form_validator.php:534
+msgid "Maximum"
+msgstr "بیشترین"
+
+#: classes/simple_form_validator.php:534
+msgid "options allowed"
+msgstr "گزینه اجازه"
+
+#: classes/simple_form_validator.php:603
+msgid "are required"
+msgstr "مورد نیاز است"
+
+#: classes/simple_form_validator.php:603
+msgid "is required"
+msgstr "مورد نیاز است"
+
+#: classes/simple_form_validator.php:607
+msgid "are not valid integers"
+msgstr "عدد صحیح معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:607
+msgid "is not a valid integer"
+msgstr "یک عدد صحیح معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:611
+msgid "are not valid floating numbers"
+msgstr "شماره شناور معتبر نیست"
+
+#: classes/simple_form_validator.php:611
+msgid "is not a valid floating number"
+msgstr "شماره شناور معتبر نیست"
+
+#: classes/simple_form_validator.php:615
+msgid "are not valid e-mail addresses"
+msgstr "آدرس ایمیل معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:615
+msgid "is not a valid e-mail address"
+msgstr "یک آدرس ایمیل معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:619
+msgid "are not valid dates"
+msgstr "تاريخ  معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:619
+msgid "is not a valid date"
+msgstr "تاريخ  معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:623
+msgid "are not valid times"
+msgstr "زمان معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:623
+msgid "is not a valid time"
+msgstr "زمان معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:627
+msgid "are not valid urls"
+msgstr "آدرس معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:627
+msgid "is not a valid url"
+msgstr "یک آدرس معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:631
+msgid "are not valid hexadecimal colors"
+msgstr "رنگ هگزادسیمال معتبر نیست"
+
+#: classes/simple_form_validator.php:631
+msgid "is not a valid hexadecimal color"
+msgstr "رنگ هگزادسیمال معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:635
+msgid "are not valid IP addresses"
+msgstr "آدرس IP معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:635
+msgid "is not a valid IP address"
+msgstr "آدرس IP معتبر نمی باشد"
+
+#: classes/simple_form_validator.php:639
+msgid "are not valid ZIP codes"
+msgstr "کد پستی معتبر نیست"
+
+#: classes/simple_form_validator.php:639
+msgid "is not a valid ZIP code"
+msgstr "کد پستی معتبر نیست"
+
+#: classes/simple_form_validator.php:643
+msgid "are not valid telephone numbers"
+msgstr "شماره تلفن معتبر نیست"
+
+#: classes/simple_form_validator.php:643
+msgid "is not a valid telephone number"
+msgstr "شماره تلفن معتبر نیست"
+
+#: classes/simple_form_validator.php:647
+msgid "invalid data inserted"
+msgstr "داده های درج شده نامعتبر است"
+
+#: classes/simple_form_validator.php:651
+msgid "values are not between the allowed"
+msgstr "مقادير بین مجاز نیستند"
+
+#: classes/simple_form_validator.php:651
+msgid "value is not between the allowed"
+msgstr "مقدار مجاز نیست"
+
+#: classes/simple_form_validator.php:655
+msgid "values are between the forbidden"
+msgstr "مقدار های بین ممنوع"
+
+#: classes/simple_form_validator.php:655
+msgid "values is between the forbidden"
+msgstr "مقادیر بین ممنوع است"
+
+#: classes/simple_form_validator.php:659
+msgid "the value doesn't match"
+msgstr "مقدار مطابقت ندارد"
+
+#: classes/simple_form_validator.php:663
+msgid "file size is wrong"
+msgstr "اندازه فایل اشتباه است"
+
+#: classes/users_manag.php:592
+msgid "no access"
+msgstr "بدون دسترسی"
+
+#: classes/users_manag.php:596
+msgid "ago"
+msgstr "قبل"
+
+#: classes/users_manag.php:602
+msgid "active"
+msgstr ""
+
+#: classes/users_manag.php:603
+#, fuzzy
+#| msgid "Username not found or disabled"
+msgid "disabled"
+msgstr "نام کاربری یافت نشد و یا از کار افتاده"
+
+#: classes/users_manag.php:604
+msgid "pending"
+msgstr ""
+
+#: classes/users_manag.php:726 classes/users_manag.php:948
+msgid "Disable private page"
+msgstr "غیر فعال کردن صفحه خصوصی"
+
+#: classes/users_manag.php:756 classes/users_manag.php:975
+msgid "forbidden character used"
+msgstr "کاراکتر غیر مجاز استفاده می شود"
+
+#: classes/users_manag.php:789
+msgid "Error during user page creation"
+msgstr "خطا هنگام ایجاد صفحه کاربر"
+
+#: classes/users_manag.php:854 classes/users_manag.php:855
+msgid "Error inserting user data into database"
+msgstr "خطا در وارد کردن داده های کاربر به پایگاه داده"
+
+#: classes/users_manag.php:1032 classes/users_manag.php:1033
+msgid "Error updating user data into database"
+msgstr "خطا در به روز رسانی اطلاعات کاربر در پایگاه داده"
+
+#: classes/users_manag.php:1113
+msgid "Wrong status value"
+msgstr "مقدار وضعیت اشتباه است"
+
+#: classes/users_manag.php:1122
+msgid "Another user has the same e-mail"
+msgstr "کاربر دیگری با اين ایمیل وجود دارد"
+
+#: classes/users_manag.php:1132
+msgid "WP sync - another user has the same username or e-mail"
+msgstr ""
+"همگام سازی وردپرس - کاربر دیگری دارای همان نام کاربری و یا پست الکترونیکی است"
+
+#: classes/users_manag.php:1142
+msgid "WP sync - another user has the same e-mail"
+msgstr "همگام سازی وردپرس - یک کاربر دیگر دارای همان ایمیل است"
+
+#: classes/wp_user_sync.php:26 classes/wp_user_sync.php:216
+msgid "All users already synced"
+msgstr "همه کاربران در حال حاضر همگام سازی شده اند"
+
+#: classes/wp_user_sync.php:47
+msgid "can't be synced because of their username or e-mail"
+msgstr "نمیتوان با نام کاربری یا ایمیل شما همگامسازی کرد"
+
+#: classes/wp_user_sync.php:48
+msgid "Users synced successfully!"
+msgstr "کاربران با موفقیت همگام شدند!"
+
+#: classes/wp_user_sync.php:259
+msgid "matches found and syncs performed"
+msgstr "تطبیق پیدا شده و همگام سازی انجام شد"
+
+#: classes/wp_user_sync.php:278
+msgid "User not found"
+msgstr "کاربر یافت نشد"
+
+#: classes/wp_user_sync.php:281
+msgid "Administrators can't be synced"
+msgstr "مدیران نمی توانند همگام شوند"
+
+#: classes/wp_user_sync.php:284
+#, fuzzy
+#| msgid "Administrators can't be synced"
+msgid "PvtContent admins can't be synced"
+msgstr "مدیران نمی توانند همگام شوند"
+
+#: classes/wp_user_sync.php:289
+msgid "User is already synced"
+msgstr "کاربر همگام سازی شده است"
+
+#: classes/wp_user_sync.php:306
+msgid "Another user has this username or e-mail"
+msgstr "کاربر دیگری با اين نام کاربری یا ایمیل وجود دارد"
+
+#: classes/wp_user_sync.php:312
+msgid "At least one category must be specified"
+msgstr "حداقل یک دسته باید مشخص شود"
+
+#: classes/wp_user_sync.php:319
+#, php-format
+msgid "Category %s doesn't exist"
+msgstr "دسته %s وجود ندارد"
+
+#: classes/wp_user_sync.php:371
+msgid "All users already detached"
+msgstr "همه کاربران در حال حاضر جدا شده اند"
+
+#: classes/wp_user_sync.php:378
+msgid "Users detached successfully!"
+msgstr "جدا کردن کاربران با موفقیت انجام شد!"
+
+#: main_includes/front_ajax.php:22
+msgid "Form not found"
+msgstr "فرم یافت نشد"
+
+#: main_includes/front_ajax.php:71
+msgid "error retrieving remote check"
+msgstr "بررسی خطا بازیابی از راه دور"
+
+#: main_includes/front_ajax.php:80 main_includes/front_ajax.php:246
+msgid "bot detected"
+msgstr ""
+
+#: main_includes/front_ajax.php:88
+msgid "must be accepted to proceed with registration"
+msgstr "باید پذیرفته شود تا ثبت نام ادامه یابد"
+
+#: main_includes/front_ajax.php:258
+#, fuzzy
+#| msgid "Incorrect username or password"
+msgid "Invalid username or password"
+msgstr "نام کاربری یا گذرواژه اشتباه است"
+
+#: main_includes/front_ajax.php:278
+msgid "Incorrect username or password"
+msgstr "نام کاربری یا گذرواژه اشتباه است"
+
+#: main_includes/front_ajax.php:365
+#, fuzzy
+#| msgid "No categories found .. "
+msgid "No user logged"
+msgstr "هیچ دسته ای یافت نشد .."
+
+#: main_includes/front_ajax.php:375
+#, fuzzy
+#| msgid "To proceed, please insert your password and submit"
+msgid "Please insert your password"
+msgstr "برای ادامه، لطفا رمز عبور خود را وارد کنید و ارسال را بزنید"
+
+#: main_includes/front_ajax.php:384
+#, fuzzy
+msgid "Wrong password"
+msgstr "کلمه عبور فراموش شده؟"
+
+#: main_includes/front_ajax.php:400
+#, fuzzy
+#| msgid "Account succesfully verified via e-mail"
+msgid "Account successfully deleted!"
+msgstr "تایید کاربری از طریق ایمیل با موفقیت "
+
+#: main_includes/login_widget.php:9
+msgid "Displays a login form for PrivateContent users"
+msgstr "یک فرم ورود را برای کاربران خصوصی نمایش می دهد"
+
+#: main_includes/login_widget.php:10
+msgid "PrivateContent Login"
+msgstr "ورود بخش محتویات خصوصی"
+
+#: main_includes/login_widget.php:19
+msgid "Title"
+msgstr "عنوان"
+
+#: main_includes/login_widget.php:62
+msgid "Welcome"
+msgstr "خوش آمدی"
+
+#: main_includes/public_api.php:277
+msgid "Username or e-mail"
+msgstr "نام کاربری یا ایمیل"
+
+#: main_includes/public_api.php:339 main_includes/public_api.php:340
+msgid "remember me"
+msgstr "ذخیره رمز"
+
+#: main_includes/public_api.php:354 main_includes/shortcodes.php:178
+msgid "Login"
+msgstr "ورود"
+
+#: main_includes/public_api.php:412
+msgid "Logout"
+msgstr "خروج"
+
+#: main_includes/public_api.php:644
+msgid "You have to set registered users default category in settings"
+msgstr ""
+"شما باید تنظیمات پیش فرض برای کاربران ثبت نام شده در تنظیمات را تنظیم کنید"
+
+#: main_includes/public_api.php:664 main_includes/public_api.php:681
+msgid "No registration forms found"
+msgstr "فرم ثبت نام یافت نشد"
+
+#: main_includes/public_api.php:691
+msgid "Username and password fields are mandatory"
+msgstr "فیلدهای نام کاربری و رمز عبور اجباری هستند"
+
+#: main_includes/public_api.php:764
+msgid "Previous"
+msgstr "قبلی"
+
+#: main_includes/public_api.php:765
+msgid "Next"
+msgstr "بعدی"
+
+#: main_includes/public_api.php:782
+msgid "Submit"
+msgstr "ارسال"
+
+#: main_includes/public_api.php:893
+msgid "You must be logged in to view this content"
+msgstr "شما برای مشاهده این محتوا باید وارد شويد"
+
+#: main_includes/public_api.php:894
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "متاسفم، شما مجوز برای مشاهده این محتوا را ندارید"
+
+#: main_includes/public_api.php:896
+msgid "You must be logged in to post comments"
+msgstr "برای ارسال نظر باید وارد سیستم شوید"
+
+#: main_includes/public_api.php:897
+msgid "Sorry, you don't have the right permissions to post comments"
+msgstr "با عرض پوزش، شما مجوزهای لازم را برای ارسال نظرات ندارید"
+
+#: main_includes/public_api.php:899
+msgid "You don't have a reserved area"
+msgstr "این قسمت یک منطقه محافظت شده است"
+
+#: main_includes/public_api.php:901
+msgid "Logged successfully, welcome!"
+msgstr "با موفقیت به سیستم وارد شده، خوش آمدید!"
+
+#: main_includes/public_api.php:902
+msgid "Sorry, your account has not been activated yet"
+msgstr "با عرض پوزش، حساب شما هنوز فعال نشده است"
+
+#: main_includes/public_api.php:903
+msgid "Sorry, your account has been disabled"
+msgstr "با عرض پوزش، حساب شما غیرفعال شده است"
+
+#: main_includes/public_api.php:905
+msgid "Registration was successful. Welcome!"
+msgstr ""
+"ثبت‌نام با موفقیت انجام شد، لطفاً ایمیل خود را تائید کنید. در صورت نیافتن "
+"ایمیل فعالسازی، پوشه spam را نیز برسی کنید!"
+
+#: main_includes/shortcodes.php:64
+#, fuzzy
+#| msgid "You are about to request a complete deletion from this website"
+msgid "You are about to request a complete removal from"
+msgstr "شما در حال درخواست حذف کامل از این وب سایت هستید"
+
+#: main_includes/shortcodes.php:66
+msgid "This action cannot be reverted"
+msgstr "این عمل قابل برگشت نیست"
+
+#: main_includes/shortcodes.php:67
+msgid "To proceed, please insert your password and submit"
+msgstr "برای ادامه، لطفا رمز عبور خود را وارد کنید و ارسال را بزنید"
+
+#: main_includes/shortcodes.php:76
+msgid "password"
+msgstr "رمز عبور"
+
+#: main_includes/shortcodes.php:83
+msgid "Delete my account"
+msgstr "حساب من را حذف کنید"
+
+#: main_includes/shortcodes.php:185
+msgid "Register"
+msgstr "ثبت نام"
+
+#: restrictions/widgets_restriction.php:27
+msgid "Which PrivateContent user categories can see this widget?"
+msgstr "کدام دسته از کاربران PrivateContent میتوانند این ویجت را ببینند؟"
+
+#: restrictions/widgets_restriction.php:28
+msgid "select a category"
+msgstr "یک دسته را انتخاب کنید"
+
+#: restrictions/woo_price_restriction.php:21
+msgid "Globally lock products sell?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:23
+msgid ""
+"If checked, external users will be prevented from purchasing products and "
+"see their prices.<br/>You can change this behavior individually for each "
+"product category or product"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:26
+msgid "Custom text shown to external users instead of product price"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:29
+#: restrictions/woo_price_restriction.php:255
+msgid "Login to see the price and purchase"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:116
+msgid "Block external visitors purchases?"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:119
+msgid "Product price will be hidden too"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:124
+msgid "inherit"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:125
+msgid "No"
+msgstr ""
+
+#: restrictions/woo_price_restriction.php:126
+msgid "Yes"
+msgstr ""
+
+#~ msgid "wasn't entered correctly"
+#~ msgstr "به درستی وارد نشده"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "E-mail sent successfully"
+#~ msgstr "اطلاعات با موفقيت ذخيره شد"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "An error occurred sending the e-mail"
+#~ msgstr "خطا در ارسال ایمیل"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing custom fields"
+#~ msgstr "خطا در ارسال ایمیل"
+
+#, fuzzy
+#~| msgid "Error sending the e-mail"
+#~ msgid "Error syncing users"
+#~ msgstr "خطا در ارسال ایمیل"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Envato username"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Username missing"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username or password incorrect"
+#~ msgid "Purchase code missing or incorrect"
+#~ msgstr "نام کاربری یا رمز عبور اشتباه است"
+
+#~ msgid "%SITE-TITLE% - Welcome!"
+#~ msgstr "%SITE-TITLE% - خوش آمديد!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "thanks for registering on %SITE-TITLE%. \n"
+#~ "\n"
+#~ "To activate your account, click the following link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "سلام  %USERNAME%,\n"
+#~ "با تشکر از ثبت نام در %SITE-TITLE%. \n"
+#~ "\n"
+#~ "برای فعال سازی حساب کاربری خود ، روی لینک زیر کلیک کنید:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "با احترام,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - New registered user"
+#~ msgstr "%SITE-TITLE% -  ثبت نام کاربر جدید"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "A new user has registered.\n"
+#~ "\n"
+#~ "Fullname: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telephone: %TEL%"
+#~ msgstr ""
+#~ "سلام,\n"
+#~ "یک کاربر جدید ثبت نام نموده.\n"
+#~ "\n"
+#~ "نام: %NAME% %SURNAME%\n"
+#~ "نام كاربري: %USERNAME%\n"
+#~ "ايميل: %MAIL%\n"
+#~ "تلفن: %TEL%"
+
+#~ msgid "%SITE-TITLE% - Account activated!"
+#~ msgstr "%SITE-TITLE% - در انتظار فعال سازی"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "your account has been activated, now you can login into our website!\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "سلام %USERNAME%,\n"
+#~ "حساب کاربری شما فعال شده است، در حال حاضر شما می توانید به وب سایت ما "
+#~ "وارد شوید!\n"
+#~ "\n"
+#~ "با احترام,\n"
+#~ "%SITE-TITLE% Staff"
+
+#, fuzzy
+#~| msgid ""
+#~| "Hello %USERNAME%,\n"
+#~| "thanks for registering on %SITE-TITLE%. \n"
+#~| "\n"
+#~| "To activate your account, click the following link:\n"
+#~| "%VER-URL%\n"
+#~| "\n"
+#~| "Best Regards,\n"
+#~| "%SITE-TITLE% Staff"
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "Congratulations! You have successfully signed up on %SITE-TITLE% and are "
+#~ "ready to start browsing our private areas.\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "سلام  %USERNAME%,\n"
+#~ "با تشکر از ثبت نام در %SITE-TITLE%. \n"
+#~ "\n"
+#~ "برای فعال سازی حساب کاربری خود ، روی لینک زیر کلیک کنید:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "با احترام,\n"
+#~ "%SITE-TITLE% Staff"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - Account activated!"
+#~ msgid "%SITE-TITLE% - Account created!"
+#~ msgstr "%SITE-TITLE% - در انتظار فعال سازی"
+
+#, fuzzy
+#~| msgid ""
+#~| "Hello %USERNAME%,\n"
+#~| "your account has been activated, now you can login into our website!\n"
+#~| "\n"
+#~| "Best Regards,\n"
+#~| "%SITE-TITLE% Staff"
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "now you can login at %SITE-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "سلام %USERNAME%,\n"
+#~ "حساب کاربری شما فعال شده است، در حال حاضر شما می توانید به وب سایت ما "
+#~ "وارد شوید!\n"
+#~ "\n"
+#~ "با احترام,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - Password recovery"
+#~ msgstr "%SITE-TITLE% - بازیابی رمز عبور"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "a password recovery has been requested for your account.\n"
+#~ "\n"
+#~ "This is your password: %PSW%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "سلام %USERNAME%,\n"
+#~ "بازیابی رمز عبور درخواست شده است\n"
+#~ "\n"
+#~ "رمز عبور : %PSW%\n"
+#~ "\n"
+#~ "با احترام,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "Your account doesn't have an e-mail"
+#~ msgstr "حساب کاربری شما ایمیل ندارد"
+
+#~ msgid "Error sending the e-mail"
+#~ msgstr "خطا در ارسال ایمیل"
+
+#, fuzzy
+#~| msgid "The password has been sent to your e-mail"
+#~ msgid "Password has been sent to your e-mail address"
+#~ msgstr "رمز عبور به آدرس ایمیل شما فرستاده شده است"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "Insert your username or e-mail"
+#~ msgstr "کاربر دیگری با اين ایمیل وجود دارد"
+
+#~ msgid "Back to login form"
+#~ msgstr "بازگشت به فرم ورود"
+
+#~ msgid "Recover"
+#~ msgstr "بهبود یافتن"
+
+#, fuzzy
+#~ msgid "e-mail verified"
+#~ msgstr "لغو تایید"
+
+#~ msgid "cancel verification"
+#~ msgstr "لغو تایید"
+
+#~ msgid "Verification Impossible - User has no e-mail"
+#~ msgstr "تائید غیرممکن است - کاربر بدون ایمیل"
+
+#~ msgid "Account not verified yet"
+#~ msgstr "حساب تایید نشده است"
+
+#~ msgid "verify manually"
+#~ msgstr "تأیید دستی"
+
+#, fuzzy
+#~| msgid "Registration was succesful. Welcome!"
+#~ msgid "Operation successfully performed!"
+#~ msgstr "ثبت نام موفق بود.خوش آمدید!"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "Add-on must be configured to use this module"
+#~ msgstr "شما برای مشاهده این محتوا باید وارد شويد"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail title"
+#~ msgstr "ایمیل"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail text"
+#~ msgstr "ایمیل"
+
+#, fuzzy
+#~| msgid "Back to login form"
+#~ msgid "Only login form"
+#~ msgstr "بازگشت به فرم ورود"
+
+#~ msgid "Subscriber"
+#~ msgstr "مشترک"
+
+#~ msgid "Contributor"
+#~ msgstr "شرکت کننده"
+
+#~ msgid "Author"
+#~ msgstr "نویسنده"
+
+#~ msgid "Editor"
+#~ msgstr "ویرایشگر"
+
+#, fuzzy
+#~| msgid "characters allowed"
+#~ msgid "use characters and digits"
+#~ msgstr "نویسه های مجاز"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Main Options"
+#~ msgstr "گزینه های"
+
+#, fuzzy
+#~ msgid "Users Verification"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - Password recovery"
+#~ msgid "Password Recovery"
+#~ msgstr "%SITE-TITLE% - بازیابی رمز عبور"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "E-mail username"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "E-mail password"
+#~ msgstr "رمز عبور"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "Send E-mail"
+#~ msgstr "ایمیل"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Enable users verification?"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been successfully activated!\""
+#~ msgstr "حساب کاربری شما فعال شده است !"
+
+#, fuzzy
+#~| msgid "Your account has been already activated!"
+#~ msgid "By default is: \"Your account has been already activated!\""
+#~ msgstr "حساب کاربری شما فعال شده است !"
+
+#, fuzzy
+#~| msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgid ""
+#~ "By default is: \"Sorry, your request is invalid or your account has been "
+#~ "deleted\""
+#~ msgstr "با عرض پوزش، درخواست نامعتبر است و یا حساب کاربری حذف شده است"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "E-mail builder"
+#~ msgstr "ایمیل"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's name"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's surame"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User's userame"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~ msgid "User's password"
+#~ msgstr "کلمه عبور فراموش شده؟"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "User's telephone"
+#~ msgstr "تلفن"
+
+#, fuzzy
+#~ msgid "Verification URL"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~ msgid "Manual E-mail Verification"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "New Users Notification"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "Admin Notifier - e-mail address"
+#~ msgstr "یک آدرس ایمیل معتبر نمی باشد."
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "Activated Users Notification"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - New registered user"
+#~ msgid "E-mail registered users?"
+#~ msgstr "%SITE-TITLE% -  ثبت نام کاربر جدید"
+
+#, fuzzy
+#~| msgid "All users"
+#~ msgid "Any user"
+#~ msgstr "همه کاربران"
+
+#, fuzzy
+#~ msgid "Send original password"
+#~ msgstr "کلمه عبور فراموش شده؟"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Recovered Password"
+#~ msgstr "رمز عبور"
+
+#, fuzzy
+#~ msgid "E-mail verification"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~| msgid "%SITE-TITLE% - Password recovery"
+#~ msgid "Password recovery"
+#~ msgstr "%SITE-TITLE% - بازیابی رمز عبور"
+
+#, fuzzy
+#~| msgid "Your account doesn't have an e-mail"
+#~ msgid "One or more users don't have an e-mail"
+#~ msgstr "حساب کاربری شما ایمیل ندارد"
+
+#, fuzzy
+#~| msgid "Another user has the same e-mail"
+#~ msgid "One or more users have the same e-mail"
+#~ msgstr "کاربر دیگری با اين ایمیل وجود دارد"
+
+#, fuzzy
+#~| msgid "options allowed"
+#~ msgid "Options saved"
+#~ msgstr "گزینه اجازه"
+
+#~ msgid "Sorry, your request is invalid or your account has been deleted"
+#~ msgstr "با عرض پوزش، درخواست نامعتبر است و یا حساب کاربری حذف شده است"
+
+#~ msgid "Your account has been already activated!"
+#~ msgstr "حساب کاربری شما فعال شده است !"
+
+#~ msgid "Your account has been activated succesfully!"
+#~ msgstr "حساب کاربری شما با موفقیت فعال شده است!"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field ID"
+#~ msgstr "ذخيره فيلدها"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Index"
+#~ msgstr "ذخيره فيلدها"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Label"
+#~ msgstr "ذخيره فيلدها"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Field Type"
+#~ msgstr "ذخيره فيلدها"
+
+#~ msgid "Fields saved"
+#~ msgstr "ذخيره فيلدها"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Custom Forms Builder"
+#~ msgstr "PrivateContent - فرم ساز اختصاصي"
+
+#, fuzzy
+#~| msgid "Fields saved"
+#~ msgid "Form saved"
+#~ msgstr "ذخيره فيلدها"
+
+#, fuzzy
+#~| msgid "You must be logged in to view this content"
+#~ msgid "You must be logged to use this form"
+#~ msgstr "شما برای مشاهده این محتوا باید وارد شويد"
+
+#, fuzzy
+#~| msgid ""
+#~| "Form submitted successfully. You are not logged as an user so nothing "
+#~| "has been saved"
+#~ msgid ""
+#~ "Form submitted successfully.<br/> Not logged as PrivateContent user, "
+#~ "nothing has been saved"
+#~ msgstr ""
+#~ "فرم با موفقیت ارسال شد. شما به عنوان یک کاربر عضو وارد نشده اید و هیچ چیز "
+#~ "ذخیره نشده است"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Data saved successfully"
+#~ msgstr "اطلاعات با موفقيت ذخيره شد"
+
+#~ msgid "E-mail"
+#~ msgstr "ایمیل"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "US Telephone"
+#~ msgstr "تلفن"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Fields Builder"
+#~ msgid "Custom Fields Builder"
+#~ msgstr "PrivateContent - فيلد ساز اختصاصي"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select values"
+#~ msgstr "انتخاب"
+
+#, fuzzy
+#~| msgid "is not a valid e-mail address"
+#~ msgid "User Data add-on - receiver's e-mail address"
+#~ msgstr "یک آدرس ایمیل معتبر نمی باشد."
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select form"
+#~ msgstr "انتخاب"
+
+#~ msgid "Error processing the action"
+#~ msgstr "خطا در پردازش عمل"
+
+#, fuzzy
+#~| msgid "is not a valid floating number"
+#~ msgid "Please insert a valid form name"
+#~ msgstr "شماره شناور معتبر نیست"
+
+#, fuzzy
+#~| msgid "Surname"
+#~ msgid "Form name"
+#~ msgstr "نام خانوادگی"
+
+#, fuzzy
+#~| msgid "is required"
+#~ msgid "Required?"
+#~ msgstr "مورد نیاز است"
+
+#, fuzzy
+#~| msgid "Login"
+#~ msgid "Login Form"
+#~ msgstr "ورود"
+
+#, fuzzy
+#~| msgid "Logout"
+#~ msgid "Logout Box"
+#~ msgstr "خروج"
+
+#, fuzzy
+#~| msgid "Registration was succesful. Welcome!"
+#~ msgid "Registration form"
+#~ msgstr "ثبت نام موفق بود.خوش آمدید!"
+
+#, fuzzy
+#~| msgid "cancel verification"
+#~ msgid "self restriction"
+#~ msgstr "لغو تایید"
+
+#, fuzzy
+#~| msgid "options"
+#~ msgid "Search options"
+#~ msgstr "گزینه های"
+
+#, fuzzy
+#~| msgid "No categories found .. "
+#~ msgid "No matches found"
+#~ msgstr "هیچ دسته ای یافت نشد .."
+
+#, fuzzy
+#~ msgid "Default category for registered users"
+#~ msgstr ""
+#~ "شما باید به مجموعه ای از دسته بندی به طور پیش فرض برای کاربران ثبت نام "
+#~ "شده است."
+
+#, fuzzy
+#~| msgid "reCAPTCHA"
+#~ msgid "reCAPTCHA validation"
+#~ msgstr "reCAPTCHA"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Default message for successful login"
+#~ msgstr "اطلاعات با موفقيت ذخيره شد"
+
+#, fuzzy
+#~| msgid "Maximum"
+#~ msgid "Maximum width"
+#~ msgstr "بیشترین"
+
+#, fuzzy
+#~| msgid "reCAPTCHA"
+#~ msgid "reCAPTCHA icons color"
+#~ msgstr "reCAPTCHA"
+
+#, fuzzy
+#~| msgid "is not a valid url"
+#~ msgid "Insert a valid URL"
+#~ msgstr "یک آدرس معتبر نمی باشد."
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User enabled"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User saved"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User updated"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Editor"
+#~ msgid "Edit"
+#~ msgstr "ویرایشگر"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "Add PrivateContent User"
+#~ msgstr "PrivateContent - فرم ساز اختصاصي"
+
+#, fuzzy
+#~ msgid "Update password"
+#~ msgstr "کلمه عبور فراموش شده؟"
+
+#, fuzzy
+#~| msgid "E-mail"
+#~ msgid "or e-mail"
+#~ msgstr "ایمیل"
+
+#, fuzzy
+#~| msgid "Data saved succesfully"
+#~ msgid "Import completed succesfully"
+#~ msgstr "اطلاعات با موفقيت ذخيره شد"
+
+#, fuzzy
+#~| msgid "minimum value is"
+#~ msgid "Missing values"
+#~ msgstr "حداقل مقدار آن"
+
+#, fuzzy
+#~| msgid "PrivateContent - Custom Form Builder"
+#~ msgid "PrivateContent Users"
+#~ msgstr "PrivateContent - فرم ساز اختصاصي"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "Users"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Pages"
+#~ msgstr "نام کاربری"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Page"
+#~ msgstr "نام کاربری"
+
+#~ msgid "login"
+#~ msgstr "ورود"
+
+#~ msgid "Repeat"
+#~ msgstr "تکرار"
+
+#~ msgid "Logged succesfully, welcome!"
+#~ msgstr " با موفقیت خارج شده است، خوش آمدید!"
+
+#~ msgid "Error during user registration, contact the website administrator"
+#~ msgstr "خطا در هنگام ثبت نام کاربر، تماس با مدیر وب سایت"
+
+#~ msgid "minimum"
+#~ msgstr "حد اقل"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr "فرم با موفقیت ارسال شد."
