@@ -4,3 +4,6 @@ wp-content/backup-db/*
 wp-content/cache/*
 wp-content/cache/supercache/*
 wp-content/w3tc-cache/*
+
+# local duplicates
+AI4Exports-2/
